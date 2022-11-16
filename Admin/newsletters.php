@@ -1,10 +1,11 @@
 <?php 
+include("include/config.php");
 
 if(isset($_GET['delid'])){
     $id=mysqli_real_escape_string($conn,$_GET['delid']);
-    $sql=mysqli_query($conn,"delete from contact where id='$id'");
+    $sql=mysqli_query($conn,"delete from newsletter where id='$id'");
     if($sql=1){
-      header("location:contact.php");
+      header("location:newsletter.php");
     }
     else{ echo "<script>alert('Failed to Delete')</script>"; }
   }
@@ -87,17 +88,23 @@ if(isset($_GET['delid'])){
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        <?php
+                         $sql=mysqli_query($conn,"select * from  newsletter");
+                        $count=1;
+                         while($row=mysqli_fetch_array($sql)){ 
+                         ?>
                                             <tr>
-                                                <td></td>
-                                                <td></td>
+                                                <td><?php echo $count;?></td>
+                                                <td><?php echo $row['email'];?></td>
                                                 <td>
                                                     <a class="btn btn-danger btn-rounded btn-icon delbtn"
-                                                        href="contact.php?delid=<?php echo $row['id']; ?>"
+                                                        href="newsletter.php?delid=<?php echo $row['id']; ?>"
                                                         onclick="return checkDelete()"
                                                         class="btn btn-primary btn-rounded btn-icon">
                                                         <i class="fas fa-trash"></i>
                                                 </td>
                                             </tr>
+                                            <?php $count++;  } ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -183,7 +190,7 @@ if(isset($_GET['delid'])){
                             swal("Poof! Your imaginary file has been deleted!", {
                                 icon: "success",
                             });
-                            window.location.href = "testimonials.php?delid" + delid;
+                            window.location.href = "newsletter.php?delid" + delid;
                         } else {
                             swal("Your imaginary file is safe!");
                         }

@@ -127,7 +127,7 @@
             <script>
               document.write(new Date().getFullYear());
             </script> All rights reserved | This template is made with <i class="fa fa-heart"
-              aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank">Colorlib</a>
+              aria-hidden="true"></i> by <a href="https://tectignis.in" target="_blank">Tectignis IT Solutions </a>
           </p>
         </div>
 

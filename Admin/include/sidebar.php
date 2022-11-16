@@ -31,7 +31,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="gallery.php" class="nav-link">
             <i class="nav-icon fa-solid fas fa-image"></i>
               <p>
                 Gallery
@@ -47,7 +47,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="testimonials.php" class="nav-link">
             <i class="nav-icon fas fa fa-quote-left"></i>
               <p>
                 Testimonials
@@ -55,7 +55,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="our_doctor.php" class="nav-link">
             <i class="nav-icon fas fa fa-user-md"></i>
               <p>
                 Our Doctors

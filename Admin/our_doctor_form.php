@@ -1,16 +1,3 @@
-<?php 
-include("include/config.php");
-
-if(isset($_GET['delid'])){
-    $id=mysqli_real_escape_string($conn,$_GET['delid']);
-    $sql=mysqli_query($conn,"delete from book_appointment where id='$id'");
-    if($sql=1){
-      header("location:book_appointment.php");
-    }
-    else{ echo "<script>alert('Failed to Delete')</script>"; }
-  }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -54,12 +41,13 @@ if(isset($_GET['delid'])){
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Book Appointment</h1>
+                            <h1 class="m-0">Our Doctors</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Book Appointment</li>
+                                <li class="breadcrumb-item active">Our Doctors</li>
+                                <li class="breadcrumb-item active">Add Details</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -71,61 +59,61 @@ if(isset($_GET['delid'])){
             <section class="content">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12">
-                            <div class="card">
+                        <!-- left column -->
+                        <div class="col-md-12">
+                            <!-- general form elements -->
+                            <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Appointment Details
-                                    </h3>
+                                    <h3 class="card-title">Add Details</h3>
                                 </div>
                                 <!-- /.card-header -->
-                                <div class="card-body">
-                                    <table id="example1" class="table table-bordered table-striped">
-                                        <thead>
-                                            <tr>
-                                                <th>Sr No.</th>
-                                                <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Mobile</th>
-                                                <th>Branch</th>
-                                                <th>Service</th>
-                                                <th>Action</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                        <?php
-                         $sql=mysqli_query($conn,"select * from  book_appointment");
-                        $count=1;
-                         while($row=mysqli_fetch_array($sql)){ 
-                         ?>
-                                            <tr>
-                                                <td><?php echo $count;?></td>
-                                                <td><?php echo $row['name'];?></td>
-                                                <td><?php echo $row['email'];?></td>
-                                                <td><?php echo $row['mobile'];?></td>
-                                                <td><?php echo $row['branch'];?></td>
-                                                <td><?php echo $row['service'];?></td>
-                                                <td>
-                                                    <a class="btn btn-primary btn-rounded btn-icon"
-                                                        href="book_appointment.php?id=<?php echo $row['id']; ?>" title="Edit"><i
-                                                            class="fa fa-edit"></i></a>
+                                <!-- form start -->
+                                <form>
+                                    <div class="card-body">
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Doctor Name</label>
+                                            <input type="text" class="form-control" id=""
+                                                placeholder="Enter Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Degree</label>
+                                            <input type="text" class="form-control" id=""
+                                                placeholder="Degree">
+                                        </div>
+                                        
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">File input</label>
+                                            <div class="input-group">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Upload</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Description</label>
+                                            <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                        </div>
+                                        <!-- <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                        </div> -->
+                                    </div>
+                                    <!-- /.card-body -->
 
-                                                    <a class="btn btn-danger btn-rounded btn-icon delbtn"
-                                                        href="book_appointment.php?delid=<?php echo $row['id']; ?>"
-                                                        onclick="return checkDelete()"
-                                                        class="btn btn-primary btn-rounded btn-icon">
-                                                        <i class="fas fa-trash"></i>
-                                                </td>
-                                            </tr>
-                                            <?php $count++;  } ?>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <!-- /.card-body -->
+                                    <div class="card-footer">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                </div>
-
+                    <!-- /.row -->
+                </div><!-- /.container-fluid -->
             </section>
             <!-- /.content -->
         </div>
@@ -185,7 +173,7 @@ if(isset($_GET['delid'])){
         });
     </script>
 
-    <script>
+    <!-- <script>
         $(document).ready(function () {
             $('.delbtn').click(function (e) {
                 e.preventDefault();
@@ -202,14 +190,14 @@ if(isset($_GET['delid'])){
                             swal("Poof! Your imaginary file has been deleted!", {
                                 icon: "success",
                             });
-                            window.location.href = "book_appointment.php?delid" + delid;
+                            window.location.href = "newsletter.php?delid" + delid;
                         } else {
                             swal("Your imaginary file is safe!");
                         }
                     });
             })
         });
-    </script>
+    </script> -->
 </body>
 
 </html>

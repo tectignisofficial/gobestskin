@@ -1,23 +1,14 @@
 <?php 
 include("include/config.php");
 
-if(isset($_POST['deletepassword'])){
-    $checkPassword1=$_POST['checkPassword1'];
-    $id=$_POST['id1'];
-    $sql=mysqli_query($conn,"select * from universal_password");
-    while ($row=mysqli_fetch_array($sql)){ 
-      $rowPass=$row['password'];
-        $pass=password_verify($checkPassword1,$rowPass);
-        if($pass==1){
-            $sql=mysqli_query($conn,"DELETE FROM `contact` WHERE id='$id'");
-            header("location:contact.php");
-        }
-        else{
-            echo"<script>alert('invalid Password');</script>";
-        }
-
+if(isset($_GET['delid'])){
+    $id=mysqli_real_escape_string($conn,$_GET['delid']);
+    $sql=mysqli_query($conn,"delete from newsletter where id='$id'");
+    if($sql=1){
+      header("location:newsletter.php");
     }
-}
+    else{ echo "<script>alert('Failed to Delete')</script>"; }
+  }
 ?>
 
 <!DOCTYPE html>
@@ -58,48 +49,17 @@ if(isset($_POST['deletepassword'])){
   ?>
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
-
-        <div class="modal fade" id="modal-delete">
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Delete Password</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <form method="post">
-                        <div class="modal-body">
-                            <div class="row">
-                                <div class="col-12 form-group">
-                                    <input type="hidden" name="id1" id="deleteid" >
-                                    <label class="col-form-label" for="name">Enter Password</label>
-                                    <input type="password" class="form-control" name="checkPassword1" required="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer justify-content-end">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary sub" data-toggle="modal"  name="deletepassword">Submit</button>
-                        </div>
-                    </form>
-                </div>
-                <!-- /.modal-content -->
-            </div>
-            <!-- /.modal-dialog -->
-        </div>
-
             <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Contact</h1>
+                            <h1 class="m-0">Gallery</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Contact</li>
+                                <li class="breadcrumb-item active">Gallery</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -114,8 +74,12 @@ if(isset($_POST['deletepassword'])){
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h3 class="card-title">Contact Details
+                                    <h3 class="card-title"> Gallery Details
                                     </h3>
+                                    <a class="btn btn-primary" style="float: right;" href="gallery_form.php"><i
+                                            class="fa fa-plus"></i> 
+                                        Add Details
+                                    </a>
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body">
@@ -123,35 +87,28 @@ if(isset($_POST['deletepassword'])){
                                         <thead>
                                             <tr>
                                                 <th>Sr No.</th>
-                                                <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Mobile</th>
-                                                <th>Branch</th>
-                                                <th>Message</th>
+                                                <th>Client Name</th>
+                                                <th>Rating</th>
+                                                <th>Service</th>
+                                                <th>Description</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        <?php
-                         $sql=mysqli_query($conn,"select * from  contact");
-                        $count=1;
-                         while($row=mysqli_fetch_array($sql)){ 
-                         ?>
                                             <tr>
-                                                <td><?php echo $count;?></td>
-                                                <td><?php echo $row['name'];?></td>
-                                                <td><?php echo $row['email'];?></td>
-                                                <td><?php echo $row['mobile'];?></td>
-                                                <td><?php echo $row['branch'];?></td>
-                                                <td><?php echo $row['message'];?></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
                                                 <td>
-                                                    <a class="btn btn-danger btn-rounded btn-icon delete_id"
-                                                    data-id="<?php echo $row['id']; ?>"
+                                                    <a class="btn btn-danger btn-rounded btn-icon delbtn"
+                                                        href="newsletter.php?delid=<?php echo $row['id']; ?>"
+                                                        onclick="return checkDelete()"
                                                         class="btn btn-primary btn-rounded btn-icon">
-                                                        <i class="fas fa-trash"></i></a>
+                                                        <i class="fas fa-trash"></i>
                                                 </td>
                                             </tr>
-                                            <?php $count++;  } ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -221,11 +178,29 @@ if(isset($_POST['deletepassword'])){
     </script>
 
     <script>
-         $(document).on('click','.delete_id',function(){
-    let id=$(this).data('id');
-    $('#deleteid').val(id);
-    $('#modal-delete').modal('show');
-})
+        $(document).ready(function () {
+            $('.delbtn').click(function (e) {
+                e.preventDefault();
+                let delid = $(this).data('id');
+                swal({
+                        title: "Are you sure?",
+                        text: "Once deleted, you will not be able to recover this imaginary file!",
+                        icon: "warning",
+                        buttons: true,
+                        dangerMode: true,
+                    })
+                    .then((willDelete) => {
+                        if (willDelete) {
+                            swal("Poof! Your imaginary file has been deleted!", {
+                                icon: "success",
+                            });
+                            window.location.href = "newsletter.php?delid" + delid;
+                        } else {
+                            swal("Your imaginary file is safe!");
+                        }
+                    });
+            })
+        });
     </script>
 </body>
 
