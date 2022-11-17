@@ -3,9 +3,9 @@ include("include/config.php");
 
 if(isset($_GET['delid'])){
     $id=mysqli_real_escape_string($conn,$_GET['delid']);
-    $sql=mysqli_query($conn,"delete from newsletter where id='$id'");
+    $sql=mysqli_query($conn,"delete from gallery where id='$id'");
     if($sql=1){
-      header("location:newsletter.php");
+      header("location:gallery.php");
     }
     else{ echo "<script>alert('Failed to Delete')</script>"; }
   }
@@ -87,28 +87,36 @@ if(isset($_GET['delid'])){
                                         <thead>
                                             <tr>
                                                 <th>Sr No.</th>
+                                                <th>Client ID</th>
                                                 <th>Client Name</th>
-                                                <th>Rating</th>
                                                 <th>Service</th>
-                                                <th>Description</th>
+                                                <th>Image 1</th>
+                                                <th>Image 2</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        <?php
+                         $sql=mysqli_query($conn,"select * from  gallery");
+                        $count=1;
+                         while($row=mysqli_fetch_array($sql)){ 
+                         ?>
                                             <tr>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
+                                                <td><?php echo $count;?></td>
+                                                <td><?php echo $row['client_id'];?></td>
+                                                <td><?php echo $row['client_name'];?></td>
+                                                <td><?php echo $row['service'];?></td>
+                                                <td><img src="dist/img/gallery/<?php echo $row['image_1'];?>" width="50" height="50"></td>
+                                                <td><img src="dist/img/gallery/<?php echo $row['image_2'];?>" width="50" height="50"></td>
                                                 <td>
                                                     <a class="btn btn-danger btn-rounded btn-icon delbtn"
-                                                        href="newsletter.php?delid=<?php echo $row['id']; ?>"
+                                                        href="gallery.php?delid=<?php echo $row['id']; ?>"
                                                         onclick="return checkDelete()"
                                                         class="btn btn-primary btn-rounded btn-icon">
                                                         <i class="fas fa-trash"></i>
                                                 </td>
                                             </tr>
+                                            <?php $count++;  } ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -194,7 +202,7 @@ if(isset($_GET['delid'])){
                             swal("Poof! Your imaginary file has been deleted!", {
                                 icon: "success",
                             });
-                            window.location.href = "newsletter.php?delid" + delid;
+                            window.location.href = "gallery.php?delid" + delid;
                         } else {
                             swal("Your imaginary file is safe!");
                         }

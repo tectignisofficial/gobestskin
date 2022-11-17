@@ -77,15 +77,36 @@
                                                 placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputText">Rating</label>
+                                            <label for="exampleInputText">Service</label>
                                             <input type="text" class="form-control" id=""
                                                 placeholder="Degree">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputText">Service</label>
-                                            <input type="text" class="form-control" id=""
-                                                placeholder="Degree">
-                                        </div>                                                                                
+                                            <label for="exampleInputFile">Image 1</label>
+                                            <div class="input-group">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Upload</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputFile">Image 2</label>
+                                            <div class="input-group">
+                                                <div class="custom-file">
+                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose
+                                                        file</label>
+                                                </div>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">Upload</span>
+                                                </div>
+                                            </div>
+                                        </div>                                                                              
                                         <div class="form-group">
                                             <label for="exampleInputText">Description</label>
                                             <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
