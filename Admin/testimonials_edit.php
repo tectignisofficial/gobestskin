@@ -1,6 +1,7 @@
-<?php
- include("include/config.php");
+<?php include("include/config.php"); 
+$id=$_GET['id'];
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,13 +45,12 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Gallery</h1>
+                            <h1 class="m-0">Testimonials</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Gallery
-                                </li>
+                                <li class="breadcrumb-item active">Testimonials</li>
                                 <li class="breadcrumb-item active">Add Details</li>
                             </ol>
                         </div><!-- /.col -->
@@ -72,52 +72,34 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <?php
+                                    $sql=mysqli_query($conn,"select * from `testimonial` where id='$id'");
+                                    $count=1;
+                                    while($row=mysqli_fetch_array($sql)){
+                                     ?>
+                                <form method="post">                                   
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                                            <input type="text" class="form-control" id="" name=""
+                                                value="<?php echo $row['client_name']; ?>" placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
-                                            <label>Service</label>
-                                            <select class="form-control" value="<?php echo $row['service']; ?>" name="" id=""   >
-                                                <option value="">Select Service</option>
-                                                <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
-                                                  {
-                                                ?>
-                                                <option value="<?php echo $row['id']; ?>">
-                                                    <?php echo $row['service']; ?> </option>
-                                                <?php } ?>
+                                            <label for="exampleInputText">Rating</label>
+                                            <input type="text" class="form-control" id="" name=""
+                                                value="<?php echo $row['rating']; ?>" placeholder="Degree">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Service</label>
+                                            <input type="text" class="form-control" id="" name=""
+                                                value="<?php echo $row['service']; ?>" placeholder="Degree">
+                                        </div>
 
-                                            </select>
-                                        </div>
                                         <div class="form-group">
-                                            <label for="exampleInputFile">Image 1</label>
-                                            <div class="input-group">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Upload</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputFile">Image 2</label>
-                                            <div class="input-group">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Upload</span>
-                                                </div>
-                                            </div>
+                                            <label for="exampleInputText">Description</label>
+                                            <textarea class="form-control" rows="3" name=""
+                                                value="<?php echo $row['description'];?>"
+                                                placeholder="Enter ..."><?php echo $row['description'];?></textarea>
                                         </div>
                                         <!-- <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -127,9 +109,10 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
+                                        <button type="submit" class="btn btn-primary">Update</button>
+                                    </div>                                    
                                 </form>
+                                <?php $count++; } ?>
                             </div>
                         </div>
                     </div>

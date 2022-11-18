@@ -1,14 +1,23 @@
 <?php 
 include("include/config.php");
 
-if(isset($_GET['delid'])){
-    $id=mysqli_real_escape_string($conn,$_GET['delid']);
-    $sql=mysqli_query($conn,"delete from book_appointment where id='$id'");
-    if($sql=1){
-      header("location:book_appointment.php");
+  if(isset($_POST['deletepassword'])){
+    $checkPassword1=$_POST['checkPassword1'];
+    $id=$_POST['id1'];
+    $sql=mysqli_query($conn,"select * from universal_password");
+    while ($row=mysqli_fetch_array($sql)){ 
+      $rowPass=$row['password'];
+        $pass=password_verify($checkPassword1,$rowPass);
+        if($pass==1){
+            $sql=mysqli_query($conn,"DELETE FROM `book_appointment` WHERE id='$id'");
+            header("location:book_appointment.php");
+        }
+        else{
+            echo"<script>alert('invalid Password');</script>";
+        }
+
     }
-    else{ echo "<script>alert('Failed to Delete')</script>"; }
-  }
+}
 ?>
 
 <!DOCTYPE html>
@@ -50,6 +59,37 @@ if(isset($_GET['delid'])){
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
+
+            <div class="modal fade" id="modal-delete">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Delete Password</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="post">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 form-group">
+                                    <input type="hidden" name="id1" id="deleteid" >
+                                    <label class="col-form-label" for="name">Enter Password</label>
+                                    <input type="password" class="form-control" name="checkPassword1" required="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-end">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary sub" data-toggle="modal"  name="deletepassword">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
@@ -105,15 +145,14 @@ if(isset($_GET['delid'])){
                                                 <td><?php echo $row['branch'];?></td>
                                                 <td><?php echo $row['service'];?></td>
                                                 <td>
-                                                    <a class="btn btn-primary btn-rounded btn-icon"
+                                                    <!-- <a class="btn btn-primary btn-rounded btn-icon"
                                                         href="book_appointment.php?id=<?php echo $row['id']; ?>" title="Edit"><i
-                                                            class="fa fa-edit"></i></a>
+                                                            class="fa fa-edit"></i></a> -->
 
-                                                    <a class="btn btn-danger btn-rounded btn-icon delbtn"
-                                                        href="book_appointment.php?delid=<?php echo $row['id']; ?>"
-                                                        onclick="return checkDelete()"
+                                                     <a class="btn btn-danger btn-rounded btn-icon delete_id"
+                                                    data-id="<?php echo $row['id']; ?>"
                                                         class="btn btn-primary btn-rounded btn-icon">
-                                                        <i class="fas fa-trash"></i>
+                                                        <i class="fas fa-trash"></i></a>
                                                 </td>
                                             </tr>
                                             <?php $count++;  } ?>
@@ -185,30 +224,12 @@ if(isset($_GET['delid'])){
         });
     </script>
 
-    <script>
-        $(document).ready(function () {
-            $('.delbtn').click(function (e) {
-                e.preventDefault();
-                let delid = $(this).data('id');
-                swal({
-                        title: "Are you sure?",
-                        text: "Once deleted, you will not be able to recover this imaginary file!",
-                        icon: "warning",
-                        buttons: true,
-                        dangerMode: true,
-                    })
-                    .then((willDelete) => {
-                        if (willDelete) {
-                            swal("Poof! Your imaginary file has been deleted!", {
-                                icon: "success",
-                            });
-                            window.location.href = "book_appointment.php?delid" + delid;
-                        } else {
-                            swal("Your imaginary file is safe!");
-                        }
-                    });
-            })
-        });
+<script>
+         $(document).on('click','.delete_id',function(){
+    let id=$(this).data('id');
+    $('#deleteid').val(id);
+    $('#modal-delete').modal('show');
+})
     </script>
 </body>
 

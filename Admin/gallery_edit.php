@@ -1,6 +1,6 @@
-<?php
- include("include/config.php");
-?>
+<?php include("include/config.php");
+$id=$_GET['id'];
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -51,7 +51,7 @@
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item active">Gallery
                                 </li>
-                                <li class="breadcrumb-item active">Add Details</li>
+                                <li class="breadcrumb-item active">Edit Details</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -68,38 +68,41 @@
                             <!-- general form elements -->
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Add Details</h3>
+                                    <h3 class="card-title">Edit Details</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <?php   
+                                $sql=mysqli_query($conn,"select * from  `gallery` where id='$id'");
+                        $count=1;
+                         while($row=mysqli_fetch_array($sql)){ 
+                         ?>
+                                <form>            
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                                            <input type="text" class="form-control" id="" name="" value="<?php echo $row['client_name']; ?>"
+                                                placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control" value="<?php echo $row['service']; ?>" name="" id=""   >
+                                            <select class="form-control" value="<?php echo $row['service']?>" name="" id="">
                                                 <option value="">Select Service</option>
-                                                <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
-                                                  {
-                                                ?>
-                                                <option value="<?php echo $row['id']; ?>">
-                                                    <?php echo $row['service']; ?> </option>
-                                                <?php } ?>
-
+                                                <option value="<?php echo $row['service']?>">aa</option>
+                                                <option value="<?php echo $row['service']?>">bb</option>
+                                                <option value="<?php echo $row['service']?>">cc</option>
+                                                <option value="<?php echo $row['service']?>">dd</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputFile">Image 1</label>
+                                            <div class="" style="margin-bottom: 10px;">
+                                                <img src="dist/img/gallery/<?php echo $row['image_1']; ?>" width="80" height="80">
+                                            </div>
                                             <div class="input-group">
                                                 <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
+                                                    <input type="file" class="custom-file-input" id="" name="">
+                                                    <label class="custom-file-label" for="exampleInputFile"><?php echo $row['image_1']; ?></label>
                                                 </div>
                                                 <div class="input-group-append">
                                                     <span class="input-group-text">Upload</span>
@@ -108,17 +111,20 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputFile">Image 2</label>
+                                            <div class="" style="margin-bottom: 10px;">
+                                                <img src="dist/img/gallery/<?php echo $row['image_2']; ?>" width="80" height="80">
+                                            </div>
                                             <div class="input-group">
                                                 <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
+                                                    <input type="file" class="custom-file-input" id="" name="">
+                                                    <label class="custom-file-label" for="exampleInputFile"><?php echo $row['image_2']; ?>
+                                                        </label>
                                                 </div>
                                                 <div class="input-group-append">
                                                     <span class="input-group-text">Upload</span>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>                                                                      
                                         <!-- <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -127,9 +133,10 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
+                                        <button type="submit" class="btn btn-primary">Update</button>
+                                    </div>                                   
                                 </form>
+                                <?php $count++;  } ?>
                             </div>
                         </div>
                     </div>

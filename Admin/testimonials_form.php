@@ -68,7 +68,7 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
