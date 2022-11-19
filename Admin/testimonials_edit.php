@@ -1,5 +1,11 @@
 <?php include("include/config.php"); 
 $id=$_GET['id'];
+
+if (isset($_POST[''])) {
+    $id=$_POST['id'];
+    $client_name=$_POST['cnamev'];
+
+}
 ?>
 
 <!DOCTYPE html>
@@ -81,17 +87,17 @@ $id=$_GET['id'];
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" name=""
+                                            <input type="text" class="form-control" id="cname" name="cname"
                                                 value="<?php echo $row['client_name']; ?>" placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputText">Rating</label>
-                                            <input type="text" class="form-control" id="" name=""
+                                            <input type="text" class="form-control" id="rating" name="rating"
                                                 value="<?php echo $row['rating']; ?>" placeholder="Degree">
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control"  name="" id="">
+                                            <select class="form-control"  name="service" id="service">
                                                 <option value="">Select Service</option>
                                                 <?php 
                                                   $query=mysqli_query($conn,"select * from service");
@@ -106,7 +112,7 @@ $id=$_GET['id'];
 
                                         <div class="form-group">
                                             <label for="exampleInputText">Description</label>
-                                            <textarea class="form-control" rows="3" name=""
+                                            <textarea class="form-control" rows="3" name="description" id="description"
                                                 value="<?php echo $row['description'];?>"
                                                 placeholder="Enter ..."><?php echo $row['description'];?></textarea>
                                         </div>
