@@ -75,7 +75,7 @@ $id=$_GET['id'];
                                 <?php
                                     $sql=mysqli_query($conn,"select * from `testimonial` where id='$id'");
                                     $count=1;
-                                    while($row=mysqli_fetch_array($sql)){
+                                    $row=mysqli_fetch_array($sql);
                                      ?>
                                 <form method="post">                                   
                                     <div class="card-body">
@@ -90,9 +90,18 @@ $id=$_GET['id'];
                                                 value="<?php echo $row['rating']; ?>" placeholder="Degree">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputText">Service</label>
-                                            <input type="text" class="form-control" id="" name=""
-                                                value="<?php echo $row['service']; ?>" placeholder="Degree">
+                                            <label>Service</label>
+                                            <select class="form-control"  name="" id="">
+                                                <option value="">Select Service</option>
+                                                <?php 
+                                                  $query=mysqli_query($conn,"select * from service");
+                                                  while($sql=mysqli_fetch_array($query))
+                                                  {
+                                                ?>
+                                                <option value="<?php echo $sql['id']; ?>" <?php if($sql['service_name']==$row['service']){ echo 'selected'; } ?>>
+                                                    <?php echo $sql['service_name']; ?> </option>
+                                                <?php } ?>
+                                            </select>
                                         </div>
 
                                         <div class="form-group">
@@ -112,7 +121,6 @@ $id=$_GET['id'];
                                         <button type="submit" class="btn btn-primary">Update</button>
                                     </div>                                    
                                 </form>
-                                <?php $count++; } ?>
                             </div>
                         </div>
                     </div>

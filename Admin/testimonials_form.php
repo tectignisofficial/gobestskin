@@ -1,3 +1,7 @@
+<?php
+ include("include/config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -81,10 +85,19 @@
                                                 placeholder="Degree">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputText">Service</label>
-                                            <input type="text" class="form-control" id=""
-                                                placeholder="Degree">
-                                        </div>                                                                                
+                                            <label>Service</label>
+                                            <select class="form-control" name="" id=""   >
+                                                <option value="">Select Service</option>
+                                                <?php 
+                                                  $query=mysqli_query($conn,"select * from service");
+                                                  while($sql=mysqli_fetch_array($query))
+                                                  {
+                                                ?>
+                                                <option value="<?php echo $sql['id']; ?>">
+                                                    <?php echo $sql['service_name']; ?> </option>
+                                                <?php } ?>
+
+                                            </select>                                                                               
                                         <div class="form-group">
                                             <label for="exampleInputText">Description</label>
                                             <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>

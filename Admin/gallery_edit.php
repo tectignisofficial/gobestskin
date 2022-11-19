@@ -75,7 +75,7 @@ $id=$_GET['id'];
                                 <?php   
                                 $sql=mysqli_query($conn,"select * from  `gallery` where id='$id'");
                         $count=1;
-                         while($row=mysqli_fetch_array($sql)){ 
+                        $row=mysqli_fetch_array($sql);
                          ?>
                                 <form>            
                                     <div class="card-body">
@@ -86,12 +86,16 @@ $id=$_GET['id'];
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control" value="<?php echo $row['service']?>" name="" id="">
+                                            <select class="form-control"  name="" id="">
                                                 <option value="">Select Service</option>
-                                                <option value="<?php echo $row['service']?>">aa</option>
-                                                <option value="<?php echo $row['service']?>">bb</option>
-                                                <option value="<?php echo $row['service']?>">cc</option>
-                                                <option value="<?php echo $row['service']?>">dd</option>
+                                                <?php 
+                                                  $query=mysqli_query($conn,"select * from service");
+                                                  while($sql=mysqli_fetch_array($query))
+                                                  {
+                                                ?>
+                                                <option value="<?php echo $sql['id']; ?>" <?php if($sql['service_name']==$row['service']){ echo 'selected'; } ?>>
+                                                    <?php echo $sql['service_name']; ?> </option>
+                                                <?php } ?>
                                             </select>
                                         </div>
                                         <div class="form-group">
@@ -136,7 +140,6 @@ $id=$_GET['id'];
                                         <button type="submit" class="btn btn-primary">Update</button>
                                     </div>                                   
                                 </form>
-                                <?php $count++;  } ?>
                             </div>
                         </div>
                     </div>

@@ -80,15 +80,15 @@
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control" value="<?php echo $row['service']; ?>" name="" id=""   >
+                                            <select class="form-control" name="" id=""   >
                                                 <option value="">Select Service</option>
                                                 <?php 
                                                   $query=mysqli_query($conn,"select * from service");
                                                   while($sql=mysqli_fetch_array($query))
                                                   {
                                                 ?>
-                                                <option value="<?php echo $row['id']; ?>">
-                                                    <?php echo $row['service']; ?> </option>
+                                                <option value="<?php echo $sql['id']; ?>">
+                                                    <?php echo $sql['service_name']; ?> </option>
                                                 <?php } ?>
 
                                             </select>
