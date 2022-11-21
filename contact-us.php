@@ -1,3 +1,24 @@
+<?php 
+include("include/config.php");
+
+if(isset($_POST['submit'])){
+  $name=$_POST['name'];
+  $email=$_POST['email'];
+  $mobile=$_POST['mobile'];
+  $branch=$_POST['branch'];
+  $message=$_POST['message'];
+ 
+  $sql=mysqli_query($conn,"INSERT INTO `contact`(`name`, `email`, `mobile`, `branch`, `message`) VALUES ('$name','$email','$mobile','$branch','$message')");
+  if($sql==1){
+    echo '<script>alert("Successfully submitted");</script>';
+    header("location:contact-us.php");
+}else {
+    echo '<script>alert("oops...somthing went wrong");</script>';
+}
+        
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,36 +149,32 @@
 
         <div class="row mt-5">
 
-          <
+      
 
           <div class="col-12">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form method="post">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
                   
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6 form-group mt-3">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Your phone" required="">
                 </div>
                 <div class="col-md-6 form-group mt-3 ">
-                <input type="phone" class="form-control" name="phone" id="phone" placeholder="Your phone" required="">
+                <input type="text" class="form-control" name="branch" id="branch" placeholder="Branch Name" required="">
                 </div>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="7" placeholder="Message" required=""></textarea>
+                <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message" required=""></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              
+              <div class="text-center"><button type="submit" name="submit" class="submitbutton" id="submit">Send Message</button></div>
             </form>
           </div>
 

@@ -1,3 +1,7 @@
+<?php 
+include("include/config.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -135,6 +139,25 @@
               <a href="button">Read More</a>
             </div>
           </div>
+
+                                        <?php
+                         $sql=mysqli_query($conn,"select * from  our_doctor");
+                        $count=1;
+                         while($row=mysqli_fetch_array($sql)){ 
+                         ?>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100" style="width: 100%;">
+              <div class="member-img">
+                <img src="Admin/dist/img/<?php echo $row['photo'];?>" class="img-fluid" alt="" style="width: 100%;height:304px">
+              </div>
+              <div class="member-info">
+                <h4><?php echo $row['doctor_name'];?></h4>
+                <span><?php echo $row['degree'];?></span>
+              </div>
+              <a href="button">Read More</a>
+            </div>
+          </div>
+          <?php $count++;  } ?>
 
           
 

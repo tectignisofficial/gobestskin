@@ -133,14 +133,14 @@ include("include/config.php");
                                         </thead>
                                         <tbody>
                                         <?php
-                         $sql=mysqli_query($conn,"select * from  branch");
+                         $sql=mysqli_query($conn,"select * from  video");
                         $count=1;
                          while($row=mysqli_fetch_array($sql)){ 
                          ?>
                                             <tr>
                                                 <td><?php echo $count;?></td>
-                                                <td><?php echo $row['branch_name'];?></td>
-                                                <td><?php echo $row['branch_name'];?></td>
+                                                <td><?php echo $row['link'];?></td>
+                                                <td><?php echo $row['service'];?></td>
                                                 <td>
                                                 <a class="btn btn-danger btn-rounded btn-icon delete_id"
                                                     data-id="<?php echo $row['id']; ?>"
