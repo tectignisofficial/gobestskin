@@ -122,7 +122,7 @@ include("include/config.php");
                                     <table id="example1" class="table table-bordered table-striped">
                                         <thead>
                                             <tr>
-                                                <th>Sr No.</th>
+                                                <th style="width: 25px;">Sr No.</th>
                                                 <th>Name</th>
                                                 <th>Email</th>
                                                 <th>Mobile</th>

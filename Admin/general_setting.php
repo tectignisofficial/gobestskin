@@ -1,5 +1,23 @@
 <?php
  include("include/config.php");
+
+ if(isset($_POST['update'])){
+    $mobile_no=$_POST['mobile'];
+    $email=$_POST['email'];
+    $branch_address_1=$_POST['address1'];
+    $branch_address_2=$_POST['address2'];
+    $branch_address_3=$_POST['address3'];
+    $branch_address_4=$_POST['address4'];
+    $branch_address_5=$_POST['address5'];
+    $sql=mysqli_query($conn,"UPDATE `general_setting` SET `mobile_no`='$mobile_no',`email`='$email',`branch_address_1`='$branch_address_1',`branch_address_2`='$branch_address_2',`branch_address_3`='$branch_address_3',`branch_address_4`='$branch_address_4',`branch_address_5`='$branch_address_5'");
+
+    if($sql){
+        echo "<script>alert('Successfully Submitted')</script>";
+    }
+    else{
+        echo "<script>alert('error')</script>";
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -45,13 +63,12 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Testimonials</h1>
+                            <h1 class="m-0">General Setting</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Testimonials</li>
-                                <li class="breadcrumb-item active">Add Details</li>
+                                <li class="breadcrumb-item active">General Setting</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -68,50 +85,53 @@
                             <!-- general form elements -->
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Add Details</h3>
+                                    <h3 class="card-title">Setting Update</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
+                                <?php   
+                                $sql=mysqli_query($conn,"select * from  `general_setting` ");
+                        $count=1;
+                        while($row=mysqli_fetch_array($sql)) {
+                         ?>
                                 <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                                            <label for="exampleInputText">Mobile No.</label>
+                                            <input type="tel" class="form-control" id="mobile" name="mobile" value="<?php echo $row['mobile_no']; ?>" placeholder="Mobile No.">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputText">Rating</label>
-                                            <input type="text" class="form-control" id="" placeholder="Degree">
+                                            <label for="exampleInputText">Email</label>
+                                            <input type="email" class="form-control" id="email" name="email" value="<?php echo $row['email']; ?>" placeholder="Enter Email">
+                                        </div>   
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Branch Address 1</label>
+                                            <textarea class="form-control" rows="3" id="address1" name="address1" value="<?php echo $row['branch_address_1']; ?>" placeholder="Enter ..."><?php echo $row['branch_address_1']; ?></textarea>
+                                        </div> 
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Branch Address 2</label>
+                                            <textarea class="form-control" rows="3" id="address2" name="address2" value="<?php echo $row['branch_address_2']; ?>" placeholder="Enter ..."><?php echo $row['branch_address_2']; ?></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <label>Service</label>
-                                            <select class="form-control" name="" id="">
-                                                <option value="">Select Service</option>
-                                                <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
-                                                  {
-                                                ?>
-                                                <option value="<?php echo $sql['id']; ?>">
-                                                    <?php echo $sql['service_name']; ?> </option>
-                                                <?php } ?>
-
-                                            </select>
+                                            <label for="exampleInputText">Branch Address 3</label>
+                                            <textarea class="form-control" rows="3" id="address3" name="address3" value="<?php echo $row['branch_address_3']; ?>" placeholder="Enter ..."><?php echo $row['branch_address_3']; ?></textarea>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputText">Description</label>
-                                            <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                            <label for="exampleInputText">Branch Address 4</label>
+                                            <textarea class="form-control" rows="3" id="address4" name="address4" value="<?php echo $row['branch_address_4']; ?>" placeholder="Enter ..."><?php echo $row['branch_address_4']; ?></textarea>
                                         </div>
-                                        <!-- <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                        </div> -->
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Branch Address 5</label>
+                                            <textarea class="form-control" rows="3" id="address5" name="address5" value="<?php echo $row['branch_address_5']; ?>" placeholder="Enter ..."><?php echo $row['branch_address_5']; ?></textarea>
+                                        </div>                                    
                                     </div>
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="update" id="update" class="btn btn-primary">Update</button>
                                     </div>
                                 </form>
+                                <?php $count++; } ?>
                             </div>
                         </div>
                     </div>

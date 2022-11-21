@@ -8,14 +8,14 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Gobest Skin & Hair</a>
         </div>
-      </div>
+      </div> -->
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
@@ -39,7 +39,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="gallery.php" class="nav-link">
+            <a href="video.php" class="nav-link">
             <i class="nav-icon fa-solid fas fa fa-play-circle"></i>
               <p>
                 Video
@@ -79,15 +79,15 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="book_appointment.php" class="nav-link">
+            <a href="services.php" class="nav-link">
             <i class="nav-icon fas fa fa-handshake"></i>
               <p>
-                Service
+                Services
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="book_appointment.php" class="nav-link">
+            <a href="branch.php" class="nav-link">
             <i class="nav-icon fas fa fa-sitemap"></i>
               <p>
                 Branch 
@@ -111,7 +111,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="book_appointment.php" class="nav-link">
+            <a href="general_setting.php" class="nav-link">
             <i class="nav-icon fas 	fa fa-cog"></i>
               <p>
                 General setting

@@ -1,7 +1,7 @@
 <?php 
 include("include/config.php");
 
-if(isset($_POST['deletepassword'])){
+  if(isset($_POST['deletepassword'])){
     $checkPassword1=$_POST['checkPassword1'];
     $id=$_POST['id1'];
     $sql=mysqli_query($conn,"select * from universal_password");
@@ -9,8 +9,8 @@ if(isset($_POST['deletepassword'])){
       $rowPass=$row['password'];
         $pass=password_verify($checkPassword1,$rowPass);
         if($pass==1){
-            $sql=mysqli_query($conn,"DELETE FROM `contact` WHERE id='$id'");
-            header("location:contact.php");
+            $sql=mysqli_query($conn,"DELETE FROM `service` WHERE id='$id'");
+            header("location:service.php");
         }
         else{
             echo"<script>alert('invalid Password');</script>";
@@ -88,18 +88,17 @@ if(isset($_POST['deletepassword'])){
             </div>
             <!-- /.modal-dialog -->
         </div>
-
             <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Contact</h1>
+                            <h1 class="m-0">Services</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Contact</li>
+                                <li class="breadcrumb-item active">Services</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -114,8 +113,12 @@ if(isset($_POST['deletepassword'])){
                         <div class="col-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h3 class="card-title">Contact Details
+                                    <h3 class="card-title">Details
                                     </h3>
+                                    <a class="btn btn-primary" style="float: right;" href="services_form.php"><i
+                                            class="fa fa-plus"></i> 
+                                        Add Services
+                                    </a>
                                 </div>
                                 <!-- /.card-header -->
                                 <div class="card-body">
@@ -123,29 +126,21 @@ if(isset($_POST['deletepassword'])){
                                         <thead>
                                             <tr>
                                                 <th style="width: 25px;">Sr No.</th>
-                                                <th>Name</th>
-                                                <th>Email</th>
-                                                <th>Mobile</th>
-                                                <th>Branch</th>
-                                                <th>Message</th>
+                                                <th>Services Name</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                         <?php
-                         $sql=mysqli_query($conn,"select * from  contact");
+                         $sql=mysqli_query($conn,"select * from  service");
                         $count=1;
                          while($row=mysqli_fetch_array($sql)){ 
                          ?>
                                             <tr>
                                                 <td><?php echo $count;?></td>
-                                                <td><?php echo $row['name'];?></td>
-                                                <td><?php echo $row['email'];?></td>
-                                                <td><?php echo $row['mobile'];?></td>
-                                                <td><?php echo $row['branch'];?></td>
-                                                <td><?php echo $row['message'];?></td>
+                                                <td><?php echo $row['service_name'];?></td>
                                                 <td>
-                                                    <a class="btn btn-danger btn-rounded btn-icon delete_id"
+                                                <a class="btn btn-danger btn-rounded btn-icon delete_id"
                                                     data-id="<?php echo $row['id']; ?>"
                                                         class="btn btn-primary btn-rounded btn-icon">
                                                         <i class="fas fa-trash"></i></a>
@@ -196,7 +191,7 @@ if(isset($_POST['deletepassword'])){
     <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
-
+  
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script>
@@ -219,7 +214,8 @@ if(isset($_POST['deletepassword'])){
         });
     </script>
 
-    <script>
+
+<script>
          $(document).on('click','.delete_id',function(){
     let id=$(this).data('id');
     $('#deleteid').val(id);

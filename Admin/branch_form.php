@@ -1,7 +1,6 @@
 <?php
  include("include/config.php");
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,13 +44,14 @@
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Testimonials</h1>
+                            <h1 class="m-0">Branch</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Testimonials</li>
-                                <li class="breadcrumb-item active">Add Details</li>
+                                <li class="breadcrumb-item active">Branch
+                                </li>
+                                <li class="breadcrumb-item active">Add Branch</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -68,43 +68,17 @@
                             <!-- general form elements -->
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Add Details</h3>
+                                    <h3 class="card-title">Add Branch</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post">
+                                <form>
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                                            <label for="exampleInputText">Branch Name</label>
+                                            <input type="text" class="form-control" id="" placeholder="Enter Branch Name">
                                         </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputText">Rating</label>
-                                            <input type="text" class="form-control" id="" placeholder="Degree">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Service</label>
-                                            <select class="form-control" name="" id="">
-                                                <option value="">Select Service</option>
-                                                <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
-                                                  {
-                                                ?>
-                                                <option value="<?php echo $sql['id']; ?>">
-                                                    <?php echo $sql['service_name']; ?> </option>
-                                                <?php } ?>
-
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputText">Description</label>
-                                            <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
-                                        </div>
-                                        <!-- <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                        </div> -->
+                                  
                                     </div>
                                     <!-- /.card-body -->
 
@@ -152,6 +126,7 @@
     <script src="plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
     <!-- AdminLTE App -->
     <script src="dist/js/adminlte.min.js"></script>
+
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <script>
