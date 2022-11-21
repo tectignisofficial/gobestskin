@@ -39,6 +39,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="gallery.php" class="nav-link">
+            <i class="nav-icon fa-solid fas fa fa-play-circle"></i>
+              <p>
+                Video
+              </p>
+            </a>
+          </li>          
+          <li class="nav-item">
             <a href="#" class="nav-link">
             <i class="nav-icon fas fa-blog"></i>
               <p>
@@ -71,6 +79,22 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="book_appointment.php" class="nav-link">
+            <i class="nav-icon fas fa fa-handshake"></i>
+              <p>
+                Service
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="book_appointment.php" class="nav-link">
+            <i class="nav-icon fas fa fa-sitemap"></i>
+              <p>
+                Branch 
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="newsletters.php" class="nav-link">
             <i class="nav-icon fas far fa-comment-alt"></i>
               <p>
@@ -83,6 +107,14 @@
             <i class="nav-icon fa-solid fas fa-phone"></i>
               <p>
                 Contact
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="book_appointment.php" class="nav-link">
+            <i class="nav-icon fas 	fa fa-cog"></i>
+              <p>
+                General setting
               </p>
             </a>
           </li>
