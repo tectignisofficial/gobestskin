@@ -14,7 +14,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -52,10 +54,7 @@
   </div>
 
   <!-- ======= Header ======= -->
-
   <?php include("include/header.php");?>
-  
-  
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
@@ -105,10 +104,10 @@
 
     </div>
   </section><!-- End Hero -->
+  <!-- ======= Appointment Section ======= -->
 
   <main id="main">
 
-  
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -123,7 +122,9 @@
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h5>We are a chain of leading medico-aesthetic clinics, revolutionising the concept of aesthetic dermatology. Our expert Dermatologists and Trichologists are rigorously trained to give real results for all your skin and hair concerns.</h5>
+            <h5>We are a chain of leading medico-aesthetic clinics, revolutionising the concept of aesthetic
+              dermatology. Our expert Dermatologists and Trichologists are rigorously trained to give real results for
+              all your skin and hair concerns.</h5>
             <!-- <p class="fst-italic">
             We are a chain of leading medico-aesthetic clinics, revolutionising the concept of aesthetic dermatology. Our expert Dermatologists and Trichologists are rigorously trained to give real results for all your skin and hair concerns.
             </p> -->
@@ -140,7 +141,7 @@
     </section><!-- End About Us Section -->
 
 
-    
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services services">
       <div class="container" data-aos="fade-up">
@@ -180,7 +181,7 @@
             <h4 class="title"><a href="">Pigmentation Treatments</a></h4>
             <p class="description">Get Rid Of Skin Discolouration And Pigmentation </p>
           </div>
-          <div class="text-center" ><a href="gobest_skinhair-treatment-services.php">View More</a></div>
+          <div class="text-center"><a href="gobest_skinhair-treatment-services.php">View More</a></div>
         </div>
 
       </div>
@@ -230,13 +231,14 @@
               <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");' data-aos="zoom-in"></div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");'
+            data-aos="zoom-in"></div>
         </div>
 
       </div>
     </section><!-- End Features Section -->
 
-    
+
 
     <!-- ======= Appointment Section ======= -->
     <section id="appointment" class="appointment section-bg">
@@ -244,19 +246,22 @@
 
         <div class="col-xs-12 col-sm-12 col-md-12 padding-none">
           <h2>Make an Appointment</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form" data-aos="fade-up"
+          data-aos-delay="100">
           <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 call-back-design">
-            <div class="contect_form1" >
+            <div class="contect_form1">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              
+
             </div>
-            <div class="contect_form1" >
+            <div class="contect_form1">
               <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
             </div>
-            <div class="contect_form1" >
+            <div class="contect_form1">
               <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
             </div>
           </div>
@@ -296,7 +301,7 @@
       </div>
     </section><!-- End Appointment Section -->
 
-    
+
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials">
@@ -304,7 +309,9 @@
 
         <div class="section-title">
           <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -314,7 +321,8 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -327,7 +335,8 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
+                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
@@ -340,7 +349,8 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
@@ -353,7 +363,8 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
@@ -366,7 +377,8 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
@@ -382,13 +394,13 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-   
-  
-   
 
-    
 
-  
+
+
+
+
+
 
   </main><!-- End #main -->
 
@@ -398,7 +410,8 @@
   <!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
