@@ -1,5 +1,21 @@
 <?php
  include("include/config.php");
+
+ if(isset($_POST['submit'])){
+    $client_name=$_POST['cname'];
+    $rating=$_POST['rating'];
+    $service=$_POST['service'];
+    $description=$_POST['description'];
+
+    $sql=mysqli_query($conn,"INSERT INTO `testimonial` (`client_name`,`rating`,`service`,`description`) VALUE ('$client_name','$rating','$service','$description')");
+    if($sql==1){
+        echo'<script>alert("Successfully Submitted");</script>';
+        header("location:testimonials.php");
+    }else{
+        echo'<script>alert("oops...somthing went wrong");</script>';
+    }
+
+ }
 ?>
 
 <!DOCTYPE html>
@@ -76,22 +92,22 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                                            <input type="text" class="form-control" name="cname" id="cname" placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputText">Rating</label>
-                                            <input type="text" class="form-control" id="" placeholder="Degree">
+                                            <input type="text" class="form-control" name="rating" id="rating" placeholder="Rating">
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control" name="" id="">
+                                            <select class="form-control" name="service" id="service">
                                                 <option value="">Select Service</option>
                                                 <?php 
                                                   $query=mysqli_query($conn,"select * from service");
                                                   while($sql=mysqli_fetch_array($query))
                                                   {
                                                 ?>
-                                                <option value="<?php echo $sql['id']; ?>">
+                                                <option value="<?php echo $sql['service_name']; ?>">
                                                     <?php echo $sql['service_name']; ?> </option>
                                                 <?php } ?>
 
@@ -99,7 +115,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputText">Description</label>
-                                            <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                            <textarea class="form-control" name="description" id="description" rows="3" placeholder="Enter ..."></textarea>
                                         </div>
                                         <!-- <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -109,7 +125,7 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
                                     </div>
                                 </form>
                             </div>

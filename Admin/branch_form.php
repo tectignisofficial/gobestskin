@@ -1,5 +1,18 @@
 <?php
  include("include/config.php");
+
+ if(isset($_POST['submit'])){
+    $branch_name=$_POST['branch'];
+
+    $sql=mysqli_query($conn,"INSERT INTO `branch`(`branch_name`) VALUE ('$branch_name')");
+
+    if($sql==1){
+        echo'<script>alert("Successfully Submitted");</script>';
+        header("location:branch.php");
+    }else{
+        echo'<script>alert(oops...somthing went wrong);</script>';
+    }
+ }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,18 +85,18 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Branch Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Branch Name">
+                                            <input type="text" class="form-control" name="branch" id="branch" placeholder="Enter Branch Name">
                                         </div>
                                   
                                     </div>
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
                                     </div>
                                 </form>
                             </div>

@@ -1,3 +1,23 @@
+<?php 
+include("include/config.php");
+
+if(isset($_POST['submit'])){
+    $doctor_name=$_POST['dname'];
+    $degree=$_POST['degree'];
+    $photo=$_POST['photo'];
+    $description=$_POST['description'];
+
+
+    $sql=mysqli_query($conn,"INSERT INTO `our_doctor`(`doctor_name`,`degree`,`photo`,`description`) VALUE ('$doctor_name','$degree','$photo','$description')");
+    if($sql==1){
+        echo'<script>alert("Successfully Submitted");</script>';
+        header("location:our_doctor.php");
+    }else{
+        echo'<script>alert("oops...somthing went wrong");</script>';
+    }
+ }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,35 +88,27 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Doctor Name</label>
-                                            <input type="text" class="form-control" id=""
+                                            <input type="text" class="form-control" name="dname" id="dname"
                                                 placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputText">Degree</label>
-                                            <input type="text" class="form-control" id=""
+                                            <input type="text" class="form-control" name="degree" id="degree"
                                                 placeholder="Degree">
                                         </div>
                                         
                                         <div class="form-group">
-                                            <label for="exampleInputFile">Photo</label>
-                                            <div class="input-group">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Upload</span>
-                                                </div>
-                                            </div>
+                                            <label for="inputPass">Photo</label>
+                                            <input type="file" name="photo" class="form-control" id="inputimg"
+                                                placeholder="image 1">
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputText">Description</label>
-                                            <textarea class="form-control" rows="3" placeholder="Enter ..."></textarea>
+                                            <textarea class="form-control" name="description" id="description" rows="3" placeholder="Enter ..."></textarea>
                                         </div>
                                         <!-- <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -106,7 +118,7 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
                                     </div>
                                 </form>
                             </div>

@@ -1,6 +1,21 @@
 <?php
  include("include/config.php");
+
+ if(isset($_POST['submit'])){
+    $link=$_POST['link'];
+    $service=$_POST['service'];
+
+    $sql=mysqli_query($conn,"INSERT INTO `video`(`link`,`service`) VALUES ('$link', '$service')");
+    if($sql==1){
+        echo'<script>alert("Successfully Submitted");</script>';
+        header("location:video.php");
+    }else{
+        echo'<script>alert("oops...somthing went wrong);</script>';
+    }
+   
+}
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,22 +87,22 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Link</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Link">
+                                            <input type="text" class="form-control" name="link" id="link" placeholder="Enter Link">
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control" name="" id="">
+                                            <select class="form-control" name="service" id="service">
                                                 <option value="">Select Service</option>
                                                 <?php 
                                                   $query=mysqli_query($conn,"select * from service");
                                                   while($sql=mysqli_fetch_array($query))
                                                   {
                                                 ?>
-                                                <option value="<?php echo $sql['id']; ?>">
+                                                <option value="<?php echo $sql['service_name']; ?>">
                                                     <?php echo $sql['service_name']; ?> </option>
                                                 <?php } ?>
 
@@ -98,7 +113,7 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
                                     </div>
                                 </form>
                             </div>

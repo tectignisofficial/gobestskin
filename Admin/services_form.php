@@ -1,6 +1,20 @@
 <?php
  include("include/config.php");
+
+ if(isset($_POST['submit'])){
+ $service_name=$_POST['service'];
+
+ $sql=mysqli_query($conn,"INSERT INTO `service`(`service_name`) VALUE ('$service_name')");
+ if($sql==1){
+    echo'<script>alert("Successfully Submitted");</script>';
+    header("location:services.php");
+ }else{
+    echo'<script>alert("oops...somthing went wrong");</script>';
+ }
+
+ }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,17 +86,17 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Services Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Services Name">
+                                            <input type="text" class="form-control" name="service" id="service" placeholder="Enter Services Name">
                                         </div>
                                     </div>
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" id="submit" class="btn btn-primary">Submit</button>
                                     </div>
                                 </form>
                             </div>

@@ -1,5 +1,21 @@
 <?php
  include("include/config.php");
+
+ if(isset($_POST['submit'])){
+    $client_id=$_POST['cid'];
+    $client_name=$_POST['cname'];
+    $service=$_POST['service'];
+    $image_1=$_POST['image1'];
+    $image_2=$_POST['image2'];
+
+    $sql=mysqli_query($conn,"INSERT INTO `gallery`(`client_id`,`client_name`,`service`,`image_1`,`image_2`) VALUE ('$client_id','$client_name','$service','$image_1','$image_2')");
+    if($sql==1){
+        echo'<script>alert("Successfully Submitted");</script>';
+        header("location:gallery.php");
+    }else{
+        echo'<script>alert("oops...somthing went wrong");</script>';
+    }
+ }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -72,53 +88,57 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form>
+                                <form method="post">
                                     <div class="card-body">
                                         <div class="form-group">
+                                            <label for="exampleInputText">Client Id</label>
+                                            <input type="text" class="form-control" name="cid" id="cid"
+                                                placeholder="Enter Id">
+                                        </div>
+                                        <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="" placeholder="Enter Name">
+                                            <input type="text" class="form-control" name="cname" id="cname"
+                                                placeholder="Enter Name">
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
-                                            <select class="form-control" name="" id=""   >
+                                            <select class="form-control" name="service" id="service">
                                                 <option value="">Select Service</option>
                                                 <?php 
                                                   $query=mysqli_query($conn,"select * from service");
                                                   while($sql=mysqli_fetch_array($query))
                                                   {
                                                 ?>
-                                                <option value="<?php echo $sql['id']; ?>">
+                                                <option value="<?php echo $sql['service_name']; ?>">
                                                     <?php echo $sql['service_name']; ?> </option>
                                                 <?php } ?>
 
                                             </select>
+                                        </div> 
+                                        <div class="form-group">
+                                            <label for="inputPass">Image 1</label>
+                                            <input type="file" name="image1" class="form-control" id="inputimg"
+                                                placeholder="image 1">
                                         </div>
                                         <div class="form-group">
+                                            <label for="inputPass">Image 2</label>
+                                            <input type="file" name="image2" class="form-control" id="inputimg"
+                                                placeholder="image 2">
+                                        </div>
+
+                                        <!-- <div class="form-group">
                                             <label for="exampleInputFile">Image 1</label>
                                             <div class="input-group">
                                                 <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
+                                                    <input type="file" class="custom-file-input" name="image1"
+                                                        id="image1" placeholder="Choose file">
+                                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
                                                 </div>
                                                 <div class="input-group-append">
                                                     <span class="input-group-text">Upload</span>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputFile">Image 2</label>
-                                            <div class="input-group">
-                                                <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose
-                                                        file</label>
-                                                </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Upload</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        </div> -->
                                         <!-- <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -127,7 +147,8 @@
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="submit" name="submit" id="submit"
+                                            class="btn btn-primary">Submit</button>
                                     </div>
                                 </form>
                             </div>
