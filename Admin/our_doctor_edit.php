@@ -51,7 +51,7 @@ $id=$_GET['id'];
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                                 <li class="breadcrumb-item active">Our Doctors</li>
-                                <li class="breadcrumb-item active">Add Details</li>
+                                <li class="breadcrumb-item active">Edit Details</li>
                             </ol>
                         </div><!-- /.col -->
                     </div><!-- /.row -->
@@ -68,7 +68,7 @@ $id=$_GET['id'];
                             <!-- general form elements -->
                             <div class="card card-primary">
                                 <div class="card-header">
-                                    <h3 class="card-title">Add Details</h3>
+                                    <h3 class="card-title">Edit Details</h3>
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->

@@ -1,9 +1,16 @@
 <?php include("include/config.php"); 
 $id=$_GET['id'];
 
-if (isset($_POST[''])) {
-    $id=$_POST['id'];
-    $client_name=$_POST['cnamev'];
+if(isset($_POST['update'])){
+$status=mysqli_real_escape_string($conn,$_POST['status']);
+
+$sql=mysqli_query($conn,"UPDATE `contact` SET `status`='$status'  WHERE id='$id'");
+  
+  if($sql==1){
+     header("location:contact.php"); 
+  }else{
+    echo"<script> alert('Not updated');</script>";   
+  }
 
 }
 ?>
@@ -51,12 +58,12 @@ if (isset($_POST[''])) {
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1 class="m-0">Testimonials</h1>
+                            <h1 class="m-0">Contact</h1>
                         </div><!-- /.col -->
                         <div class="col-sm-6">
                             <ol class="breadcrumb float-sm-right">
                                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active">Testimonials</li>
+                                <li class="breadcrumb-item active">Contact</li>
                                 <li class="breadcrumb-item active">Edit Details</li>
                             </ol>
                         </div><!-- /.col -->
@@ -78,53 +85,26 @@ if (isset($_POST[''])) {
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <?php
-                                    $sql=mysqli_query($conn,"select * from `testimonial` where id='$id'");
-                                    $count=1;
-                                    $row=mysqli_fetch_array($sql);
-                                     ?>
                                 <form method="post">                                   
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="exampleInputText">Client Name</label>
-                                            <input type="text" class="form-control" id="cname" name="cname"
-                                                value="<?php echo $row['client_name']; ?>" placeholder="Enter Name">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="exampleInputText">Rating</label>
-                                            <input type="text" class="form-control" id="rating" name="rating"
-                                                value="<?php echo $row['rating']; ?>" placeholder="Degree">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Service</label>
-                                            <select class="form-control"  name="service" id="service">
-                                                <option value="">Select Service</option>
-                                                <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
-                                                  {
-                                                ?>
-                                                <option value="<?php echo $sql['id']; ?>" <?php if($sql['service_name']==$row['service']){ echo 'selected'; } ?>>
-                                                    <?php echo $sql['service_name']; ?> </option>
-                                                <?php } ?>
+                                            <?php 
+                                            $query=mysqli_query($conn,"select * from contact where id='$id'");
+                                            $sql=mysqli_fetch_array($query);
+                                            ?>
+                                            <label>Status</label>
+                                            <select class="form-control"  name="status" id="status">
+                                                <option value="">Select Status</option>
+                                                <option value="Came" <?php if($sql['status'] == 'Came'){ echo 'selected';} ?>>Came</option>
+                                                <option value="In Progress" <?php if($sql['status'] == 'In Progress'){ echo 'selected';} ?>>In Progress</option>
+                                                <option value="Don't call" <?php if($sql['status'] == "Don't call"){ echo 'selected';} ?>>Don't call</option>
                                             </select>
                                         </div>
-
-                                        <div class="form-group">
-                                            <label for="exampleInputText">Description</label>
-                                            <textarea class="form-control" rows="3" name="description" id="description"
-                                                value="<?php echo $row['description'];?>"
-                                                placeholder="Enter ..."><?php echo $row['description'];?></textarea>
-                                        </div>
-                                        <!-- <div class="form-check">
-                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                        </div> -->
                                     </div>
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Update</button>
+                                        <button type="submit" name="update" id="update" class="btn btn-primary">Update</button>
                                     </div>                                    
                                 </form>
                             </div>
