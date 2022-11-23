@@ -5,9 +5,12 @@
     $client_id=$_POST['cid'];
     $client_name=$_POST['cname'];
     $service=$_POST['service'];
-    $image_1=$_POST['image1'];
-    $image_2=$_POST['image2'];
+    $image_1=$_FILES['image1']['name'];
+    $image_2=$_FILES['image2']['name'];
+    $loc='dist/img/gallery/';
 
+    move_uploaded_file($_FILES['image1']['tmp_name'],$loc.$image_1);
+    move_uploaded_file($_FILES['image2']['tmp_name'],$loc.$image_2);
     $sql=mysqli_query($conn,"INSERT INTO `gallery`(`client_id`,`client_name`,`service`,`image_1`,`image_2`) VALUE ('$client_id','$client_name','$service','$image_1','$image_2')");
     if($sql==1){
         echo'<script>alert("Successfully Submitted");</script>';
@@ -88,7 +91,7 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post">
+                                <form method="post" enctype="multipart/form-data">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Id</label>
