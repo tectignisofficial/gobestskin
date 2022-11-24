@@ -4,9 +4,11 @@ include("include/config.php");
 if(isset($_POST['submit'])){
     $doctor_name=$_POST['dname'];
     $degree=$_POST['degree'];
-    $photo=$_POST['photo'];
+    $photo=$_FILES['photo']['name'];
+    $loc='dist/img/';
     $description=$_POST['description'];
 
+    move_uploaded_file($_FILES['photo']['tmp_name'],$loc.$photo);
 
     $sql=mysqli_query($conn,"INSERT INTO `our_doctor`(`doctor_name`,`degree`,`photo`,`description`) VALUE ('$doctor_name','$degree','$photo','$description')");
     if($sql==1){
@@ -88,7 +90,7 @@ if(isset($_POST['submit'])){
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post">
+                                <form method="post" enctype="multipart/form-data">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Doctor Name</label>

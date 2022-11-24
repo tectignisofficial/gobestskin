@@ -128,6 +128,7 @@ if(isset($_POST['deletepassword'])){
                                                 <th>Mobile</th>
                                                 <th>Branch</th>
                                                 <th>Message</th>
+                                                <th>Status</th>
                                                 <th>Action</th>
                                             </tr>
                                         </thead>
@@ -144,7 +145,22 @@ if(isset($_POST['deletepassword'])){
                                                 <td><?php echo $row['mobile'];?></td>
                                                 <td><?php echo $row['branch'];?></td>
                                                 <td><?php echo $row['message'];?></td>
+                                                <td><?php
+                                                $status=$row['status'];
+                                             if($status=='Came'){
+                                                    echo '<span class="badge badge-success">Came</span>';
+                                                }
+                                                 else if($status=='In Progress'){
+                                                    echo '<span class="badge" style="background-color: 	#ff5621;color:white">In Progress</span>';
+                                                }
+                                                else if($status=="Don't call"){
+                                                    echo "<span class='badge badge-danger'>Don't call</span>";
+                                                }
+                                                ?></td>
                                                 <td>
+                                                <a class="btn btn-primary btn-rounded btn-icon"
+                                                        href="contact_edit.php?id=<?php echo $row['id']; ?>" title="Edit"><i
+                                                            class="fa fa-edit"></i></a>
                                                     <a class="btn btn-danger btn-rounded btn-icon delete_id"
                                                     data-id="<?php echo $row['id']; ?>"
                                                         class="btn btn-primary btn-rounded btn-icon">

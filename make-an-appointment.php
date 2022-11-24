@@ -56,7 +56,7 @@
             font-size: 40px;
             text-transform: uppercase;
             text-align: center;
-            color: #727272;
+            color: #000000;
             font-weight: 700;
             padding-bottom: 15px;
         }
@@ -257,6 +257,7 @@
             padding: 0;
             margin: 4px 0 0;
             line-height: normal;
+            margin-right: 6px;
         }
 
         .breadcrumb li a {
@@ -347,10 +348,10 @@
             <div class="inner-page-content">
                 <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
                     <div class="container">
-                        <div class="breadcrumb">
+                        <!-- <div class="breadcrumb">
                             <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
                                 <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><i
-                                        class="fa fa-home"></i> <a itemprop="item" href="https://www.olivaclinic.com"
+                                        class="fa fa-home"></i> <a itemprop="item" href="#"
                                         title="Home"><span itemprop="name">Home</span></a>
                                     <meta itemprop="position" content="1">
                                 </li>
@@ -361,7 +362,7 @@
                                     <meta itemprop="position" content="2">
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="book-appointment-page-heading">
@@ -484,7 +485,7 @@
                                                     class="wpcf7-list-item first last"><input type="checkbox"
                                                         name="agree-term-condition[]"
                                                         value="I agree to the Terms &amp; Conditions"
-                                                        checked="checked"><span class="wpcf7-list-item-label">I agree to
+                                                        ><span class="wpcf7-list-item-label">I agree to
                                                         the Terms
                                                         &amp; Conditions</span></span></span></span><span
                                             class="term-and-condition">I agree to the <a
