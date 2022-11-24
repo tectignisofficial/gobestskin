@@ -299,7 +299,7 @@ nav.social {
             <?php
             if(isset($_GET['id'])){
               $id=$_GET['id'];
-              $sql=mysqli_query($conn,"select * from gallery inner join gallery_service on gallery.id=gallery_service.gallery_service where gallery.id='$id'");
+              $sql=mysqli_query($conn,"select * from gallery inner join gallery_service on gallery.gallery_service=gallery_service.id where gallery.id='$id'");
               while($result=mysqli_fetch_array($sql)){
               ?>
               <div class="col-6 col-md-3 col-lg-3">
