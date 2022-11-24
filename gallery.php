@@ -269,12 +269,12 @@ nav.social {
                 </div></a>
               </div>
               <?php
-              $sql=mysqli_query($conn,"select * from gallery");
+              $sql=mysqli_query($conn,"select * from gallery_service");
               while($result=mysqli_fetch_array($sql)){
               ?>
               <div class="col-md-3">
               <a href="gallery.php?id=<?= $result['id'] ?>"><div class="info-box1 mt-4">
-                  <div class="text-center"><?= $result['service']; ?></div>
+                  <div class="text-center"><?= $result['service_name']; ?></div>
                 </div></a>
               </div>
               <?php } ?>
@@ -299,7 +299,7 @@ nav.social {
             <?php
             if(isset($_GET['id'])){
               $id=$_GET['id'];
-              $sql=mysqli_query($conn,"select * from gallery where id='$id'");
+              $sql=mysqli_query($conn,"select * from gallery inner join gallery_service on gallery.id=gallery_service.gallery_service where gallery.id='$id'");
               while($result=mysqli_fetch_array($sql)){
               ?>
               <div class="col-6 col-md-3 col-lg-3">

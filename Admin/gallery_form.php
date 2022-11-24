@@ -103,13 +103,14 @@
                                             <input type="text" class="form-control" name="cname" id="cname"
                                                 placeholder="Enter Name">
                                         </div>
+                                    
                                         <div class="form-group">
-                                            <label>Service</label>
+                                            <label>Gallery Service</label>
                                             <select class="form-control" name="service" id="service">
-                                                <option value="">Select Service</option>
+                                                <option value="">Select Gallery Service</option>
                                                 <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
+                                                  $query1=mysqli_query($conn,"select * from gallery_service");
+                                                  while($sql=mysqli_fetch_array($query1))
                                                   {
                                                 ?>
                                                 <option value="<?php echo $sql['service_name']; ?>">

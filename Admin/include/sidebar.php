@@ -87,6 +87,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="gallery_service_form.php" class="nav-link">
+            <i class="nav-icon fas fa fa-handshake"></i>
+              <p>
+                Gallery Services
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="branch.php" class="nav-link">
             <i class="nav-icon fas fa fa-sitemap"></i>
               <p>
