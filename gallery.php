@@ -342,7 +342,26 @@ nav.social {
                   </div>
                 </div>
               </div>
-              <?php } } ?>
+              
+              <?php }
+            ?>
+             <!--pagination-->
+             <div bgcolor="red">
+                        <ul class="pagination" style="justify-content:center">
+        <!-- <li class="mr-2"><a href="?pageno=1">First</a></li> -->
+        <?php
+        for($i=1;$i<=$total_pages;$i++)
+        {
+            ?>
+            <li class="<?php if($pageno == $i){ echo 'active'; } ?> mr-1" style="border-radius:50%;width: 25px;height: 25px;text-align:center;background:gainsboro;font-size: x-small;"><a href="?pageno=<?php echo $i; ?>"><i class="fa fa-circle" aria-hidden="true" style="color: burlywood;"></i></a></li>
+            <?php
+        }
+        ?>
+        <!-- <li class="ml-2"><a href="?pageno=<?php// echo $total_pages; ?>">Last</a></li> -->
+    </ul>
+    </div>
+    <!--pagination-->
+            <?php } ?>
             </div>
             <!-- <form method="post">
               <div class="row">
@@ -371,22 +390,7 @@ nav.social {
               <div class="text-center"><button type="submit" name="submit" class="submitbutton" id="submit">Send
                   Message</button></div>
             </form> -->
-            <!--pagination-->
-            <div bgcolor="red">
-                        <ul class="pagination" style="justify-content:center">
-        <!-- <li class="mr-2"><a href="?pageno=1">First</a></li> -->
-        <?php
-        for($i=1;$i<=$total_pages;$i++)
-        {
-            ?>
-            <li class="<?php if($pageno == $i){ echo 'active'; } ?> mr-1" style="border-radius:50%;width: 25px;height: 25px;text-align:center;background:gainsboro;font-size: x-small;"><a href="?pageno=<?php echo $i; ?>"><i class="fa fa-circle" aria-hidden="true" style="color: burlywood;"></i></a></li>
-            <?php
-        }
-        ?>
-        <!-- <li class="ml-2"><a href="?pageno=<?php// echo $total_pages; ?>">Last</a></li> -->
-    </ul>
-    </div>
-    <!--pagination-->
+           
           </div>
 
         </div>
