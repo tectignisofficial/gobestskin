@@ -70,3 +70,17 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+  <script>
+    $('.haidetail').hide();
+$(document).ready(function(){
+    $('.before1').click(function(){
+        $('.beforedetail').show();
+        $('.haidetail').hide();
+    });
+    $('.Hair1').click(function(){
+        $('.haidetail').show();
+        $('.beforedetail').hide();
+    })
+})
+  </script>
