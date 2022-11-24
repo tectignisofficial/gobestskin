@@ -38,6 +38,36 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
+    <style>
+        @media only screen and (max-width: 600px) {
+            section {
+                margin-top: 30% !important;
+            }
+        }
+
+        section {
+            margin-top: 12%;
+        }
+
+        .gallery_product-new {
+            background-color: #fff;
+            box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
+        }
+
+        .gallery_product {
+            margin-bottom: 30px;
+        }
+
+        .twentytwenty-container-text {
+            padding: 2%;
+        }
+
+        .twentytwenty-container-text h5 {
+            font-size: 15px;
+            color: #545454;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -58,34 +88,34 @@
     <?php include("include/header.php");?>
     <!-- End Header -->
 
- 
-        <section style="margin-top: 11%;">
-            <div class="container">
-                <div class="row">
-                    <div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                        <div class="gallery_product-new"><iframe width="100%" height="300"
-                                src="https://www.youtube.com/embed/kyB0RPb_KPc?rel=0" frameborder="0"
-                                allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                            <div class="twentytwenty-container-text">
-                                <h5>Laser Hair Removal Treatment Bengali</h5>
-                                <h6></h6>
-                            </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="gallery_product-new"><iframe width="100%" height="300"
+                            src="https://www.youtube.com/embed/kyB0RPb_KPc?rel=0" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                        <div class="twentytwenty-container-text">
+                            <h5>Laser Hair Removal Treatment Bengali</h5>
+                            <h6></h6>
                         </div>
                     </div>
-                    <div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                        <div class="gallery_product-new"><iframe width="100%" height="300"
-                                src="https://www.youtube.com/embed/EKxzXeo2JXE?rel=0" frameborder="0"
-                                allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                            <div class="twentytwenty-container-text">
-                                <h5>Hair Fall Treatment Bengali</h5>
-                                <h6></h6>
-                            </div>
+                </div>
+                <div class="gallery_product col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                    <div class="gallery_product-new"><iframe width="100%" height="300"
+                            src="https://www.youtube.com/embed/EKxzXeo2JXE?rel=0" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+                        <div class="twentytwenty-container-text">
+                            <h5>Hair Fall Treatment Bengali</h5>
+                            <h6></h6>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        
+        </div>
+    </section>
+
     <!--=======Footer=======-->
     <?php include("include/footer.php");?>
     <!-- End Footer -->
