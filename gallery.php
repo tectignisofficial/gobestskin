@@ -263,14 +263,19 @@ nav.social {
 
           <div class="col-12">
             <div class="row">
+            <div class="col-md-3">
+            <a href="gallery.php"><div class="info-box1 mt-4">
+                  <div class="text-center">All</div>
+                </div></a>
+              </div>
               <?php
               $sql=mysqli_query($conn,"select * from gallery");
               while($result=mysqli_fetch_array($sql)){
               ?>
               <div class="col-md-3">
-                <div class="info-box1 mt-4">
-                  <div><?= $result['service']; ?></div>
-                </div>
+              <a href="gallery.php?id=<?= $result['id'] ?>"><div class="info-box1 mt-4">
+                  <div class="text-center"><?= $result['service']; ?></div>
+                </div></a>
               </div>
               <?php } ?>
               <!--              
@@ -292,24 +297,52 @@ nav.social {
           <div class="col-12">
             <div class="row">
             <?php
-              $sql=mysqli_query($conn,"select * from gallery");
+            if(isset($_GET['id'])){
+              $id=$_GET['id'];
+              $sql=mysqli_query($conn,"select * from gallery where id='$id'");
               while($result=mysqli_fetch_array($sql)){
               ?>
               <div class="col-6 col-md-3 col-lg-3">
                 <div class="comparison-slider-wrapper">
                   <div class="comparison-slider">
                     <div class="overlay">And I am the <strong>after</strong> image.</div>
-                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/marioPhoto-2.jpg" alt="marioPhoto 2">
+                    <img src="Admin/dist/img/gallery/<?= $result['image_1']; ?>" alt="marioPhoto 2" style="width:252px;height:166px">
                     <div class="resize">
                       <div class="overlay">I am the <strong>before</strong> image.</div>
-                      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/marioPhoto-1.jpg"
-                        alt="marioPhoto 1">
+                      <img src="Admin/dist/img/gallery/<?= $result['image_2']; ?>"
+                        alt="marioPhoto 1" style="width:252px;height:166px">
                     </div>
                     <div class="divider"></div>
                   </div>
                 </div>
               </div>
-              <?php } ?>
+            <?php } }else{
+              if(isset($_GET['pageno'])){
+                $pageno=$_GET['pageno'];
+              }else{ $pageno = 1; }
+              $no_of_record_per_page=2;
+              $occ=($pageno-1)*$no_of_record_per_page;
+              $total_page=mysqli_query($conn,"select count(*) from gallery");
+              $total_rows = mysqli_fetch_array($total_page)[0];
+              $total_pages = ceil($total_rows / $no_of_record_per_page);
+              $sql=mysqli_query($conn,"select * from gallery LIMIT $occ, $no_of_record_per_page");
+              while($result=mysqli_fetch_array($sql)){
+              ?>
+              <div class="col-6 col-md-3 col-lg-3">
+                <div class="comparison-slider-wrapper">
+                  <div class="comparison-slider">
+                    <div class="overlay">And I am the <strong>after</strong> image.</div>
+                    <img src="Admin/dist/img/gallery/<?= $result['image_1']; ?>" alt="marioPhoto 2" style="width:252px;height:166px">
+                    <div class="resize">
+                      <div class="overlay">I am the <strong>before</strong> image.</div>
+                      <img src="Admin/dist/img/gallery/<?= $result['image_2']; ?>"
+                        alt="marioPhoto 1" style="width:252px;height:166px">
+                    </div>
+                    <div class="divider"></div>
+                  </div>
+                </div>
+              </div>
+              <?php } } ?>
             </div>
             <!-- <form method="post">
               <div class="row">
@@ -338,6 +371,22 @@ nav.social {
               <div class="text-center"><button type="submit" name="submit" class="submitbutton" id="submit">Send
                   Message</button></div>
             </form> -->
+            <!--pagination-->
+            <div bgcolor="red">
+                        <ul class="pagination" style="justify-content:center">
+        <!-- <li class="mr-2"><a href="?pageno=1">First</a></li> -->
+        <?php
+        for($i=1;$i<=$total_pages;$i++)
+        {
+            ?>
+            <li class="<?php if($pageno == $i){ echo 'active'; } ?> mr-1" style="border-radius:50%;width: 25px;height: 25px;text-align:center;background:gainsboro;font-size: x-small;"><a href="?pageno=<?php echo $i; ?>"><i class="fa fa-circle" aria-hidden="true" style="color: burlywood;"></i></a></li>
+            <?php
+        }
+        ?>
+        <!-- <li class="ml-2"><a href="?pageno=<?php// echo $total_pages; ?>">Last</a></li> -->
+    </ul>
+    </div>
+    <!--pagination-->
           </div>
 
         </div>
