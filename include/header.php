@@ -313,12 +313,12 @@
                     <div class="list-group list-group-flush">
                       <div class="row">
                         <?php
-                        $sql=mysqli_query($conn,"select * from gallery_service");
+                        $sql=mysqli_query($conn,"select * from video group by service");
                         while($arr=mysqli_fetch_array($sql)){
                         ?>
                         <div class="col-md-4 col-lg-4 mb-3 mb-lg-0">
                           <div class="list-group list-group-flush">
-                            <a href="gallery.php?id=<?= $result['id'] ?>" class="list-group-item item1 list-group-item-action"><?= $arr['hightlight']; ?> Videos</a>
+                            <a href="gallery.php?id=<?= $result['id'] ?>" class="list-group-item item1 list-group-item-action"><?= $arr['service']; ?> Videos</a>
                           </div>
                         </div>
                         <?php } ?>
