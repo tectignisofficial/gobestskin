@@ -101,7 +101,12 @@
                   </div>
                   <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
-                      <a href="editorial-policy" class="list-group-item list-group-item-action">Editorial Policy</a>
+                      <a href="blog.php" class="list-group-item list-group-item-action">Blog</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                    <div class="list-group list-group-flush">
+                      <a href="editorial-policy.php" class="list-group-item list-group-item-action">Editorial Policy</a>
                     </div>
                   </div>
                 </div>
@@ -217,8 +222,8 @@
                         <div class="col-md-12 col-lg-12 mb-12 mb-lg-0 mt-4">
                           <div class="list-group list-group-flush">
                             <a class="list-group-item list-group-item-action actionlass">Acne/ Scar </a>
-                            <a href="pimple-acne-scar-treatment.php" class="list-group-item list-group-item-action">Pimple Treatment</a>
-                            <a href="acne-pimple-treatment.php" class="list-group-item list-group-item-action actionlass">Acne/ Scar Treatment</a>
+                            <a href="acne-pimple-treatment.php" class="list-group-item list-group-item-action">Pimple Treatment</a>
+                            <a href="pimple-acne-scar-treatment.php" class="list-group-item list-group-item-action actionlass">Acne/ Scar Treatment</a>
                           </div>
                         </div>
                       </div>
@@ -331,7 +336,7 @@
                 <div>
                 </div>
           </li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="gobest_skinhair-treatment-services.php">Services</a></li>
           <li class="nav-item  dropdown-hover position-static"><a href="#" class="nav-link"><span>Our Branches</span> <i
                 class="bi bi-chevron-down"></i></a>
             <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"

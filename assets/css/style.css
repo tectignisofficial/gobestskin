@@ -1866,3 +1866,21 @@ section {
   text-align: center;
   font-size: 13px;
 }
+/* .ftr__list {
+  border:1px solid #ddd;
+} */
+
+
+@media only screen and (max-width : 767px) {
+	
+/**nav-expand for footer with head and ul**/
+.nav-folderized .checknav h4 { cursor: pointer;width:100%;padding:2px 5px; }
+.nav-folderized ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out; }
+.nav-folderized .checknav h4:after { content: "+"; float: right; }
+.nav-folderized .checknav.open h4:after { content: "-"; }
+.nav-folderized .checknav.open ul { height:auto; max-height: 500px; transition: max-height 1s ease-in !important; }
+/**nav-expand for footer with head and ul**/
+#footer .footer-top .footer-links {
+  border-bottom: 1px solid gainsboro;
+}
+}
