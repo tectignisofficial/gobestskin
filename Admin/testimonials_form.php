@@ -6,8 +6,11 @@
     $rating=$_POST['rating'];
     $service=$_POST['service'];
     $description=$_POST['description'];
+    $image=$_Files['image']['name'];
+    $loc='dis/img/testimonial/';
+    move_uploaded_file($_FILES['image']['tmp_name'],$loc.$image);
 
-    $sql=mysqli_query($conn,"INSERT INTO `testimonial` (`client_name`,`rating`,`service`,`description`) VALUE ('$client_name','$rating','$service','$description')");
+    $sql=mysqli_query($conn,"INSERT INTO `testimonial` (`client_name`,`rating`,`service`,`description`,`image`) VALUE ('$client_name','$rating','$service','$description','$image')");
     if($sql==1){
         echo'<script>alert("Successfully Submitted");</script>';
         header("location:testimonials.php");
@@ -88,7 +91,7 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post">
+                                <form method="post" enctype="multipart/form-data">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Client Name</label>
@@ -97,6 +100,10 @@
                                         <div class="form-group">
                                             <label for="exampleInputText">Rating</label>
                                             <input type="text" class="form-control" name="rating" id="rating" placeholder="Rating">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Rating</label>
+                                            <input type="file" class="form-control" name="image" id="rating" placeholder="Rating">
                                         </div>
                                         <div class="form-group">
                                             <label>Service</label>
