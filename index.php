@@ -241,7 +241,9 @@
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
-
+<?php
+$sql=mysqli_query($conn,"select * from testimonial")
+?>
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <p>

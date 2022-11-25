@@ -6,8 +6,8 @@
     $rating=$_POST['rating'];
     $service=$_POST['service'];
     $description=$_POST['description'];
-    $image=$_Files['image']['name'];
-    $loc='dis/img/testimonial/';
+    $image=$_FILES['image']['name'];
+    $loc='dist/img/testimonial/';
     move_uploaded_file($_FILES['image']['tmp_name'],$loc.$image);
 
     $sql=mysqli_query($conn,"INSERT INTO `testimonial` (`client_name`,`rating`,`service`,`description`,`image`) VALUE ('$client_name','$rating','$service','$description','$image')");
