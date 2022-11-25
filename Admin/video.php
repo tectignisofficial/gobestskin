@@ -127,6 +127,7 @@ include("include/config.php");
                                             <tr>
                                                 <th style="width: 30px;">Sr No.</th>
                                                 <th>Link</th>
+                                                <th>title</th>
                                                 <th>Service</th>
                                                 <th>Action</th>
                                             </tr>
@@ -140,6 +141,7 @@ include("include/config.php");
                                             <tr>
                                                 <td><?php echo $count;?></td>
                                                 <td><?php echo $row['link'];?></td>
+                                                <td><?php echo $row['title'];?></td>
                                                 <td><?php echo $row['service'];?></td>
                                                 <td>
                                                 <a class="btn btn-danger btn-rounded btn-icon delete_id"
