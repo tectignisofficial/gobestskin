@@ -3,9 +3,10 @@
 
  if(isset($_POST['submit'])){
     $link=$_POST['link'];
+    $title=$_POST['title'];
     $service=$_POST['service'];
 
-    $sql=mysqli_query($conn,"INSERT INTO `video`(`link`,`service`) VALUES ('$link', '$service')");
+    $sql=mysqli_query($conn,"INSERT INTO `video`(`link`,`title`,`service`) VALUES ('$link', '$title', '$service')");
     if($sql==1){
         echo'<script>alert("Successfully Submitted");</script>';
         header("location:video.php");
@@ -94,19 +95,24 @@
                                             <input type="text" class="form-control" name="link" id="link" placeholder="Enter Link">
                                         </div>
                                         <div class="form-group">
-                                            <label>Service</label>
+                                            <label for="exampleInputText">Title</label>
+                                            <input type="text" class="form-control" name="title" id="title" placeholder="Enter Title">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Video Service</label>
                                             <select class="form-control" name="service" id="service">
-                                                <option value="">Select Service</option>
+                                                <option value="">Video Service</option>
                                                 <?php 
-                                                  $query=mysqli_query($conn,"select * from service");
-                                                  while($sql=mysqli_fetch_array($query))
+                                                  $query1=mysqli_query($conn,"select * from gallery_service");
+                                                  while($sql=mysqli_fetch_array($query1))
                                                   {
                                                 ?>
-                                                <option value="<?php echo $sql['service_name']; ?>">
-                                                    <?php echo $sql['service_name']; ?> </option>
+                                                <option value="<?php echo $sql['hightlight']; ?>">
+                                                    <?php echo $sql['hightlight']; ?> </option>
                                                 <?php } ?>
 
                                             </select>
+                                        </div> 
                                         </div>
                                   
                                     </div>
