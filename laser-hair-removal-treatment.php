@@ -80,167 +80,263 @@ include("include/config.php");
             <div>
                 <img src="assets/img/laser-hair-removal.jpg" alt="" style="width: -webkit-fill-available;">
             </div>
+            <div class="row">
+                <div class="col-12">
 
-            <div class="container">
-                <div class="row mt-5">
+                    <div class="container">
+                        <div class="row mt-5">
 
-                    <div class="col-12">
-                        <div class="breadcrumb">
-                            <ul>
-                                <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home</span></a>
-                                </li>
-                                <li><i class="fa fa-caret-right"></i> <span title="Laser Hair Removal">Laser Hair
-                                        Removal</span></li>
-                            </ul>
-                        </div>
-                        <div class="row">
-
-                            <h2>Laser Treatment For Body Hair Removal</h2>
-                            <p class="treatment-subtitle"><strong>Effective Solution To Get Hair-Free And Supple
-                                    Skin</strong></p>
-                            <div class="col-12 col-md-8 col-lg-8">
-                                <p>The term “laser” is an acronym for Light Amplification by Stimulated Emission of
-                                    Radiation. Laser hair removal (LHR) is an advanced aesthetic treatment that uses
-                                    a high-energy beam of light in a focussed manner to destroy stem cells found in
-                                    hair follicles systematically. This eradicates the possibility of new hair
-                                    growth and delivers long-lasting results. The innovative use of laser technology
-                                    for hair removal offers a high degree of precision, causing no damage to the
-                                    surrounding skin.</p>
-
-                                <div>
-                                    <h5>What Are The Benefits Of Laser Hair Removal Service?</h5>
-                                    <p>Laser Hair Removal (LHR) procedure at Oliva is a skin investment that you
-                                        make today that pays you rich dividends for life! At Oliva, LHR is a safe,
-                                        painless and holistic treatment to eliminate hair growth that causes zero
-                                        damage to your skin. The results are permanent and provide a practical and
-                                        cost-effective alternative to waxing and shaving. Other benefits of laser
-                                        hair removal are as follows:</p>
+                            <div class="col-12">
+                                <div class="breadcrumb">
                                     <ul>
-                                        <li>Offers permanent hair reduction</li>
-                                        <li>Suitable for hair removal from any area of the body</li>
-                                        <li>A quick procedure that lasts for 45 minutes to an hour</li>
-                                        <li>Zero downtime</li>
-                                        <li>No significant side effects</li>
-                                        <li>A hassle-free method that is cost-effective in the long run</li>
+                                        <li><i class="fa fa-home"></i> <a href="index.php"
+                                                title="Home"><span>Home</span></a>
+                                        </li>
+                                        <li><i class="fa fa-caret-right"></i> <span title="Laser Hair Removal">Laser
+                                                Hair
+                                                Removal</span></li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <h5>Is LHR A Safe Treatment For All Areas Of The Body</h5>
-                                    <p>The advanced laser machines at our clinic enable us to perform the hair
-                                        removal treatment on all Indian skin types. We treat different areas of the
-                                        body for both men and women based on their specific grooming needs. We offer
-                                        the following packages:</p>
-                                    <ul>
-                                        <li>Full body hair removal</li>
-                                        <li>Facial hair removal</li>
-                                        <li>Underarm hair removal</li>
-                                        <li>Bikini (private part/pubic) hair removal</li>
-                                        <li>Upper lip and chin hair removal</li>
-                                        <li>Leg hair removal</li>
-                                        <li>Chest, abdomen and back hair removal</li>
-                                        <li>Arms and upper body hair removal</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h5>What Are The Steps Of LHR Treatment Procedure?</h5>
-                                    <p>Here are the steps you can expect during a session of LHR treatment at Oliva:
-                                    </p>
-                                    <ul>
-                                        <li>Trained therapists will shave the target area and apply a cooling gel
-                                            before the laser treatment.</li>
-                                        <li>An experienced doctor will customise the parameters of the laser beam
-                                            according to your skin and hair type.</li>
-                                        <li>The therapist will divide the target area into sections.</li>
-                                        <li>The dermatologist will use the handheld laser device over the target
-                                            area to eliminate the unwanted hair follicles.</li>
-                                        <li>At the end of the procedure, the therapist will apply a cold compress to
-                                            alleviate any discomfort or redness.</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h5>Are You A Suitable Candidate For Laser Hair Removal?</h5>
-                                    <p>If you are somebody who wants to get rid of unwanted hair forever, then you
-                                        are the right candidate for laser hair removal treatment at Oliva Clinic.
-                                        This procedure is suitable for all skin types, notably lighter skin tone and
-                                        darker hair.</p>
-                                    <p>However, it is not advisable for pregnant and lactating women and young
-                                        adults (undergoing puberty) as they may be experiencing significant hormonal
-                                        changes during these stages.</p>
-                                </div>
-                                <div>
-                                    <h5>What Is The Cost Of Laser Hair Removal Treatment?</h5>
-                                    <p>The cost of laser hair removal treatment in India starts at Rs 1,600* per
-                                        session and may range up to Rs 30,000* per session. The price might vary for
-                                        individuals depending on factors like the size of the target area, the hair
-                                        colour, type and density, the skin tone and the underlying cause of hair
-                                        growth that determine the suitable laser technology and the number of
-                                        sessions required. For example, upper lip hair removal is less expensive as
-                                        compared to full-body hair removal.</p>
-                                    <p style="font-weight:bold;">* T&C Apply. The average prices mentioned here are
-                                        approximate and indicative ONLY and are subject to revision based on your
-                                        individual hair removal needs. If you would like to know the exact cost for
-                                        the laser hair removal procedure, it is advisable to consult with our
-                                        dermatologists and attain a customised treatment plan. This information is
-                                        an estimate only and is in no way a final quote or a fixed price of laser
-                                        hair removal treatment at Oliva.</p>
-                                </div>
-                                <div>
-                                    <h5>How To Get Started With The LHR Treatment At Oliva?</h5>
-                                    <p>You can book an appointment online or over the phone by dialling
-                                        1800-103-3893. Our customer care team will schedule an appointment with an
-                                        expert dermatologist at your preferred time and convenience.</p><br>
-                                </div>
+                                <div class="row">
 
-                            </div>
+                                    <h2>Laser Treatment For Body Hair Removal</h2>
+                                    <p class="treatment-subtitle"><strong>Effective Solution To Get Hair-Free And Supple
+                                            Skin</strong></p>
+                                    <div class="col-12 col-md-8 col-lg-8">
+                                        <p>The term “laser” is an acronym for Light Amplification by Stimulated Emission
+                                            of
+                                            Radiation. Laser hair removal (LHR) is an advanced aesthetic treatment that
+                                            uses
+                                            a high-energy beam of light in a focussed manner to destroy stem cells found
+                                            in
+                                            hair follicles systematically. This eradicates the possibility of new hair
+                                            growth and delivers long-lasting results. The innovative use of laser
+                                            technology
+                                            for hair removal offers a high degree of precision, causing no damage to the
+                                            surrounding skin.</p>
 
-                            <div class="col-12 col-md-4 col-lg-4 text-center" >
-                                <div style="border-left: 1px solid #d8d6d6;padding-left:30px">
-                                    <section id="hero">
-                                        <div id="heroCarousel" data-bs-interval="5000"
-                                            class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-                                            <div class="carousel-inner" role="listbox">
-                                                <!-- Slide 1 -->
-                                                <div class="carousel-item active"
-                                                    style="background-image: url(assets/img/slide/lasercaro1.webp)">
-                                                </div>
-                                                <!-- Slide 2 -->
-                                                <div class="carousel-item"
-                                                    style="background-image: url(assets/img/slide/lasercaro2.webp)">
-                                                </div>
-                                                <!-- Slide 3 -->
-                                                <div class="carousel-item"
-                                                    style="background-image: url(assets/img/slide/lasercaro3.webp)">
-                                                </div>
-                                                <!-- Slide 4 -->
-                                                <div class="carousel-item"
-                                                    style="background-image: url(assets/img/slide/lasercaro4.webp)">
-                                                </div>
-                                            </div>
-
+                                        <div>
+                                            <h5>What Are The Benefits Of Laser Hair Removal Service?</h5>
+                                            <p>Laser Hair Removal (LHR) procedure at Oliva is a skin investment that you
+                                                make today that pays you rich dividends for life! At Oliva, LHR is a
+                                                safe,
+                                                painless and holistic treatment to eliminate hair growth that causes
+                                                zero
+                                                damage to your skin. The results are permanent and provide a practical
+                                                and
+                                                cost-effective alternative to waxing and shaving. Other benefits of
+                                                laser
+                                                hair removal are as follows:</p>
+                                            <ul>
+                                                <li>Offers permanent hair reduction</li>
+                                                <li>Suitable for hair removal from any area of the body</li>
+                                                <li>A quick procedure that lasts for 45 minutes to an hour</li>
+                                                <li>Zero downtime</li>
+                                                <li>No significant side effects</li>
+                                                <li>A hassle-free method that is cost-effective in the long run</li>
+                                            </ul>
                                         </div>
-                                    </section>
+                                        <div>
+                                            <h5>Is LHR A Safe Treatment For All Areas Of The Body</h5>
+                                            <p>The advanced laser machines at our clinic enable us to perform the hair
+                                                removal treatment on all Indian skin types. We treat different areas of
+                                                the
+                                                body for both men and women based on their specific grooming needs. We
+                                                offer
+                                                the following packages:</p>
+                                            <ul>
+                                                <li>Full body hair removal</li>
+                                                <li>Facial hair removal</li>
+                                                <li>Underarm hair removal</li>
+                                                <li>Bikini (private part/pubic) hair removal</li>
+                                                <li>Upper lip and chin hair removal</li>
+                                                <li>Leg hair removal</li>
+                                                <li>Chest, abdomen and back hair removal</li>
+                                                <li>Arms and upper body hair removal</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>What Are The Steps Of LHR Treatment Procedure?</h5>
+                                            <p>Here are the steps you can expect during a session of LHR treatment at
+                                                Oliva:
+                                            </p>
+                                            <ul>
+                                                <li>Trained therapists will shave the target area and apply a cooling
+                                                    gel
+                                                    before the laser treatment.</li>
+                                                <li>An experienced doctor will customise the parameters of the laser
+                                                    beam
+                                                    according to your skin and hair type.</li>
+                                                <li>The therapist will divide the target area into sections.</li>
+                                                <li>The dermatologist will use the handheld laser device over the target
+                                                    area to eliminate the unwanted hair follicles.</li>
+                                                <li>At the end of the procedure, the therapist will apply a cold
+                                                    compress to
+                                                    alleviate any discomfort or redness.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>Are You A Suitable Candidate For Laser Hair Removal?</h5>
+                                            <p>If you are somebody who wants to get rid of unwanted hair forever, then
+                                                you
+                                                are the right candidate for laser hair removal treatment at Oliva
+                                                Clinic.
+                                                This procedure is suitable for all skin types, notably lighter skin tone
+                                                and
+                                                darker hair.</p>
+                                            <p>However, it is not advisable for pregnant and lactating women and young
+                                                adults (undergoing puberty) as they may be experiencing significant
+                                                hormonal
+                                                changes during these stages.</p>
+                                        </div>
+                                        <div>
+                                            <h5>What Is The Cost Of Laser Hair Removal Treatment?</h5>
+                                            <p>The cost of laser hair removal treatment in India starts at Rs 1,600* per
+                                                session and may range up to Rs 30,000* per session. The price might vary
+                                                for
+                                                individuals depending on factors like the size of the target area, the
+                                                hair
+                                                colour, type and density, the skin tone and the underlying cause of hair
+                                                growth that determine the suitable laser technology and the number of
+                                                sessions required. For example, upper lip hair removal is less expensive
+                                                as
+                                                compared to full-body hair removal.</p>
+                                            <p style="font-weight:bold;">* T&C Apply. The average prices mentioned here
+                                                are
+                                                approximate and indicative ONLY and are subject to revision based on
+                                                your
+                                                individual hair removal needs. If you would like to know the exact cost
+                                                for
+                                                the laser hair removal procedure, it is advisable to consult with our
+                                                dermatologists and attain a customised treatment plan. This information
+                                                is
+                                                an estimate only and is in no way a final quote or a fixed price of
+                                                laser
+                                                hair removal treatment at Oliva.</p>
+                                        </div>
+                                        <div>
+                                            <h5>How To Get Started With The LHR Treatment At Oliva?</h5>
+                                            <p>You can book an appointment online or over the phone by dialling
+                                                1800-103-3893. Our customer care team will schedule an appointment with
+                                                an
+                                                expert dermatologist at your preferred time and convenience.</p><br>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-12 col-md-4 col-lg-4 text-center">
+                                        <div style="border-left: 1px solid #d8d6d6;padding-left:30px">
+                                            <section id="hero">
+                                                <div id="heroCarousel" data-bs-interval="5000"
+                                                    class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                                    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+                                                    <div class="carousel-inner" role="listbox">
+                                                        <!-- Slide 1 -->
+                                                        <div class="carousel-item active"
+                                                            style="background-image: url(assets/img/slide/lasercaro1.webp)">
+                                                        </div>
+                                                        <!-- Slide 2 -->
+                                                        <div class="carousel-item"
+                                                            style="background-image: url(assets/img/slide/lasercaro2.webp)">
+                                                        </div>
+                                                        <!-- Slide 3 -->
+                                                        <div class="carousel-item"
+                                                            style="background-image: url(assets/img/slide/lasercaro3.webp)">
+                                                        </div>
+                                                        <!-- Slide 4 -->
+                                                        <div class="carousel-item"
+                                                            style="background-image: url(assets/img/slide/lasercaro4.webp)">
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!--video-->
+                <div class="col-12">
+                    <section id="cta" class="cta">
+                        <div class="container" data-aos="zoom-in">
+                            <div class="row">
+                                <div class="col-7">
+                                    <div class="text-center">
+                                        <h3>Watch Now - Laser Hair Removal Procedure Video</h3>
+                                        <p>Oliva offers advanced FDA approved laser hair removal treatment for unwanted
+                                            hair.
+                                            Check out the details of our procedure and gain insights into how the
+                                            treatment
+                                            proceeds under the supervision of an expert dermatologist.</p>
+                                        <a class="cta-btn scrollto" href="videos.php">Watch Other Videos</a>
+                                    </div>
+                                </div>
+                                <div class="col-5">
+                                    <iframe width="505" height="311" src="https://www.youtube.com/embed/TNPJCdT95ng"
+                                        title="My Laser Hair Removal Story | Amandeep HR Professional | Ingrown Hair"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+                </div>
+                <!--end video-->
+
+                <!--before/after-->
+                <div class="col-12">
+                    <section class="why_gobest">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-9 pull-right">
+                                    <h2 class="why_bottompadde">Why Oliva</h2>
+                                    <ul>
+                                        <li>
+                                            <figure><img src="assets/img/whyimg1.webp"></figure>
+                                            <figurecaption class="why-line">EXPERIENCED IN-HOUSE TEAM OF
+                                                CERTIFIED DERMATOLOGISTS</figurecaption>
+                                        </li>
+                                        <li>
+                                            <figure><img src="assets/img/whyimg2.webp"></figure>
+                                            <figurecaption class="why-line">EXPERIENCED IN-HOUSE TEAM OF
+                                                CERTIFIED DERMATOLOGISTS</figurecaption>
+                                        </li>
+                                        <li>
+                                            <figure><img src="assets/img/whyimg3.webp"></figure>
+                                            <figurecaption class="why-line">ADVANCED US-FDA APPROVED
+                                                EQUIPMENT</figurecaption>
+                                        </li>
+                                        <li>
+                                            <figure><img src="assets/img/whyimg4.webp"></figure>
+                                            <figurecaption class="why-line">WELL TRAINED AND CERTIFIED
+                                                THERAPISTS</figurecaption>
+                                        </li>
+                                        <li>
+                                            <figure><img src="assets/img/whyimg5.webp"></figure>
+                                            <figurecaption class="why-line">SERVED 3,00,000 HAPPY CUSTOMERS
+                                                AND COUNTING</figurecaption>
+                                        </li>
+                                        <li>
+                                            <figure><img src="assets/img/whyimg6.png"></figure>
+                                            <figurecaption class="why-line">STRINGENT GUIDELINES AND SET
+                                                PROTOCOLS FOR BETTER SERVICE EFFICACY</figurecaption>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!--before/after-->
             </div>
-
-            <!--video-->
-            <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>In an emergency? Need help now?</h3>
-          <p> OUR 91% CLIENT SATISFACTION RATE IS UNPARALLELED IN OUR FIELD.</p>
-          <a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
-        </div>
-
-      </div>
-    </section>
-    <!--end video-->
-
         </section><!-- End Contact Section -->
 
     </main><!-- End #main -->
