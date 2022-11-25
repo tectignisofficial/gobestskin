@@ -32,26 +32,128 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-  * Template Name: Medicio - v4.9.1
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-
     <style>
         @media only screen and (max-width: 991px) {
-        .template_concern_page .med_bottompadder40 {
-            padding-bottom: 20px;
-            line-height: 34px;
+            .table-of-contents.mobile-view button {
+                background: transparent;
+                border: none;
+                font-size: 19px;
+                color: #00b5bd;
+                border-bottom: 1px solid #d7e8e0;
+                width: 100%;
+                text-align: left;
+                position: relative;
+            }
+
+            .table-of-contents.mobile-view button.collapsed:before {
+                content: "+" !important;
+                font-size: 24px;
+            }
+
+            .table-of-contents.mobile-view button:before {
+                content: "-";
+                margin-right: 10px;
+                font-size: 24px;
+            }
+
+            .table-of-contents.mobile-view #contents ul {
+                padding: 10px 20px 0;
+            }
+
+            .page-template-template_concern_page section ul {
+                margin-left: 20px;
+            }
+
+            .table-of-contents.mobile-view #contents ul li {
+                padding: 10px 0;
+                margin: 0;
+                border-bottom: 1px solid #e5e5ea;
+                border-right: none;
+                font-size: 14px;
+                color: #1dadba;
+                display: block;
+            }
+
+            .page-template-template_concern_page section .table-of-contents ul li {
+                padding: 0 22px !important;
+            }
+
+            .table-of-contents.mobile-view {
+                display: block;
+                margin: 8px 0;
+            }
+
+            .collapse.in {
+                display: block;
+            }
+
+            .table-of-contents.mobile-view #contents ul li a {
+                font-size: 17px;
+            }
+
+            .about-allergies ul li {
+                display: block !important;
+            }
         }
-    }
+
+        @media only screen and (max-width: 991px) {
+            .template_concern_page .med_bottompadder40 {
+                padding-bottom: 20px;
+                line-height: 34px;
+            }
+        }
+
+
+        section {
+            margin-top: 12px !important;
+            margin-bottom: -25px;
+        }
 
         .inner-page-content {
             width: 100%;
             float: left;
             padding-top: 0px;
             padding-bottom: 35px;
+        }
+
+        .treatment section {
+            margin-top: 8px;
+            margin-bottom: -25px;
+        }
+
+        .prevention section {
+            margin-top: 8px;
+            margin-bottom: -25px;
+        }
+
+        .diagnosis section {
+            margin-top: 8px;
+            margin-bottom: -25px;
+        }
+
+        .types section {
+            margin-top: 8px;
+            margin-bottom: -25px;
+        }
+
+        .causes section {
+            margin-top: 8px;
+            margin-bottom: -25px;
+        }
+
+        .intro section {
+            margin-top: 8px;
+            margin-bottom: -25px;
+        }
+
+        .highlights section {
+            margin-top: 12px;
+            margin-bottom: -25px;
+        }
+
+        .about-allergies section {
+            margin-top: 12px;
+            margin-bottom: -25px;
         }
 
         .about-allergies h1 {
@@ -76,92 +178,117 @@
         .about-allergies ul {
             list-style: none;
         }
+
         .page-template-template_concern_page section .table-of-contents ul li {
-    padding: 0 22px!important;
-}
-.about-allergies ul li:first-child {
-    display: none;
-}
-.page-template-template_concern_page section li {
-    font-size: 18px;
-    line-height: 24px;
-    color: #000;
-}
-.page-template-template_concern_page section li {
-    margin-bottom: 12px;
-    list-style-position: outside;
-}
-.about-allergies ul li {
-    display: inline;
-    padding: 0 22px;
-    border-right: 1px solid #bcbfc5;
-}
-.about-allergies ul li a {
-    font-size: 22px;
-    text-align: center;
-    display: inline-block;
-}
-.template_concern_page a {
-    border-bottom: 1px dashed #00b6bd;
-}
-a {
-    color: #00b6be;
-    text-decoration: none;
-}
-.table-of-contents.mobile-view {
-    display: none;
-}
-.page-template-template_concern_page section {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-.highlights {
-    padding: 20px 0;
-}
-.highlights-main {
-    background-color: #d9ebed;
-    position: relative;
-    width: 100%;
-    float: left;
-}
-.highlights h2 {
-    background-color: #00b5bd;
-    color: #fff!important;
-    text-align: center;
-    line-height: 40px;
-    padding: 0 20px;
-    position: absolute;
-    left: 25px;
-    top: -10px;
-    font-size: 22px;
-    text-transform: uppercase;
-}
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.container, .container-new {
-    width: 90%;
-    float: none;
-}
-.page-template-template_concern_page h2 {
-    color: #000;
-}
-.page-template-template_concern_page p {
-    font-size: 18px;
-    line-height: 24px;
-    margin: 0 0 12px;
-    color: #000;
-}
-.page-template-template_concern_page section ul li {
-    padding-left: 5px;
-}
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+            padding: 0 22px !important;
+        }
+
+        .about-allergies ul li:first-child {
+            display: none;
+        }
+
+        .page-template-template_concern_page section li {
+            font-size: 18px;
+            line-height: 24px;
+            color: #000;
+        }
+
+        .page-template-template_concern_page section li {
+            margin-bottom: 12px;
+            list-style-position: outside;
+        }
+
+        .about-allergies ul li {
+            display: inline;
+            padding: 0 22px;
+            border-right: 1px solid #bcbfc5;
+        }
+
+        .about-allergies ul li a {
+            font-size: 22px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .template_concern_page a {
+            border-bottom: 1px dashed #00b6bd;
+        }
+
+        a {
+            color: #00b6be;
+            text-decoration: none;
+        }
+
+        .table-of-contents.mobile-view {
+            display: none;
+        }
+
+        .page-template-template_concern_page section {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        .highlights {
+            padding: 20px 0;
+        }
+
+        .highlights-main {
+            background-color: #d9ebed;
+            position: relative;
+            width: 100%;
+            float: left;
+        }
+
+        .highlights h2 {
+            background-color: #00b5bd;
+            color: #fff !important;
+            text-align: center;
+            line-height: 40px;
+            padding: 0 20px;
+            position: absolute;
+            left: 25px;
+            top: -10px;
+            font-size: 22px;
+            text-transform: uppercase;
+        }
+
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        .container,
+        .container-new {
+            width: 90%;
+            float: none;
+        }
+
+        .page-template-template_concern_page h2 {
+            color: #000;
+        }
+
+        .page-template-template_concern_page p {
+            font-size: 18px;
+            line-height: 24px;
+            margin: 0 0 12px;
+            color: #000;
+        }
+
+        .page-template-template_concern_page section ul li {
+            padding-left: 5px;
+        }
+
+        .container {
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .highli {
+            padding-top: 50px;
+            padding-bottom: 40px;
+        }
     </style>
 
 </head>
@@ -181,14 +308,14 @@ a {
     </div>
 
     <!-- ======= Header ======= -->
-    <?php include("include/header.php");?>
+   <?php include("include/header.php");?>
     <!-- End Header -->
 
 
     <section>
         <div class="container">
             <div class="inner-page-content">
-                <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
+                <!-- <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
                     <div class="container">
                         <div class="breadcrumb">
                             <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
@@ -205,27 +332,17 @@ a {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="template_concern_page">
-                    <section class="col-xs-12 col-sm-12 col-md-12 about-allergies">
+                    <section class="about-allergies col-xs-12 col-sm-12 col-md-12">
                         <div class="container">
 
                             <h1 class="med_bottompadder40">Tanned Skin: Causes, Prevention And Treatment</h1>
-                            <div class="table-of-contents">
-                                <ul>
-                                    <li><a href="#intro">Intro</a></li>
-                                    <li><a href="#causes">Causes</a></li>
-                                    <li><a href="#types">Types</a></li>
-                                    <li><a href="#diagnosis">Diagnosis</a></li>
-                                    <li><a href="#prevention">Prevention</a></li>
-                                    <li><a href="#treatment">Treatment</a></li>
-                                </ul>
-                            </div>
-                            <div class="table-of-contents mobile-view">
-                                <button class="collapsed" data-toggle="collapse" data-target="#contents">Table of
-                                    contents</button>
-                                <div id="contents" class="collapse">
+                            <div class="nav-folderized">
+                                <div class="table-of-contents  ftr__list checknav">
+                                    <h4>COMPANY</h4>
                                     <ul>
+                                        <li></li>
                                         <li><a href="#intro">Intro</a></li>
                                         <li><a href="#causes">Causes</a></li>
                                         <li><a href="#types">Types</a></li>
@@ -235,33 +352,46 @@ a {
                                     </ul>
                                 </div>
                             </div>
+                            <!-- <div class="table-of-contents mobile-view " > -->
+                            <!-- <button class="collapsed" data-toggle="collapse" data-target="#contents">Table of
+                                    contents</button> -->
+                            <!-- <div id="contents" class="collapse ftr__list checknav">
+                                
+                                    <ul>
+                                        <li><a href="#intro">Intro</a></li>
+                                        <li><a href="#causes">Causes</a></li>
+                                        <li><a href="#types">Types</a></li>
+                                        <li><a href="#diagnosis">Diagnosis</a></li>
+                                        <li><a href="#prevention">Prevention</a></li>
+                                        <li><a href="#treatment">Treatment</a></li>
+                                    </ul>
+                                </div>
+                            </div> -->
                         </div>
                     </section>
-
                     <section class="col-xs-12 col-sm-12 col-md-12 highlights">
                         <div class="container">
                             <div class="highlights-main">
                                 <h2>Highlights</h2>
-                                <ul>
-                                    <li>● Skin tanning is a natural process where the skin darkens in colour because of
+                                <ul class="highli">
+                                    <li>Skin tanning is a natural process where the skin darkens in colour because of
                                         the exposure to ultraviolet light.</li>
-                                    <li>● Due to the resulting increase in melanin production, oxidation of melanin or
+                                    <li>Due to the resulting increase in melanin production, oxidation of melanin or
                                         rise in the number of melanocytes, the complexion may continue to darken.</li>
-                                    <li>● Suntanned skin is most prominent on the forehead, temples, and outer aspects
+                                    <li>Suntanned skin is most prominent on the forehead, temples, and outer aspects
                                         of the arms.</li>
-                                    <li>● Sunscreen is the best defence against the harmful ultraviolet rays of the sun.
+                                    <li> Sunscreen is the best defence against the harmful ultraviolet rays of the sun.
                                     </li>
-                                    <li>● Any individual is prone to skin tanning, but factors such as ethnicity, age,
+                                    <li>Any individual is prone to skin tanning, but factors such as ethnicity, age,
                                         outdoor activity, the pattern of clothing and skin type determine the extent of
                                         it.</li>
-                                    <li>● Anyone under the age of 5 and over 50 years can develop skin tanning due to UV
+                                    <li>Anyone under the age of 5 and over 50 years can develop skin tanning due to UV
                                         ray exposure.</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
-
-                    <section id="intro" class="col-xs-12 col-sm-12 col-md-12 ">
+                    <section id="intro" class="col-xs-12 col-sm-12 col-md-12 intro">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">What Is Tanned Skin?</h2>
@@ -275,7 +405,7 @@ a {
                             </div>
                         </div>
                     </section>
-                    <section id="causes" class="col-xs-12 col-sm-12 col-md-12 ">
+                    <section id="causes" class="col-xs-12 col-sm-12 col-md-12 causes">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">Causes Of Tanned Skin</h2>
@@ -330,7 +460,7 @@ a {
                             </div>
                         </div>
                     </section>
-                    <section id="types" class="col-xs-12 col-sm-12 col-md-12 ">
+                    <section id="types" class="col-xs-12 col-sm-12 col-md-12 types ">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">Types &amp; Classification:</h2>
@@ -352,7 +482,7 @@ a {
                             </div>
                         </div>
                     </section>
-                    <section id="diagnosis" class="col-xs-12 col-sm-12 col-md-12 ">
+                    <section id="diagnosis" class="col-xs-12 col-sm-12 col-md-12 diagnosis">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">Diagnosis:</h2>
@@ -371,7 +501,7 @@ a {
                             </div>
                         </div>
                     </section>
-                    <section id="prevention" class="col-xs-12 col-sm-12 col-md-12 ">
+                    <section id="prevention" class="col-xs-12 col-sm-12 col-md-12 prevention">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">Prevention and Management:</h2>
@@ -396,7 +526,7 @@ a {
                             </div>
                         </div>
                     </section>
-                    <!-- <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 ">
+                    <!-- <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 treatment">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">Treatment Options </h2>
