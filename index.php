@@ -152,36 +152,17 @@
         </div>
 
         <div class="row">
+          <?php
+          $sql=mysqli_query($conn,"select * from service limit 6");
+          while($arr=mysqli_fetch_array($sql)){
+          ?>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-heartbeat"></i></div>
-            <h4 class="title"><a href="">Laser Hair Removal</a></h4>
-            <p class="description">Effective Solution To Get Hair-Free And Supple Skin</p>
+            <div class="icon"><img src="Admin/dist/img/<?= $arr['image']; ?>"></div>
+            <h4 class="title"><a href="<?= $arr['link']; ?>"><?= $arr['service_name']; ?></a></h4>
+            <p class="description"><?= $arr['short_desc']; ?></p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-pills"></i></div>
-            <h4 class="title"><a href="">Pimples Treatment</a></h4>
-            <p class="description">Clinically-Proven Solutions To Clear Acne </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-hospital-user"></i></div>
-            <h4 class="title"><a href="">Acne Scar Treatment</a></h4>
-            <p class="description">Best Professional Solutions To Reduce Acne Scars And Get Spotless Skin!</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-dna"></i></div>
-            <h4 class="title"><a href="">Hair loss treatment</a></h4>
-            <p class="description">Reverse Early Signs of Balding With Hair Regrowth Treatment</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-wheelchair"></i></div>
-            <h4 class="title"><a href="">Skin Lightening Treatment</a></h4>
-            <p class="description">FDA-approved Solutions to Get A Brighter Complexion and An Even Skin Tone! </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-notes-medical"></i></div>
-            <h4 class="title"><a href="">Pigmentation Treatments</a></h4>
-            <p class="description">Get Rid Of Skin Discolouration And Pigmentation </p>
-          </div>
+          <?php } ?>
+          
           <div class="text-center"><a href="gobest_skinhair-treatment-services.php">View More</a></div>
         </div>
 

@@ -21,7 +21,44 @@
               </div>
             </div>
           </div>
+          <style>
+            .ftr__list {
+  border:1px solid #ddd;
+}
 
+
+@media only screen and (max-width : 767px) {
+	
+/**nav-expand for footer with head and ul**/
+.nav-folderized .nav h4 { cursor: pointer; }
+.nav-folderized ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out; }
+.nav-folderized .nav h4:after { content: "+"; float: right; }
+.nav-folderized .nav.open h4:after { content: "-"; }
+.nav-folderized .nav.open ul { height:auto; max-height: 500px; transition: max-height 1s ease-in !important; }
+/**nav-expand for footer with head and ul**/
+}
+          </style>
+          <div class="nav-folderized">
+          <div class="ftr__list nav col-sm-3">
+    <h4>Learn</h4>
+    <ul>
+      <li><a href="#">New User FAQ</a></li>
+      <li><a href="#">New User FAQ</a></li>
+      <li><a href="#">New User FAQ</a></li>
+      <li><a href="#">New User FAQ</a></li>
+    </ul>
+  </div>
+  <div class="col-lg-2 col-md-6 footer-links ftr__list nav">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+</div>
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -82,5 +119,10 @@ $(document).ready(function(){
         $('.haidetail').show();
         $('.beforedetail').hide();
     })
-})
+});
+$(".nav-folderized h4").click(function(){
+	  $(this).parent(".nav").toggleClass("open"); 
+	  $('html, body').animate({ scrollTop: jQuery(this).offset().top - 170 }, 1500 );
+  });
+  
   </script>

@@ -1,22 +1,23 @@
 <section id="appointment" class="appointment section-bg">
     <div class="container" data-aos="fade-up">
         <div class="row">
-            <div class="col-xs-2 col-sm-2 col-md-2 padding-none">
-                <div style="display:flex"><i class="fa fa-history"></i><h5>Talk To Our Experts</h5></div>
+            <div class="col-12 col-xs-2 col-sm-2 col-md-2 padding-none">
+                <div style="display:flex" class="titleexpert"><i class="fa fa-history"></i><h5>Talk To Our Experts</h5></div>
                 
             </div>
-            <div class="col-xs-10 col-sm-10 col-md-10 padding-none">
+            <div class="col-12 col-xs-10 col-sm-10 col-md-10 padding-none">
                 <form action="api.php" method="post" >
-                        <div class="contect_form1">
+                    <div class="row">
+                        <div class="col-3 col-md-2">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
                                 required>
 
                         </div>
-                        <div class="contect_form1">
+                        <div class="col-3 col-md-2">
                             <input type="tel" class="form-control" name="no" id="email"
                                 placeholder="Your Mobile Number" required>
                         </div>
-                        <div class="contect_form1">
+                        <div class="col-3 col-md-2">
                             <select name="select_city" class="form-control" required="">
                                 <option value="">Select City</option>
                                 <option value="AKURDI BRANCH">AKURDI BRANCH</option>
@@ -26,7 +27,7 @@
                                 <option value="HINJEWADI BRANCH">HINJEWADI BRANCH</option>
                             </select>
                         </div>
-                        <div class="contect_form1">
+                        <div class="col-3 col-md-2">
                             <select name="select_service" class="form-control" required="">
                                 <option value="">Select Service</option>
                                 <optgroup label="Unwanted Hair">
@@ -59,8 +60,10 @@
                                 <option value="Other">Others</option>
                             </select>
                         </div>
-
-                    <div class="text-center"><button type="submit" name="callback" class="requestbutton">Request A Call Back</button></div>
+                        <div class="col-12 col-md-4">
+                    <div class="buttreq"><button type="submit" name="callback" class="requestbutton">Request A Call Back</button></div>
+                    </div>
+</div>
                 </form>
 
             </div>

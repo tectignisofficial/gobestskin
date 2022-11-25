@@ -300,9 +300,9 @@
                         $sql=mysqli_query($conn,"select * from gallery_service");
                         while($arr=mysqli_fetch_array($sql)){
                         ?>
-                        <div class="col-md-6 col-lg-6 mb-3 mb-lg-0">
+                        <div class="col-md-3 col-lg-3 mb-3 mb-lg-0">
                           <div class="list-group list-group-flush">
-                            <a href="gallery.php?id=<?= $arr['id'] ?>" class="list-group-item item1 list-group-item-action"><?= $arr['service_name']; ?></a>
+                            <a href="gallery.php?id=<?= $arr['id'] ?>" class="list-group-item item1 list-group-item-action"><?= $arr['hightlight']; ?> Images</a>
                           </div>
                         </div>
                         <?php } ?>
@@ -316,9 +316,9 @@
                         $sql=mysqli_query($conn,"select * from gallery_service");
                         while($arr=mysqli_fetch_array($sql)){
                         ?>
-                        <div class="col-md-6 col-lg-6 mb-3 mb-lg-0">
+                        <div class="col-md-4 col-lg-4 mb-3 mb-lg-0">
                           <div class="list-group list-group-flush">
-                            <a href="gallery.php?id=<?= $result['id'] ?>" class="list-group-item item1 list-group-item-action"><?= $arr['id']; ?></a>
+                            <a href="gallery.php?id=<?= $result['id'] ?>" class="list-group-item item1 list-group-item-action"><?= $arr['hightlight']; ?> Videos</a>
                           </div>
                         </div>
                         <?php } ?>

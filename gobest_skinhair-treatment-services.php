@@ -1,3 +1,6 @@
+<?php
+ include("include/config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,13 +33,17 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+<style>
+   @media only screen and (max-width: 600px) {
+            #main {
+                margin-top: 30% !important;
+            }
+        }
 
-  <!-- =======================================================
-  * Template Name: Medicio - v4.9.1
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+        #main {
+            margin-top: 10% ;
+        }
+</style>
 </head>
 
 <body>
@@ -65,9 +72,9 @@
 
   <!-- ======= Banner Section ======= -->
 
-  <main id="main">
+  <main id="main" >
 
-    <div class="col-xs-12 col-sm-12 col-md-12 padding-none">
+    <!-- <div class="col-xs-12 col-sm-12 col-md-12 padding-none">
       <div class="booking_box booking_box-2">
         <div class="container container-new ">
           <div class="row">
@@ -198,18 +205,18 @@
                   <div class="wpcf7-response-output" aria-hidden="true"></div>
                 </form>
               </div>
-              <!--pop-up-->
+              <!--pop-up
               <div class="call-on-phone" type="button" data-toggle="modal" data-target="#myModal-2">
 
                 <a href="javascript:void(0);" class="call_now_button">Click Here</a>
               </div>
 
             </div>
-            <!--pop-up-->
+            <!--pop-up
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
 
@@ -224,39 +231,19 @@
         </div>
 
         <div class="row">
+        <?php
+          $sql=mysqli_query($conn,"select * from service");
+          while($arr=mysqli_fetch_array($sql)){
+          ?>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-heartbeat"></i></div>
-            <h4 class="title"><a href="">Laser Hair Removal</a></h4>
-            <p class="description">Effective Solution To Get Hair-Free And Supple Skin</p>
+            <div class="icon"><img src="Admin/dist/img/<?= $arr['image']; ?>"></div>
+            <h4 class="title"><a href="<?= $arr['link']; ?>"><?= $arr['service_name']; ?></a></h4>
+            <p class="description"><?= $arr['short_desc']; ?></p>
           </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-pills"></i></div>
-            <h4 class="title"><a href="">Pimples Treatment</a></h4>
-            <p class="description">Clinically-Proven Solutions To Clear Acne </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-hospital-user"></i></div>
-            <h4 class="title"><a href="">Acne Scar Treatment</a></h4>
-            <p class="description">Best Professional Solutions To Reduce Acne Scars And Get Spotless Skin!</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-dna"></i></div>
-            <h4 class="title"><a href="">Hair loss treatment</a></h4>
-            <p class="description">Reverse Early Signs of Balding With Hair Regrowth Treatment</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-wheelchair"></i></div>
-            <h4 class="title"><a href="">Skin Lightening Treatment</a></h4>
-            <p class="description">FDA-approved Solutions to Get A Brighter Complexion and An Even Skin Tone! </p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-notes-medical"></i></div>
-            <h4 class="title"><a href="">Pigmentation Treatments</a></h4>
-            <p class="description">Get Rid Of Skin Discolouration And Pigmentation </p>
-          </div>
-
+          <?php } ?>
         </div>
 
+        <p>Gobest Skin & Hair brings to you the aesthetics of beauty and medical knowledge unified under one roof. We have 23 clinics in 7 popular cities in India. Gobest Skin & Hair holistic treatment services are the most advanced treatments available for Skin, Hair and Weight management in India.</p>
       </div>
     </section><!-- End Services Section -->
 

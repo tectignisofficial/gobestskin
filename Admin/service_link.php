@@ -1,19 +1,34 @@
 <?php
  include("include/config.php");
 
- if(isset($_POST['submit'])){
- $service_name=$_POST['service'];
- $hightlight=$_POST['hightlight'];
- date_default_timezone_set('Asia/kolkata');
- $date=date('d/m/y');
- $sql=mysqli_query($conn,"INSERT INTO `gallery_service`(`hightlight`,`service_name`,`date`) VALUE ('$hightlight','$service_name','$date')");
- if($sql==1){
-    echo'<script>alert("Successfully Submitted");</script>';
-    // header("location:services.php");
- }else{
-    echo'<script>alert("oops...somthing went wrong");</script>';
- }
- }
+//  if(isset($_POST['submit'])){
+//  $service_name=$_POST['service'];
+//  $description=$_POST['url'];
+
+
+//  $sql=mysqli_query($conn,"INSERT INTO `service`(`service_name`, `image`, `short_desc`, `date`) VALUES ('$service_name','$image','$description','$date')");
+//  if($sql==1){
+//     echo'<script>alert("Successfully Submitted");</script>';
+//     header("location:services.php");
+//  }else{
+//     echo'<script>alert("oops...somthing went wrong");</script>';
+//  }
+
+//  }
+ if(isset($_POST['submit']))
+{
+	$count=count($_POST["service"]);
+	
+for($i=0;$i<$count;$i++){
+$sql1="UPDATE service SET link='" . $_POST['url'][$i] ."' WHERE service_name='" . $_POST['service'][$i] . "'";
+$result1=mysqli_query($conn,$sql1);
+if($result1==1){
+    echo 'jhghg';
+}else{
+    echo 'lll';
+}
+}
+}
 ?>
 
 <!DOCTYPE html>
@@ -87,15 +102,26 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post">
+                                <form method="post" enctype="multipart/form-data">
                                     <div class="card-body">
-                                    <div class="form-group">
-                                            <label for="exampleInputText">Services Highlight Name</label>
-                                            <input type="text" class="form-control" name="hightlight" id="service" placeholder="Enter Services Name">
-                                        </div>
+                                        <div class="row">
+                                    <?php
+          $sql=mysqli_query($conn,"select * from service");
+          while($arr=mysqli_fetch_array($sql)){
+          ?>
+          <div class="col-6">
                                         <div class="form-group">
                                             <label for="exampleInputText">Services Name</label>
-                                            <input type="text" class="form-control" name="service" id="service" placeholder="Enter Services Name">
+                                            <input type="text" class="form-control" name="service[]" id="service" placeholder="Enter Services Name" value="<?= $arr['service_name'] ?>">
+                                        </div>
+                                        </div>
+                                        <div class="col-6">
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Image Name</label>
+                                            <input type="url" class="form-control" name="url[]" id="image" placeholder="Enter URL" value="<?= $arr['link'] ?>">
+                                        </div>
+                                        </div>
+                                        <?php } ?>
                                         </div>
                                     </div>
                                     <!-- /.card-body -->
@@ -166,6 +192,7 @@
             });
         });
     </script>
+
 </body>
 
 </html>

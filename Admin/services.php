@@ -115,9 +115,12 @@ include("include/config.php");
                                 <div class="card-header">
                                     <h3 class="card-title">Details
                                     </h3>
-                                    <a class="btn btn-primary" style="float: right;" href="services_form.php"><i
+                                    <a class="btn btn-primary mr-2" style="float: right;" href="services_form.php"><i
                                             class="fa fa-plus"></i> 
                                         Add Services
+                                    </a>
+                                    <a class="btn btn-primary mr-2" style="float: right;" href="services_form.php"> 
+                                        Service Link
                                     </a>
                                 </div>
                                 <!-- /.card-header -->
