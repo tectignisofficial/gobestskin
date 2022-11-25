@@ -252,7 +252,7 @@ while($arr=mysqli_fetch_array($sql)){
                   <?= $arr['description'] ?>
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="dist/img/testimonial/<?= $arr['image'] ?>" class="testimonial-img" alt="">
+                <img src="Admin/dist/img/testimonial/<?= $arr['image'] ?>" class="testimonial-img" alt="">
                 <h3><?= $arr['client_name'] ?></h3>
                 <h4><?= $arr['service'] ?></h4>
               </div>
