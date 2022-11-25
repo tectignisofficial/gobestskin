@@ -144,7 +144,7 @@ include("include/config.php");
                                                 <td><?php echo $count;?></td>
                                                 <td><?php echo $row['client_id'];?></td>
                                                 <td><?php echo $row['client_name'];?></td>
-                                                <td><?php echo $row['service'];?></td>
+                                                <td><?php echo $row['gallery_service'];?></td>
                                                 <td><img src="dist/img/gallery/<?php echo $row['image_1'];?>" width="50" height="50"></td>
                                                 <td><img src="dist/img/gallery/<?php echo $row['image_2'];?>" width="50" height="50"></td>
                                                 <td>

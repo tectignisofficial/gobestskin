@@ -30,7 +30,7 @@
 @media only screen and (max-width : 767px) {
 	
 /**nav-expand for footer with head and ul**/
-.nav-folderized .nav h4 { cursor: pointer; }
+.nav-folderized .nav h4 { cursor: pointer;width:100%;padding:2px 5px; }
 .nav-folderized ul { max-height: 0; overflow:hidden; transition: max-height 1s ease-out; }
 .nav-folderized .nav h4:after { content: "+"; float: right; }
 .nav-folderized .nav.open h4:after { content: "-"; }
