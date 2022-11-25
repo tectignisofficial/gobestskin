@@ -3,8 +3,14 @@
 
  if(isset($_POST['submit'])){
  $service_name=$_POST['service'];
+ $description=$_POST['description'];
+ $image=$_FILES['image']['name'];
+ date_default_timezone_set('Asia/Kolkata');
+ $date=date('d/m/y h:i');
+ $loc='dist/img/service/';
+ move_uploaded_file($_FILES['image']['tmp_name'],$loc.$image);
 
- $sql=mysqli_query($conn,"INSERT INTO `service`(`service_name`) VALUE ('$service_name')");
+ $sql=mysqli_query($conn,"INSERT INTO `service`(`service_name`, `image`, `short_desc`, `date`) VALUES ('$service_name','$image','$description','$date')");
  if($sql==1){
     echo'<script>alert("Successfully Submitted");</script>';
     header("location:services.php");
@@ -86,11 +92,19 @@
                                 </div>
                                 <!-- /.card-header -->
                                 <!-- form start -->
-                                <form method="post">
+                                <form method="post" enctype="multipart/form-data">
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="exampleInputText">Services Name</label>
                                             <input type="text" class="form-control" name="service" id="service" placeholder="Enter Services Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Image Name</label>
+                                            <input type="file" class="form-control" name="image" id="image" placeholder="Enter Services Name">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputText">Short Description</label>
+                                            <input type="text" class="form-control" name="description" id="service" placeholder="Enter Short Description">
                                         </div>
                                     </div>
                                     <!-- /.card-body -->
