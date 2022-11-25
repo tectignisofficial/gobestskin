@@ -141,7 +141,7 @@ include("include/config.php");
                                             <tr>
                                                 <td><?php echo $count;?></td>
                                                 <td><?php echo $row['service_name'];?></td>
-                                                <td><?php echo $row['image'];?></td>
+                                                <td><img src="dist/img/service/<?php echo $row['image'];?>" width="50" height="50" ></td>
                                                 <td><?php echo $row['short_desc'];?></td>
                                                 <td>
                                                 <a class="btn btn-danger btn-rounded btn-icon delete_id"
