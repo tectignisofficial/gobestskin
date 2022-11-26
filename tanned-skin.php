@@ -225,7 +225,7 @@ margin-left:7%
             text-align: center;
             line-height: 40px;
             padding: 0 20px;
-            position: absolute;
+            position: initial;
             left: 25px;
             top: -10px;
             font-size: 22px;
@@ -508,7 +508,7 @@ margin-left:7%
                                     <li class="chemicalpeels">Chemical Peels<br>
                                         <iframe
                                             title="Chemical Peel Treatment - Result, Benefit, Procedure, Before &amp; After 💰 Up to 50% Off"
-                                            width="640" height="360"
+                                            width="640" height="360" class="iframevideo"
                                             src="https://www.youtube.com/embed/gBypU29ipnA?feature=oembed"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -516,7 +516,7 @@ margin-left:7%
                                     <li>Laser Toning Treatments<br>
                                         <iframe
                                             title="Laser Treatment To Remove Pigmentation, Dark Spots &amp; Uneven Skin Tone - Up To 50% Off"
-                                            width="640" height="360"
+                                            width="640" height="360" class="iframevideo"
                                             src="https://www.youtube.com/embed/2SO8eI1b7Xg?feature=oembed"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
