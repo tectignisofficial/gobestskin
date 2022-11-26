@@ -35,22 +35,19 @@ include("include/config.php");
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <style>
         #hero {
             height: 70vh;
         }
 
-        .panel-group .panel {
+        .accordion .accordion-item {
             border-radius: 0;
             box-shadow: none;
             border-color: #EEEEEE;
+            margin-bottom: 5px;
         }
 
-        .panel-default>.panel-heading {
+        .accordion-header {
             padding: 0;
             border-radius: 0;
             color: #212121;
@@ -58,22 +55,21 @@ include("include/config.php");
             border-color: #EEEEEE;
         }
 
-        .panel-title {
+        .accordion-button {
             font-size: 14px;
-        }
-
-        .panel-title>a {
             display: block;
             padding: 15px;
             text-decoration: none;
+            background: #EEEEEE;
         }
+
 
         .more-less {
             float: right;
             color: #212121;
         }
 
-        .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        .accordion-body {
             border-top-color: #EEEEEE;
         }
 
@@ -399,119 +395,99 @@ include("include/config.php");
                                 <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked
                                     Questions</h2>
                             </div>
-                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
-                                            <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                What Is The Cost Of Skin Lightening Treatment?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingOne">
-                                        <div class="panel-body">
-                                            The cost of treatment may vary from individual to individual depending upon
+                            <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="more-less fa fa-plus"></i> What Is The Cost Of Skin Lightening
+                                        Treatment?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>The cost of treatment may vary from individual to individual depending
+                                            upon
                                             various factors, such as the targeted area for treatment, underlying cause,
                                             the
                                             severity of the skin condition, the number of sessions and the type of
                                             treatment. To know about the cost of treatment, visit our clinic, consult
                                             with
                                             our dermatologists and obtain a customised treatment plan.
-                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingTwo">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                                aria-controls="collapseTwo">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                How Soon Can You See The Results?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingTwo">
-                                        <div class="panel-body">
-                                            You can start noticing an improvement in skin tone after the first few
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="more-less fa fa-plus"></i> How Soon Can You See The Results?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>You can start noticing an improvement in skin tone after the first few
                                             sessions
                                             of Gobest Skin & Hair’s advanced Skin lightening treatment and see visible
                                             results as the
                                             sessions proceed. However, you need to complete the treatment and follow pre
                                             and
                                             post-care advice to achieve the best skin lightening results.
-                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                                                aria-controls="collapseThree">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                Does The Treatment Cause Any Pain?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            No, the skin lightening treatment at Gobest Skin & Hair is virtually
-                                            pain-free.
-                                            You might
-                                            experience slight heating or pricking sensation, which is transient.
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <i class="more-less fa fa-plus"></i> Does The Treatment Cause Any Pain?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> No, the skin lightening treatment at Gobest Skin & Hair is virtually
+                                            pain-free. You might experience slight heating or pricking sensation, which
+                                            is transient.
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseFour" aria-expanded="false"
-                                                aria-controls="collapseFour">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                Who Is An Eligible Candidate?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            "Any individual who is 18 years or above can opt for skin lightening
-                                            treatment
-                                            at Gobest Skin & Hair. However, our doctors do not recommend that pregnant
-                                            and
-                                            lactating
-                                            women undergo this treatment. Also, it is advisable to avoid opting for this
-                                            treatment if you have an active infection in the target area."
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <i class="more-less fa fa-plus"></i> Who Is An Eligible Candidate?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> "Any individual who is 18 years or above can opt for skin lightening
+                                            treatment at Gobest Skin & Hair. However, our doctors do not recommend that
+                                            pregnant and lactating women undergo this treatment. Also, it is advisable
+                                            to avoid opting for this treatment if you have an active infection in the
+                                            target area."
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseFive" aria-expanded="false"
-                                                aria-controls="collapseFive">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                Are There Any Risks And Side Effects Of This Treatment?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            "Since qualified dermatologists at Gobest Skin & Hair perform the customised
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <i class="more-less fa fa-plus"></i> Are There Any Risks And Side Effects Of
+                                        This Treatment?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> "Since qualified dermatologists at Gobest Skin & Hair perform the
+                                            customised
                                             treatment after
                                             a thorough skin analysis using top-notch USFDA-approved technology, perform
                                             a
@@ -520,71 +496,60 @@ include("include/config.php");
                                             the side effects are minimal. Applying soothing creams and cold compressions
                                             can
                                             further alleviate any rare irritation or transient redness."
-                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseSix" aria-expanded="false"
-                                                aria-controls="collapseSix">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                How Long Does It Take To Recover?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            "The laser skin lightening treatment has minimal or no recovery time, and
-                                            you
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <i class="more-less fa fa-plus"></i> How Long Does It Take To Recover?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> "The laser skin lightening treatment has minimal or no recovery time,
+                                            and you
                                             can resume your normal activities right after the treatment. However,
                                             chemical
                                             peel treatments may involve downtime of up to four days with adequate
                                             post-treatment care to accelerate the process of skin recovery."
-                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
-                                                aria-controls="collapseSeven">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                Are The Results Of The Treatment Permanent?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
-                                            "The results usually are long-lasting, depending on the underlying skin
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        <i class="more-less fa fa-plus"></i> Are The Results Of The Treatment Permanent?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> "The results usually are long-lasting, depending on the underlying skin
                                             condition and post-care. One needs to follow adequate sun protection and
                                             visit
                                             the dermatologist for minimal maintenance support to prolong the treatment
                                             results and enjoy long-lasting satisfaction."
-                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" role="tab" id="headingThree">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" role="button" data-toggle="collapse"
-                                                data-parent="#accordion" href="#collapseEight" aria-expanded="false"
-                                                aria-controls="collapseEight">
-                                                <i class="more-less glyphicon glyphicon-plus"></i>
-                                                What Are The Pre And Post-Care Instructions?
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel"
-                                        aria-labelledby="headingThree">
-                                        <div class="panel-body">
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        <i class="more-less fa fa-plus"></i> What Are The Pre And Post-Care
+                                        Instructions?
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>
                                             <div class="panel_cont" itemprop="text">
                                                 <p>Dermatologists at Gobest Skin & Hair may advise the following:</p>
                                                 <p><strong>Pre-care instructions –</strong></p>
@@ -610,10 +575,10 @@ include("include/config.php");
                                                     <li>Moisturise three to four times a day.</li>
                                                 </ul>
                                             </div>
-                                        </div>
                                     </div>
                                 </div>
-                            </div><!-- panel-group -->
+                            </div>
+                        </div><!-- panel-group -->
 
 
                         </div>
@@ -725,20 +690,13 @@ include("include/config.php");
 
         }
 
-        function toggleIcon(e) {
-            $(e.target)
-                .prev('.panel-heading')
-                .find(".more-less")
-                .toggleClass('glyphicon glyphicon-plus glyphicon glyphicon-minus');
-        }
-        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
-        $('.panel-group').on('shown.bs.collapse', toggleIcon);
+
         $(document).ready(function () {
-            $(".glyphicon-minus").click(function () {
-                $(this).toggleClass("glyphicon-plus");
+            $(".fa-minus").click(function () {
+                $(this).toggleClass("fa-plus fa-minus");
             });
-            $(".glyphicon-plus").click(function () {
-                $(this).toggleClass("glyphicon-minus");
+            $(".fa-plus").click(function () {
+                $(this).toggleClass("fa-minus fa-plus");
             });
 
         });

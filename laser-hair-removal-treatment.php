@@ -35,22 +35,20 @@ include("include/config.php");
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min."></script>
     <style>
         #hero {
             height: 70vh;
         }
 
-        .panel-group .panel {
+        .accordion .accordion-item {
             border-radius: 0;
             box-shadow: none;
             border-color: #EEEEEE;
+            margin-bottom: 5px;
         }
 
-        .panel-default>.panel-heading {
+        .accordion-header {
             padding: 0;
             border-radius: 0;
             color: #212121;
@@ -58,22 +56,21 @@ include("include/config.php");
             border-color: #EEEEEE;
         }
 
-        .panel-title {
+        .accordion-button {
             font-size: 14px;
-        }
-
-        .panel-title>a {
             display: block;
             padding: 15px;
             text-decoration: none;
+            background: #EEEEEE;
         }
+
 
         .more-less {
             float: right;
             color: #212121;
         }
 
-        .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        .accordion-body {
             border-top-color: #EEEEEE;
         }
 
@@ -124,7 +121,7 @@ include("include/config.php");
             <div>
                 <img src="assets/img/laser-hair-removal.jpg" alt="" style="width: -webkit-fill-available;">
             </div>
-            <div class="row"  style="margin-right: 0px;margin-left: 0px;">
+            <div class="row" style="margin-right: 0px;margin-left: 0px;">
                 <div class="col-12">
 
                     <div class="container">
@@ -161,8 +158,10 @@ include("include/config.php");
 
                                         <div>
                                             <h5>What Are The Benefits Of Laser Hair Removal Service?</h5>
-                                            <p>Laser Hair Removal (LHR) procedure at Gobest Skin & Hair is a skin investment that you
-                                                make today that pays you rich dividends for life! At Gobest Skin & Hair, LHR is a
+                                            <p>Laser Hair Removal (LHR) procedure at Gobest Skin & Hair is a skin
+                                                investment that you
+                                                make today that pays you rich dividends for life! At Gobest Skin & Hair,
+                                                LHR is a
                                                 safe,
                                                 painless and holistic treatment to eliminate hair growth that causes
                                                 zero
@@ -223,7 +222,8 @@ include("include/config.php");
                                             <h5>Are You A Suitable Candidate For Laser Hair Removal?</h5>
                                             <p>If you are somebody who wants to get rid of unwanted hair forever, then
                                                 you
-                                                are the right candidate for laser hair removal treatment at Gobest Skin & Hair
+                                                are the right candidate for laser hair removal treatment at Gobest Skin
+                                                & Hair
                                                 Clinic.
                                                 This procedure is suitable for all skin types, notably lighter skin tone
                                                 and
@@ -310,7 +310,8 @@ include("include/config.php");
                                 <div class="col-12 col-md-7">
                                     <div class="text-center">
                                         <h3>Watch Now - Laser Hair Removal Procedure Video</h3>
-                                        <p>Gobest Skin & Hair offers advanced FDA approved laser hair removal treatment for unwanted
+                                        <p>Gobest Skin & Hair offers advanced FDA approved laser hair removal treatment
+                                            for unwanted
                                             hair.
                                             Check out the details of our procedure and gain insights into how the
                                             treatment
@@ -319,7 +320,8 @@ include("include/config.php");
                                     </div>
                                 </div>
                                 <div class="col-12 col-md-5">
-                                    <iframe width="505" height="311" src="https://www.youtube.com/embed/TNPJCdT95ng" class="iframevideo"
+                                    <iframe width="505" height="311" src="https://www.youtube.com/embed/TNPJCdT95ng"
+                                        class="iframevideo"
                                         title="My Laser Hair Removal Story | Amandeep HR Professional | Ingrown Hair"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -381,206 +383,132 @@ include("include/config.php");
                 <div class="col-12">
                     <div class="container demo">
 
-                    <div class="root-info">
-                                <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked Questions</h2> 
-                            </div>
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="root-info">
+                            <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked
+                                Questions</h2>
+                        </div>
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingOne">
-                                    <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            What Is The Cost Of Skin Lightening Treatment?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingOne">
-                                    <div class="panel-body">
-                                        The cost of treatment may vary from individual to individual depending upon
-                                        various factors, such as the targeted area for treatment, underlying cause, the
-                                        severity of the skin condition, the number of sessions and the type of
-                                        treatment. To know about the cost of treatment, visit our clinic, consult with
-                                        our dermatologists and obtain a customised treatment plan.
+
+                        <!-- panel-group -->
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="more-less fa fa-plus"></i> 
+HOW MANY SESSIONS OF LASER HAIR REMOVAL DO YOU NEED TO SEE RESULTS?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>A majority of our clients experience a measurable change in the growth and thickness of hair within 6-8 sessions. However, the results may vary based on the hair type, the age of the client and the underlying hormonal state.
+                                    </strong>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingTwo">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            How Soon Can You See The Results?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingTwo">
-                                    <div class="panel-body">
-                                        You can start noticing an improvement in skin tone after the first few sessions
-                                        of Gobest Skin & Hair’s advanced Skin lightening treatment and see visible results as the
-                                        sessions proceed. However, you need to complete the treatment and follow pre and
-                                        post-care advice to achieve the best skin lightening results.
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="more-less fa fa-plus"></i> 
+IS LASER HAIR REMOVAL A PERMANENT TREATMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Yes, 91%* of our clients enjoy long-lasting satisfaction and optimal results with the help of minimal maintenance sessions.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Does The Treatment Cause Any Pain?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        No, the skin lightening treatment at Gobest Skin & Hair is virtually pain-free. You might
-                                        experience slight heating or pricking sensation, which is transient.
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <i class="more-less fa fa-plus"></i>
+IS LASER TREATMENT SAFE?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>At Oliva, we use Soprano Ice, a USFDA-approved cutting-edge laser technology. The advanced laser equipment available at Oliva is amongst the most versatile in the world. Our team of experienced dermatologists customise the intensity of the laser beam according to the comfort and requirements of the clients, making the procedure doubly safe and super effective.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Who Is An Eligible Candidate?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "Any individual who is 18 years or above can opt for skin lightening treatment
-                                        at Gobest Skin & Hair. However, our doctors do not recommend that pregnant and lactating
-                                        women undergo this treatment. Also, it is advisable to avoid opting for this
-                                        treatment if you have an active infection in the target area."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <i class="more-less fa fa-plus"></i>
+IS LASER HAIR REMOVAL A PAINFUL TREATMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> Not at all. The LHR procedure at Oliva is exceptionally comfortable. The cooling tip of the Soprano Ice machines guarantees safe and effective hair removal minus thermal injuries. Some of our clients state that LHR at Oliva feels like a relaxing hot stone massage!
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Are There Any Risks And Side Effects Of This Treatment?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "Since qualified dermatologists at Gobest Skin & Hair perform the customised treatment after
-                                        a thorough skin analysis using top-notch USFDA-approved technology, perform a
-                                        patch test and strictly adhere to safety protocols at par with global standards,
-                                        the side effects are minimal. Applying soothing creams and cold compressions can
-                                        further alleviate any rare irritation or transient redness."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <i class="more-less fa fa-plus"></i> 
+HOW TO PREPARE FOR LASER HAIR REMOVAL AT OUR CLINIC?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong> At Oliva, your dermatologist may advise you to stop waxing, threading, or plucking the target area two weeks before your first session.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            How Long Does It Take To Recover?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "The laser skin lightening treatment has minimal or no recovery time, and you
-                                        can resume your normal activities right after the treatment. However, chemical
-                                        peel treatments may involve downtime of up to four days with adequate
-                                        post-treatment care to accelerate the process of skin recovery."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <i class="more-less fa fa-plus"></i>
+WHAT ARE THE POST-CARE INSTRUCTIONS FOR LASER HAIR REMOVAL SERVICE?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>Your dermatologist may advise you to avoid the use of conventional hair removal methods during the intervals between sessions. The roots of the hair must remain undisturbed throughout the treatment plan.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
-                                            aria-controls="collapseSeven">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Are The Results Of The Treatment Permanent?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "The results usually are long-lasting, depending on the underlying skin
-                                        condition and post-care. One needs to follow adequate sun protection and visit
-                                        the dermatologist for minimal maintenance support to prolong the treatment
-                                        results and enjoy long-lasting satisfaction."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        <i class="more-less fa fa-plus"></i>
+IS LASER BODY HAIR REMOVAL AN EXPENSIVE TREATMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>As laser hair removal is such a revolutionary technology with fabulous benefits, people assume that it must, therefore, be incredibly expensive. However, surprisingly, it is a cost-effective option in comparison to the traditional methods of hair removal.
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseEight" aria-expanded="false"
-                                            aria-controls="collapseEight">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            What Are The Pre And Post-Care Instructions?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        <div class="panel_cont" itemprop="text">
-                                            <p>Dermatologists at Gobest Skin & Hair may advise the following:</p>
-                                            <p><strong>Pre-care instructions –</strong></p>
-                                            <ul>
-                                                <li>Stop using any priming cream two to four days before the procedure.
-                                                </li>
-                                                <li>Avoid opting for salon treatments a week before the session.</li>
-                                                <li>Do not shave the target area 12 hours before the treatment.</li>
-                                            </ul>
-                                            <p><strong>Post-care instructions –</strong></p>
-                                            <ul>
-                                                <li>Follow a skin-care regimen recommended by the dermatologist to
-                                                    maintain the best results.</li>
-                                                <li>Apply a suitable non-comedogenic sunscreen based on your skin type
-                                                    15-20 minutes before stepping outdoors. If possible, avoid direct
-                                                    sun exposure for a week or so. Make sure to reapply sunscreen after
-                                                    every three hours.</li>
-                                                <li>Moisturise three to four times a day.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><!-- panel-group -->
-
-
+                         
+                        </div>
                     </div>
-                    </div> <!--before/after--> </div> </section> <!-- End Contact Section -->
+                </div>
+                <!--before/after-->
+            </div>
+        </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
 
@@ -685,20 +613,12 @@ include("include/config.php");
 
         }
 
-        function toggleIcon(e) {
-            $(e.target)
-                .prev('.panel-heading')
-                .find(".more-less")
-                .toggleClass('glyphicon glyphicon-plus glyphicon glyphicon-minus');
-        }
-        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
-        $('.panel-group').on('shown.bs.collapse', toggleIcon);
         $(document).ready(function () {
-            $(".glyphicon-minus").click(function () {
-                $(this).toggleClass("glyphicon-plus");
+            $(".fa-minus").click(function () {
+                $(this).toggleClass("fa-plus fa-minus");
             });
-            $(".glyphicon-plus").click(function () {
-                $(this).toggleClass("glyphicon-minus");
+            $(".fa-plus").click(function () {
+                $(this).toggleClass("fa-minus fa-plus");
             });
 
         });
