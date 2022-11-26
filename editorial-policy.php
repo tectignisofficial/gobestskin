@@ -90,8 +90,8 @@
     <section>
         <div class="container">
             <div class="more-page-content">
-                <h1>Oliva’s Editorial Policy</h1>
-                <p>Defining Oliva’s editorial policy for blogs helps us set quality benchmarks at par with the industry
+                <h1>Gobest Skin & Hair’s Editorial Policy</h1>
+                <p>Defining Gobest Skin & Hair’s editorial policy for blogs helps us set quality benchmarks at par with the industry
                     standards and establish processes to ensure accuracy, utility, inclusivity and objectivity across
                     all our content.</p>
                 <h4>Our Quality guidelines:</h4>
@@ -114,8 +114,8 @@
                         and treatment options, fat loss, nutrition, exercise and weight loss related topics for Indian
                         readers. So all treatment options and technical or pricing-related information included in our
                         blogs are relevant to the local audience and domestic market only but may not necessarily apply
-                        to Oliva Skin &amp; Hair Clinic. Our blog content is informative, our intent is creating
-                        awareness, our tone is respectful, and our style is conversational and engaging. At Oliva, we
+                        to Gobest Skin & Hair Skin &amp; Hair Clinic. Our blog content is informative, our intent is creating
+                        awareness, our tone is respectful, and our style is conversational and engaging. At Gobest Skin & Hair, we
                         strongly condemn any form of bias based on body shaming and are strictly against using any
                         derogatory terminology associated with it. We want all our readers, irrespective of their age,
                         colour, gender, region, religion, caste, body shape and type, and concern, to gain knowledge and
@@ -128,8 +128,8 @@
                     professional fitness instructor before changing your hair and skin-care regimen, dietary habits and
                     exercise routine.</p>
                 <p>The costs mentioned on our blogs reflect the general market trends and are subject to revision. These
-                    price ranges are for reference purposes only and do not apply to clinical treatments at Oliva Skin
-                    &amp; Hair Clinic. Since Oliva specialises in customised treatments, we recommend you visit our
+                    price ranges are for reference purposes only and do not apply to clinical treatments at Gobest Skin & Hair Skin
+                    &amp; Hair Clinic. Since Gobest Skin & Hair specialises in customised treatments, we recommend you visit our
                     clinic to find more details about a suitable treatment plan and its exact cost.</p>
                 <p><strong>Treatment/Product recommendations and listings:</strong> Our blogs may include all the weight
                     loss and dermatology treatment options available in India. However, our experts recommend
@@ -142,8 +142,8 @@
                     We suggest products approved by dermatologists only and avoid promoting any specific brand.</p>
                 <p><strong>Feedback:</strong></p>
                 <p>We are receptive to constructive criticism and welcome suggestions for improving our blog content.
-                    Please mail us at <a href="mailto:feedback@olivaclinic.com%20?Subject=F%20eed%20Back"
-                        target="_blank" rel="noopener"><strong>feedback@olivaclinic.com</strong></a> to share your
+                    Please mail us at <a href="mailto:feedback@Gobest Skin & Hairclinic.com%20?Subject=F%20eed%20Back"
+                        target="_blank" rel="noopener"><strong>feedback@Gobest Skin & Hairclinic.com</strong></a> to share your
                     valuable feedback.</p>
             </div>
         </div>
