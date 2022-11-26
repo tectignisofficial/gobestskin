@@ -1883,6 +1883,9 @@ section {
 #footer .footer-top .footer-links {
   border-bottom: 1px solid gainsboro;
 }
+.iframevideo{
+  width:inherit;
+}
 }
 .why_gobest{
   padding: 60px 0;

@@ -252,7 +252,7 @@ include("include/config.php");
                                     </div>
                                 </div>
                                 <div class="col-5">
-                                <iframe width="505" height="311" src="https://www.youtube.com/embed/qnBRIojdINw" title="Laser Skin Lightening (Whitening) Treatment For Fair And Radiant Skin | Gobest Skin & Hair Clinic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe width="505" height="311" src="https://www.youtube.com/embed/qnBRIojdINw" class="iframevideo" title="Laser Skin Lightening (Whitening) Treatment For Fair And Radiant Skin | Gobest Skin & Hair Clinic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
 

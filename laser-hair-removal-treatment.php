@@ -307,7 +307,7 @@ include("include/config.php");
                     <section id="cta" class="cta">
                         <div class="container" data-aos="zoom-in">
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-12 col-md-7">
                                     <div class="text-center">
                                         <h3>Watch Now - Laser Hair Removal Procedure Video</h3>
                                         <p>Gobest Skin & Hair offers advanced FDA approved laser hair removal treatment for unwanted
@@ -318,8 +318,8 @@ include("include/config.php");
                                         <a class="cta-btn scrollto" href="videos.php">Watch Other Videos</a>
                                     </div>
                                 </div>
-                                <div class="col-5">
-                                    <iframe width="505" height="311" src="https://www.youtube.com/embed/TNPJCdT95ng"
+                                <div class="col-12 col-md-5">
+                                    <iframe width="505" height="311" src="https://www.youtube.com/embed/TNPJCdT95ng" class="iframevideo"
                                         title="My Laser Hair Removal Story | Amandeep HR Professional | Ingrown Hair"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
