@@ -116,44 +116,12 @@
             padding-bottom: 35px;
         }
 
-        .treatment section {
-            margin-top: 8px;
-            margin-bottom: -25px;
+        .types h2 {
+            padding-top: 1px;
         }
 
-        .prevention section {
-            margin-top: 8px;
-            margin-bottom: -25px;
-        }
-
-        .diagnosis section {
-            margin-top: 8px;
-            margin-bottom: -25px;
-        }
-
-        .types section {
-            margin-top: 8px;
-            margin-bottom: -25px;
-        }
-
-        .causes section {
-            margin-top: 8px;
-            margin-bottom: -25px;
-        }
-
-        .intro section {
-            margin-top: 8px;
-            margin-bottom: -25px;
-        }
-
-        .highlights section {
-            margin-top: 12px;
-            margin-bottom: -25px;
-        }
-
-        .about-allergies section {
-            margin-top: 12px;
-            margin-bottom: -25px;
+        .causes h2 {
+            padding-top: 1px;
         }
 
         .about-allergies h1 {
@@ -167,6 +135,7 @@
             line-height: 52px;
             margin: 0 0 20px;
             font-weight: 700;
+            padding-top: 40px;
         }
 
         .page-template-template_concern_page section ul {
@@ -340,7 +309,7 @@
                             <h1 class="med_bottompadder40">Tanned Skin: Causes, Prevention And Treatment</h1>
                             <div class="nav-folderized">
                                 <div class="table-of-contents  ftr__list checknav">
-                                    <h4>COMPANY</h4>
+                                    <h4>Table Of contents</h4>
                                     <ul>
                                         <li></li>
                                         <li><a href="#intro">Intro</a></li>
@@ -526,7 +495,7 @@
                             </div>
                         </div>
                     </section>
-                    <!-- <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 treatment">
+                    <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 treatment">
                         <div class="container">
                             <div class="row">
                                 <h2 class="med_bottompadder40">Treatment Options </h2>
@@ -534,7 +503,7 @@
                                     Oliva Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
                                 </p>
                                 <ul>
-                                    <li>Chemical Peels<br>
+                                    <li class="chemicalpeels">Chemical Peels<br>
                                         <iframe
                                             title="Chemical Peel Treatment - Result, Benefit, Procedure, Before &amp; After 💰 Up to 50% Off"
                                             width="640" height="360"
@@ -559,23 +528,10 @@
                                 <p><strong>Prognosis:</strong></p>
                                 <p>Your dermatologist will work with you every step of the way to improve your skin tone
                                     post tanning. Call to book an appointment with an experienced dermatologist at Oliva
-                                    Hair &amp; Skin Clinic because protecting your skin is essential.</p>
-                                <hr>
-                                <p><em>Delivering World-class dermatology solutions is our mission! Redefining the
-                                        quality of care is a passion!</em></p>
-                                <p><strong>How to get started?&nbsp;</strong><strong><img class="emoji" role="img"
-                                            draggable="false"
-                                            src="https://s.w.org/images/core/emoji/13.0.0/svg/1f517.svg" alt="🔗"><a
-                                            href="https://www.olivaclinic.com/book-appointment/">Book
-                                            Appointment</a>&nbsp;or&nbsp;<img class="emoji" role="img" draggable="false"
-                                            src="https://s.w.org/images/core/emoji/13.0.0/svg/1f4de.svg" alt="📞"><a
-                                            href="tel:1800-103-3893">1800-103-3893</a>&nbsp;to enjoy the best
-                                        results!</strong></p>
-                                <hr>
-                                <p>&nbsp;</p>
+                                    Hair &amp; Skin Clinic because protecting your skin is essential.</p>                               
                             </div>
                         </div>
-                    </section> -->
+                    </section>
                 </div>
 
             </div>
