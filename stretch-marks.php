@@ -484,14 +484,14 @@
                             appearance. The following stretch marks treatment solutions are available:</p>
                         <ul>
                             <li><a
-                                    href="https://www.olivaclinic.com/blog/everything-need-know-about-radiofrequency-microneedling/">Micro-needling
+                                    href="#">Micro-needling
                                     Radio Frequency (MNRF)</a></li>
                             <li>Chemical Peels</li>
                             <li>Tretinoin Cream</li>
                         </ul>
-                        <p>🔗 <a href="https://www.olivaclinic.com/stretch-marks-removal-treatment/">Oliva’s Advanced
+                        <p>🔗 <a href="#">Gobest Skin & Hair’s Advanced
                                 Stretch Mark Removal Treatment</a></p>
-                        <p><strong>Stretch Mark Removal Procedure at Oliva Skin And Hair Clinic:</strong></p>
+                        <p><strong>Stretch Mark Removal Procedure at Gobest Skin And Hair Clinic:</strong></p>
                         <p><iframe width="640" height="360" class="iframevideo"
                                 src="https://www.youtube.com/embed/cuMC2hgJsGU?feature=oembed" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

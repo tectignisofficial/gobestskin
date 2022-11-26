@@ -436,9 +436,9 @@
                             <p><strong>Informative Resources:</strong></p>
                             <ul>
                                 <li><a
-                                        href="https://www.olivaclinic.com/blog/sun-tan-removal-treatment-tips-skin-face/">How
+                                        href="#">How
                                         To Remove Sun Tan From Face?</a></li>
-                                <li><a href="https://www.olivaclinic.com/blog/how-to-become-fair/">Myths And Facts
+                                <li><a href="#">Myths And Facts
                                         About Skin Fairness</a></li>
                             </ul>
                             <hr>
@@ -447,7 +447,7 @@
                     </div>
                 </section>
 
-                <section id="types" class="types">
+                <section id="types" class="types ">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Types &amp; Classification:</h2>
@@ -518,7 +518,7 @@
                         <div class="row">
                             <h2 class="med_bottompadder40">Treatment Options </h2>
                             <p>If you are hoping to treat suntanned skin effectively, then look no further than
-                                Oliva Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
+                            Gobest Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
                             </p>
                             <ul>
                                 <li class="chemicalpeels">Chemical Peels<br>
@@ -537,13 +537,13 @@
                                         allowfullscreen=""></iframe></li>
                                 <li>Topical and Oral Medications</li>
                             </ul>
-                            <p>The experienced and trained dermatologists at Oliva Clinic can chalk out a
+                            <p>The experienced and trained dermatologists at Gobest Skin & Hair Clinic can chalk out a
                                 custom-designed treatment plan for you. They can also guide you on post-treatment
                                 care to ensure you get optimal results and long-lasting satisfaction. Reach out
                                 today.</p>
                             <p><strong>Prognosis:</strong></p>
                             <p>Your dermatologist will work with you every step of the way to improve your skin tone
-                                post tanning. Call to book an appointment with an experienced dermatologist at Oliva
+                                post tanning. Call to book an appointment with an experienced dermatologist at Gobest Skin & Hair
                                 Hair &amp; Skin Clinic because protecting your skin is essential.</p>
                             <hr>
                             <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
