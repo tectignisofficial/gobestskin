@@ -44,6 +44,10 @@
                 text-align: left;
                 position: relative;
             }
+            .breadcrumb{
+margin-top:33%  !important;
+margin-left: 0 !important;
+        }
 
             .table-of-contents.mobile-view button.collapsed:before {
                 content: "+" !important;
@@ -105,8 +109,15 @@
 
 
         section {
-            margin-top: 12px !important;
             margin-bottom: -25px;
+            padding-top:0 !important;
+        }
+        .breadcrumb{
+margin-top:10%;
+margin-left:7%
+        }
+        .intro{
+            padding-top:30px !important;
         }
 
         .inner-page-content {
@@ -283,24 +294,16 @@
 
     <section>
             <div class="inner-page-content">
-                <!-- <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
-                    <div class="container">
-                        <div class="breadcrumb">
-                            <ul itemscope="" itemtype="http://schema.org/BreadcrumbList">
-                                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><i
-                                        class="fa fa-home"></i> <a itemprop="item" href="#" title="Home"><span
-                                            itemprop="name">Home</span></a>
-                                    <meta itemprop="position" content="1">
-                                </li>
-                                <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><i
-                                        class="fa fa-caret-right"></i> <span itemprop="name" title="Tanned Skin">Tanned
-                                        Skin</span>
-                                    <meta itemprop="position" content="2">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
+            <div class="breadcrumb">
+                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                                        <li><i class="fa fa-home"></i> <a href="index.php"
+                                                title="Home"><span>Home&nbsp;&nbsp; </span></a>
+                                        </li> /
+                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Laser
+                                                Hair
+                                                Removal</span></li>
+                                    </ul>
+                                </div>
                 <div class="template_concern_page">
                     <section class="about-allergies col-xs-12 col-sm-12 col-md-12">
                         <div class="container">
