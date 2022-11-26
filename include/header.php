@@ -113,7 +113,7 @@
                 <div>
                 </div>
           </li>
-          <li class="nav-item  dropdown-hover position-static"><a href="#" class="nav-link"><span>Conditions</span> <i
+          <li class="nav-item dropdown dropdown-hover position-static"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><span>Conditions</span> <i
                 class="bi bi-chevron-down"></i></a>
             <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
               style="border-top-left-radius: 0; border-top-right-radius: 0;">

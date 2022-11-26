@@ -35,22 +35,19 @@ include("include/config.php");
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <style>
         #hero {
             height: 70vh;
         }
 
-        .panel-group .panel {
+        .accordion .accordion-item {
             border-radius: 0;
             box-shadow: none;
             border-color: #EEEEEE;
+            margin-bottom: 5px;
         }
 
-        .panel-default>.panel-heading {
+        .accordion-header {
             padding: 0;
             border-radius: 0;
             color: #212121;
@@ -58,22 +55,21 @@ include("include/config.php");
             border-color: #EEEEEE;
         }
 
-        .panel-title {
+        .accordion-button {
             font-size: 14px;
-        }
-
-        .panel-title>a {
             display: block;
             padding: 15px;
             text-decoration: none;
+            background: #EEEEEE;
         }
+
 
         .more-less {
             float: right;
             color: #212121;
         }
 
-        .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        .accordion-body {
             border-top-color: #EEEEEE;
         }
 
@@ -136,76 +132,167 @@ include("include/config.php");
                                         <li><i class="fa fa-home"></i> <a href="index.php"
                                                 title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                         </li> /
-                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Pigmentation Treatments</span></li>
+                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Pigmentation
+                                                Treatments</span></li>
                                     </ul>
                                 </div>
                                 <div class="row">
 
                                     <h2>Best Treatments For Skin Pigmentation</h2>
-                                    <p class="treatment-subtitle"><strong>Get Rid Of Skin Discolouration And Pigmentation</strong></p>
+                                    <p class="treatment-subtitle"><strong>Get Rid Of Skin Discolouration And
+                                            Pigmentation</strong></p>
                                     <div class="col-12 col-md-8 col-lg-8">
                                         <p>
-                                        Have you recently noticed small discoloured areas and dark patches on your skin or an uneven skin tone? Pigmentation is a common concern that can affect your complexion adversely and may appear in different forms like melasma, freckles, sunspots, pimple marks and more. Find safe and effective scientifically-proven treatments recommended by top dermatologists for minimising different types of pigmentation issues right here to restore your spotless complexion and youthful radiance.</p>
+                                            Have you recently noticed small discoloured areas and dark patches on your
+                                            skin or an uneven skin tone? Pigmentation is a common concern that can
+                                            affect your complexion adversely and may appear in different forms like
+                                            melasma, freckles, sunspots, pimple marks and more. Find safe and effective
+                                            scientifically-proven treatments recommended by top dermatologists for
+                                            minimising different types of pigmentation issues right here to restore your
+                                            spotless complexion and youthful radiance.</p>
 
                                         <div>
                                             <h5>Common types of Pigmentation Concerns:</h5>
-                                            <p>Most pigmentation concerns result in discoloured patches of skin that appear darker than the surrounding areas, making the skin tone uneven. The most common types of pigmentation concerns include:</p>
+                                            <p>Most pigmentation concerns result in discoloured patches of skin that
+                                                appear darker than the surrounding areas, making the skin tone uneven.
+                                                The most common types of pigmentation concerns include:</p>
                                             <ul class="skinwhiteul">
-                                                <li><span style="font-weight:bold;">Age spots:</span> Also known as sunspots or liver spots, they occur primarily on sun-exposed areas such as the face, chest, shoulders and arms. They appear as brown, tan or black coloured spots on the skin because of increased localised melanin production stimulated by ageing-related degeneration and prolonged sun damage.
-</li>
-<li><span style="font-weight:bold;">Melasma: </span> Women often develop large and irregular patches of dark skin during pregnancy on the forehead, nose, upper cheeks, lips and stomach that persist for long, increase with sun exposure and tend to recur. It is also known as Chloasma or the mask of pregnancy. Men may occasionally have this type of pigmentation too.
-</li>
-<li><span style="font-weight:bold;">Melasma: </span> Women often develop large and irregular patches of dark skin during pregnancy on the forehead, nose, upper cheeks, lips and stomach that persist for long, increase with sun exposure and tend to recur. It is also known as Chloasma or the mask of pregnancy. Men may occasionally have this type of pigmentation too.
-</li>
-<li><span style="font-weight:bold;">Melasma: </span> Women often develop large and irregular patches of dark skin during pregnancy on the forehead, nose, upper cheeks, lips and stomach that persist for long, increase with sun exposure and tend to recur. It is also known as Chloasma or the mask of pregnancy. Men may occasionally have this type of pigmentation too.
-</li>
-<li><span style="font-weight:bold;">Melasma: </span> Women often develop large and irregular patches of dark skin during pregnancy on the forehead, nose, upper cheeks, lips and stomach that persist for long, increase with sun exposure and tend to recur. It is also known as Chloasma or the mask of pregnancy. Men may occasionally have this type of pigmentation too.
-</li>
-<li><span style="font-weight:bold;">Melasma: </span> Women often develop large and irregular patches of dark skin during pregnancy on the forehead, nose, upper cheeks, lips and stomach that persist for long, increase with sun exposure and tend to recur. It is also known as Chloasma or the mask of pregnancy. Men may occasionally have this type of pigmentation too.
-</li>
-    </ul>
-                                        </div>
-                                        <div>
-                                            <h5>What Is The Treatment Procedure?</h5>
-                                            <p>Here’s what you can expect if you opt for the best skin lightening treatment at Gobest Skin & Hair:</p>
-                                            <ul>
-                                                <li>A detailed one on one consultation to diagnose the cause, type and severity of pigmentation and assess the target area</li>
-                                                <li>A customised treatment plan that may include stand-alone or combination treatments
-</li>
-                                                <li>Pre-care guidance</li>
-                                                <li>Quick procedure with zero downtime as per treatment plan with scheduled intervals</li>
-                                                <li>Post-care support with minimal follow-up sessions.</li>
+                                                <li><span style="font-weight:bold;">Age spots:</span> Also known as
+                                                    sunspots or liver spots, they occur primarily on sun-exposed areas
+                                                    such as the face, chest, shoulders and arms. They appear as brown,
+                                                    tan or black coloured spots on the skin because of increased
+                                                    localised melanin production stimulated by ageing-related
+                                                    degeneration and prolonged sun damage.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Melasma: </span> Women often develop
+                                                    large and irregular patches of dark skin during pregnancy on the
+                                                    forehead, nose, upper cheeks, lips and stomach that persist for
+                                                    long, increase with sun exposure and tend to recur. It is also known
+                                                    as Chloasma or the mask of pregnancy. Men may occasionally have this
+                                                    type of pigmentation too.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Freckles: </span> These are tiny
+                                                    light brown to black irregular spots occurring on the face,
+                                                    especially around the eyes, cheeks and nose in young to middle-aged
+                                                    adults. They may be familial and increase by extended UV exposure
+                                                    without sun protection.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Post-inflammatory hyperpigmentation
+                                                        (PIH): </span> PIH appears as dark spots or patches after an
+                                                    inflammatory skin disturbance, such as acne or eczema. They usually
+                                                    appear on the face and neck but may occur in any body area.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Macular Amyloidosis: </span> This
+                                                    type of pigmentation refers to greyish or dusty brown stains that
+                                                    appear anywhere on the body, especially on the arms, back and chest.
+                                                    These dark patches with a rippled pattern appear due to the
+                                                    accumulation of amyloid or amyloid-like proteins in the dermis. They
+                                                    are a common skin concern among middle-aged females.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Suntan: </span> Hyperpigmentation
+                                                    may occur in common areas such as the face, neck and arms due to
+                                                    prolonged exposure to harmful sun rays. Acute skin damage due to UV
+                                                    radiation may lead to sunburns or even skin cancer.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Lichen planus pigmentosus (LPP):
+                                                    </span> This condition leads to large, diffused grey patches in
+                                                    sun-exposed body areas. It results in persistent, stubborn
+                                                    pigmentation that occurs primarily on the face and neck of
+                                                    dark-skinned individuals.
+                                                </li>
                                             </ul>
+                                            <p>Now that you know about the common pigmentary concerns, it is time to
+                                                find out about available advanced aesthetic treatments for minimising
+                                                them painlessly and visibly.</p>
                                         </div>
                                         <div>
-                                            <h5>Benefits Of Skin Lightening Treatments</h5>
-                                            <p>Skin lightening treatment primarily helps in achieving the below-mentioned benefits –
+                                            <h5>Scientifically-Proven Pigmentation Treatments Available At Oliva:</h5>
+                                            <p>It is possible to treat and reduce pigmentation with the help of advanced
+                                                scientifically-proven procedures that eliminate your skin’s melanin
+                                                build-up safely and effectively and lighten your skin tone. The
+                                                treatments at Oliva begin after consultation with a qualified
+                                                dermatologist who analyses the affected area for the type, depth and
+                                                possible causes of pigmentation. He/she customises the treatment plan as
+                                                per requirement and may suggest the following methods as a single or
+                                                combination treatment based on the diagnosis.</p>
+                                            <ol>
+                                                <li><span style="font-weight:bold;">Chemical peels:
+                                                    </span> At Oliva, dermatologists prime your skin before applying
+                                                    plant-based extracts for controlled exfoliation of damaged layers,
+                                                    known as chemical peeling. Chemical peels help eliminate melanin
+                                                    build-up, reduce pigment formation and reveal visibly brighter skin.
+                                                    Your doctor may recommend different concentrations of chemical peels
+                                                    and multiple sessions after three to four weeks, depending on your
+                                                    skin type and the severity of your pigmentation. You may note
+                                                    exfoliation from the treated area for a few days post a peel
+                                                    procedure.
+                                                </li>
+                                                <li><span style="font-weight:bold;">Laser Toning:
+                                                    </span> This revolutionary method, available at Oliva, uses a laser
+                                                    beam to break the excess melanin into smaller particles, which the
+                                                    immune system of the skin eventually eliminates to help restore your
+                                                    flawless complexion. It is ideal for treating superficial and deeper
+                                                    pigmented patches such as suntan, pigmentary demarcation lines,
+                                                    melasma, sunspots and acne marks on the face. It can also help
+                                                    reduce tan, macular amyloidosis, post-inflammatory hyperpigmentation
+                                                    and Lichen planus pigmentosus to correct the skin tone of different
+                                                    body areas. Q-switched Nd:YAG laser is the top choice of leading
+                                                    dermatologists for this painless and effective pigmentation
+                                                    treatment. You may require at least six to eight sessions at monthly
+                                                    intervals to regain your natural skin tone based on the type and
+                                                    severity of pigmentation and the target area.
+                                                </li>
+                                            </ol>
+                                            <p>Besides the above procedures, Oliva’s expert dermatologists advise a
+                                                customised skin-care regimen based on your skin type using suitable
+                                                non-comedogenic products like cleanser, sunscreen and topical
+                                                medications to optimise the treatment results and deliver long-lasting
+                                                satisfaction.</p>
+                                        </div>
+                                        <div>
+                                            <h5>Who Is An Eligible Candidate For Pigmentation Treatment?</h5>
+                                            <p>Anyone who is 18 years old and above can opt for pigmentation treatment.
+                                                However, it is not advisable for pregnant and lactating women.
                                             </p>
-                                            <ul>
-                                                <li>Reduces uneven skin tone due to premature ageing and improves the complexion.
-</li>
-                                                <li>Brightens the skin and minimises dullness.</li>
-                                                <li>Enhances the overall appearance of the skin and restores its youthful radiance.</li>
-                                                <li>Reduces visible pigmentation marks and spots, blemishes, acne scars and suntan.</li>
-                                                <li>Removes damaged, dead layer of skin and unveils damage-free rejuvenated skin from beneath.</li>
-                                            </ul>
                                         </div>
                                         <div>
-                                            <h5>Why Choose Gobest Skin & Hair For Skin Lightening Treatment?</h5>
-                                            <p>Here are the top reasons Gobest Skin & Hair is the best clinic for advanced Skin lightening treatment –</p>
+                                            <h5>Why Choose Oliva For Pigmentation Treatment?</h5>
+                                            <p>Here are some reasons that make Oliva the top clinic for pigmentation
+                                                treatment:</p>
                                             <ul>
-                                                <li>Gobest Skin & Hair is a trusted brand with over 3,00,000 happy clients and an impressive track record of completing 50,000+ successful skin lightening procedures.</li>
-                                                <li>We have 23 clinics all over India with state-of-the-art facilities.</li>
-                                                <li>We use the latest USFDA-approved laser technology for performing world-class treatments with scientifically-proven safety and efficacy.</li>
-                                                <li>We have the largest team of 100+ dermatologists with a holistic approach who excel in customising advanced aesthetic treatments using revolutionary technology.</li>
+                                                <li>Oliva is synonymous with unparalleled medical expertise with the
+                                                    largest in-house team of 85+ qualified dermatologists.</li>
+                                                <li>Oliva has an impressive track record of performing more than 50,000
+                                                    pigmentation treatments with a holistic approach.
+                                                </li>
+                                                <li>Oliva offers USFDA-approved treatments using revolutionary laser
+                                                    technology and follows stringent protocols at par with global
+                                                    standards to prioritise your safety and comfort.
+                                                </li>
+                                                <li>Our facilities across India have state-of-the-art amenities to
+                                                    ensure you enjoy a world-class experience and outstanding results.
+                                                </li>
+                                                <li>Over 3,00,000 clients rate Oliva an unprecedented 91% on the
+                                                    satisfaction scale for our unmatched quality of care.</li>
+                                                <li>
+                                                    Oliva is a trusted name for advanced aesthetic treatments and the
+                                                    proud winner of many industry awards, including the No 1 Skin & Hair
+                                                    Clinic title by the Times of India for four consecutive years.
+                                                </li>
                                             </ul>
-                                            <p>We provide extensive pre and post-care support to minimise risk and optimise results. We have an outstanding 91% client satisfaction rate – the industry’s highest.</p>
                                         </div>
                                         <div>
                                             <h5>How To Get Started?</h5>
-                                            <p>If you are looking for safe, painless and effective ways to restore your youthful complexion, you can call us at <a href="tel:+91 72648 89986">+91 72648 89986</a> or fill up the ‘Book Appointment’ form on our website to get started with our signature skin lightening services.</p>
+                                            <p>If you want to restore your flawless complexion and bid farewell to your
+                                                unwanted pigmentary spots and dark patches on your skin, fill out the
+                                                🔗<a href="make-an-appointment.php">Book An Appointment</a> form and
+                                                consult our qualified dermatologists for a detailed assessment of your
+                                                skin concerns and suitable treatment. Alternatively, you can call us at
+                                                <i class="fa fa-phone"></i><a href="tel:+91 72648 89986">+91 72648
+                                                    89986</a>, and our customer support team will be happy to schedule
+                                                your visit at your preferred date, time and location.</p>
                                         </div>
-                                       
+
 
                                     </div>
 
@@ -246,13 +333,20 @@ include("include/config.php");
                             <div class="row">
                                 <div class="col-7">
                                     <div class="text-center">
-                                        <h3>Skin Lightening Treatment Procedure Explained By Dermatologist</h3>
-                                        <p>Check out our video to know more details of our advanced signature skin lightening aesthetic treatment at Gobest Skin & Hair.</p>
+                                        <h3>Laser Treatment For Pigmented And Dull Skin Explained By A Dermatologist
+                                        </h3>
+                                        <p>Oliva offers advanced FDA approved laser toning treatment for reducing skin
+                                            pigmentation and dullness visibly. Check out the video and gain an insight
+                                            into the details of the procedure performed by an expert dermatologist.</p>
                                         <a class="cta-btn scrollto" href="videos.php">Watch Other Videos</a>
                                     </div>
                                 </div>
                                 <div class="col-5">
-                                <iframe width="505" height="311" src="https://www.youtube.com/embed/qnBRIojdINw" class="iframevideo" title="Laser Skin Lightening (Whitening) Treatment For Fair And Radiant Skin | Gobest Skin & Hair Clinic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <iframe width="572" height="311" src="https://www.youtube.com/embed/2SO8eI1b7Xg"
+                                        title="Laser Treatment To Remove Pigmentation, Dark Spots And Uneven Skin Tone"
+                                        frameborder="0" class="iframevideo"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
                                 </div>
                             </div>
 
@@ -310,198 +404,258 @@ include("include/config.php");
                 <div class="col-12">
                     <div class="container demo">
 
-                    <div class="root-info">
-                                <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked Questions</h2> 
-                            </div>
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingOne">
-                                    <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion"
-                                            href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            What Is The Cost Of Skin Lightening Treatment?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseOne" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingOne">
-                                    <div class="panel-body">
-                                        The cost of treatment may vary from individual to individual depending upon
-                                        various factors, such as the targeted area for treatment, underlying cause, the
-                                        severity of the skin condition, the number of sessions and the type of
-                                        treatment. To know about the cost of treatment, visit our clinic, consult with
-                                        our dermatologists and obtain a customised treatment plan.
+                        <div class="root-info">
+                            <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked
+                                Questions</h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="more-less fa fa-plus"></i> Is Laser Treatment Good For Reducing The
+                                        Pigmentation On The Face?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Laser treatment is safe and effective for treating deep and stubborn
+                                            pigmentation on the face that does not respond to topical medications.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="more-less fa fa-plus"></i>
+                                        WHAT IS THE COST OF THIS TREATMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Some skin clinics have pigmentation treatment costs starting from INR 4150
+                                            for chemical peels per session. The laser treatment price range may start
+                                            from approximately INR 9400 per session. However, the overall cost of
+                                            pigmentation treatment may vary depending on the cause and severity of the
+                                            condition, the treatment method used as solo or combo options, the number of
+                                            sessions and the size of the target area.
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingTwo">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                                            aria-controls="collapseTwo">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            How Soon Can You See The Results?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingTwo">
-                                    <div class="panel-body">
-                                        You can start noticing an improvement in skin tone after the first few sessions
-                                        of Gobest Skin & Hair’s advanced Skin lightening treatment and see visible results as the
-                                        sessions proceed. However, you need to complete the treatment and follow pre and
-                                        post-care advice to achieve the best skin lightening results.
+
+                                        </p>
+                                        <strong>*Please note that the general price range mentioned here is indicative
+                                            only based on current market trends and is subject to constant change. This
+                                            cost does not apply to pigmentation treatment at Oliva specifically, as we
+                                            specialise in providing customised treatment unique to each client’s needs.
+                                            The cost of our treatment at Oliva remains subjective and varies from person
+                                            to person. Please visit your nearest Oliva clinic to learn about your
+                                            customised treatment plan and the cost involved.</strong>
+
+
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                                            aria-controls="collapseThree">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Does The Treatment Cause Any Pain?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        No, the skin lightening treatment at Gobest Skin & Hair is virtually pain-free. You might
-                                        experience slight heating or pricking sensation, which is transient.
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <i class="more-less fa fa-plus"></i>
+                                        CAN YOU SEE THE RESULTS IMMEDIATELY?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>You can start noting an improvement in your skin tone after a few sessions.
+                                            However, it will be progressive as your sessions advance. You can achieve
+                                            visible results at the end of the treatment. Our advanced pigmentation
+                                            treatment can boost the collagen levels in the target area, prevent
+                                            ageing-related dullness and degeneration and rejuvenate your skin tone and
+                                            texture.</p>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseFour" aria-expanded="false"
-                                            aria-controls="collapseFour">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Who Is An Eligible Candidate?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "Any individual who is 18 years or above can opt for skin lightening treatment
-                                        at Gobest Skin & Hair. However, our doctors do not recommend that pregnant and lactating
-                                        women undergo this treatment. Also, it is advisable to avoid opting for this
-                                        treatment if you have an active infection in the target area."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <i class="more-less fa fa-plus"></i>
+                                        DOES PIGMENTATION COME BACK AFTER LASER?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>No, pigmentation does not usually recur after laser treatment at Oliva, as
+                                            our doctors treat the root cause with a holistic approach. However, you must
+                                            follow the pre and post-care instructions and go for minimal maintenance
+                                            sessions as your dermatologist recommends to enjoy long-lasting results.</p>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseFive" aria-expanded="false"
-                                            aria-controls="collapseFive">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Are There Any Risks And Side Effects Of This Treatment?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "Since qualified dermatologists at Gobest Skin & Hair perform the customised treatment after
-                                        a thorough skin analysis using top-notch USFDA-approved technology, perform a
-                                        patch test and strictly adhere to safety protocols at par with global standards,
-                                        the side effects are minimal. Applying soothing creams and cold compressions can
-                                        further alleviate any rare irritation or transient redness."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <i class="more-less fa fa-plus"></i>
+                                        IS LASER TREATMENT PAINFUL?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Laser treatment is relatively painless, but one might experience a mild
+                                            pricking or burning sensation during the treatment.</p>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseSix" aria-expanded="false"
-                                            aria-controls="collapseSix">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            How Long Does It Take To Recover?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseSix" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "The laser skin lightening treatment has minimal or no recovery time, and you
-                                        can resume your normal activities right after the treatment. However, chemical
-                                        peel treatments may involve downtime of up to four days with adequate
-                                        post-treatment care to accelerate the process of skin recovery."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <i class="more-less fa fa-plus"></i>
+                                        WHAT ARE THE PAYMENT MODES AVAILABLE FOR TREATMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Oliva accepts all leading payment options, including cash, credit and debit
+                                            cards, e-wallets and Paytm.</p>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseSeven" aria-expanded="false"
-                                            aria-controls="collapseSeven">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            Are The Results Of The Treatment Permanent?
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        "The results usually are long-lasting, depending on the underlying skin
-                                        condition and post-care. One needs to follow adequate sun protection and visit
-                                        the dermatologist for minimal maintenance support to prolong the treatment
-                                        results and enjoy long-lasting satisfaction."
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <i class="more-less fa fa-plus"></i>
+                                        HOW MANY SESSIONS DO I NEED?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>For optimal results, dermatologists at Oliva recommend approximately six to
+                                            eight pigmentation treatment sessions. However, the exact number of sessions
+                                            you need will depend on your skin type, the cause and severity of your
+                                            condition, the selected treatment modality, and the target area.</p>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse"
-                                            data-parent="#accordion" href="#collapseEight" aria-expanded="false"
-                                            aria-controls="collapseEight">
-                                            <i class="more-less glyphicon glyphicon-plus"></i>
-                                            What Are The Pre And Post-Care Instructions?
-                                        </a>
-                                    </h4>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        <i class="more-less fa fa-plus"></i>
+                                        ARE THERE ANY RISKS AND SIDE EFFECTS OF THIS TREATMENT?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>No significant side effects are associated with the pigmentation treatment as
+                                            the dermatologists at Oliva thoroughly analyse your skin type, the cause and
+                                            level of pigment and then customise the treatment accordingly. Also,
+                                            adequate pre-care guidance helps prepare the skin for advanced aesthetic
+                                            treatment. At Oliva, our trained medical experts use cutting-edge
+                                            USFDA-approved laser technology and abide by global safety standards to
+                                            deliver optimal results with minimal risk. They offer extensive post-care
+                                            support to alleviate any transient discomfort you may feel and reduce
+                                            downtime. You may have temporary redness post the session, which subsides
+                                            within one to two hours.</p>
+                                    </div>
                                 </div>
-                                <div id="collapseEight" class="panel-collapse collapse" role="tabpanel"
-                                    aria-labelledby="headingThree">
-                                    <div class="panel-body">
-                                        <div class="panel_cont" itemprop="text">
-                                            <p>Dermatologists at Gobest Skin & Hair may advise the following:</p>
-                                            <p><strong>Pre-care instructions –</strong></p>
-                                            <ul>
-                                                <li>Stop using any priming cream two to four days before the procedure.
-                                                </li>
-                                                <li>Avoid opting for salon treatments a week before the session.</li>
-                                                <li>Do not shave the target area 12 hours before the treatment.</li>
-                                            </ul>
-                                            <p><strong>Post-care instructions –</strong></p>
-                                            <ul>
-                                                <li>Follow a skin-care regimen recommended by the dermatologist to
-                                                    maintain the best results.</li>
-                                                <li>Apply a suitable non-comedogenic sunscreen based on your skin type
-                                                    15-20 minutes before stepping outdoors. If possible, avoid direct
-                                                    sun exposure for a week or so. Make sure to reapply sunscreen after
-                                                    every three hours.</li>
-                                                <li>Moisturise three to four times a day.</li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
+                                        <i class="more-less fa fa-plus"></i>
+                                        HOW LONG DOES IT TAKE TO RECOVER?
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Laser toning treatment involves zero downtime, while specific chemical peel
+                                            treatments may require a recovery period of a few days.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <i class="more-less fa fa-plus"></i>
+                                       
+IS THERE A PERMANENT CURE FOR PIGMENTATION?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Yes, you can enjoy long-lasting results with Oliva’s advanced solutions. However, you must complete your recommended sessions diligently, follow pre and post-care advice, use adequate sun protection and opt for minimal maintenance sessions as per your dermatologist’s advice based on your pigmentation type, cause and severity.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <i class="more-less fa fa-plus"></i>
+
+WHAT ARE THE PRE-CARE INSTRUCTIONS ONE HAS TO FOLLOW?                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Your experienced dermatologist at Oliva may share the following pre-care instructions:</p>
+                                        <ul>
+                                            <li>Men should shave at least 12 hours before the session.</li>
+                                            <li>Your doctor may advise you to stop using specific medications and products three to four days before the service.</li>
+                                            <li>Do not use scrubs or home remedies two days before the treatment.</li>
+                                            <li>Avoid any salon services one week before the session.</li>
+                                            <li>Moisturise your skin at least three to four times a day from at least three days before the scheduled service.</li>
+                                            <li>Do not wear any makeup or use other cosmetic products on the day of your treatment.</li>
+                                            <li>Feel free to reach out to your doctor in case of any doubt/query.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <i class="more-less fa fa-plus"></i>
+                                        
+WHAT ARE THE POST-CARE INSTRUCTIONS ONE HAS TO FOLLOW?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Our medical experts at Oliva may share the following post-care advice to minimise the side effects and optimise the results of pigmentation treatment:</p>
+                                        <ul>
+                                            <li>Avoid using soap or cleanser for the first 12 hours after the service; wash your face with only water.</li>
+                                            <li>Do not exercise and use makeup for 24 hours post-treatment.</li>
+                                            <li>Skip using the steam and sauna baths and swimming pool for the next three days.</li>
+                                            <li>Apply sunscreen 20 minutes before stepping out and reapply every three hours. Avoid direct sun exposure after the service.</li>
+                                            <li>Stay away from using creams/scrubs/home remedies for four to six days.</li>
+                                            <li>Avoid salon services for at least a week after treatment.</li>
+                                            <li>If you note mild redness or irritation, apply a cold compress. Avoid rubbing or picking your skin, and apply a moisturiser three to four times daily.</li>
+                                            <li>Men can resume using after-shave products 12 hours after the service.</li>
+                                            <li>Do not hesitate to seek medical help if you have any significant discomfort or doubt.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -509,7 +663,10 @@ include("include/config.php");
 
 
                     </div>
-                    < </div> <!--before/after--> </div> </section> <!-- End Contact Section -->
+                </div>
+                <!--before/after-->
+            </div>
+        </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
 
@@ -614,20 +771,12 @@ include("include/config.php");
 
         }
 
-        function toggleIcon(e) {
-            $(e.target)
-                .prev('.panel-heading')
-                .find(".more-less")
-                .toggleClass('glyphicon glyphicon-plus glyphicon glyphicon-minus');
-        }
-        $('.panel-group').on('hidden.bs.collapse', toggleIcon);
-        $('.panel-group').on('shown.bs.collapse', toggleIcon);
         $(document).ready(function () {
-            $(".glyphicon-minus").click(function () {
-                $(this).toggleClass("glyphicon-plus");
+            $(".fa-minus").click(function () {
+                $(this).toggleClass("fa-plus fa-minus");
             });
-            $(".glyphicon-plus").click(function () {
-                $(this).toggleClass("glyphicon-minus");
+            $(".fa-plus").click(function () {
+                $(this).toggleClass("fa-minus fa-plus");
             });
 
         });
