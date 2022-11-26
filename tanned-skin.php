@@ -46,7 +46,6 @@
             }
 
             .breadcrumb {
-                margin-top: 33% !important;
                 margin-left: 0 !important;
             }
 
@@ -115,7 +114,6 @@
         }
 
         .breadcrumb {
-            margin-top: 10%;
             margin-left: 7%
         }
 
@@ -293,14 +291,14 @@
     <!-- ======= Header ======= -->
     <?php include("include/header.php");?>
     <!-- End Header -->
-<!-- 
-    <div class="med_tittle_section  banner-image" style="padding-top: 115px;">
-        <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1" alt="Skin Lightening Treatment" width="1410" height="200">
-</div> -->
+
+    <div class="med_tittle_section  banner-image" style="padding-top: 106px;">
+        <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1" alt="Skin Lightening Treatment" width="100%" height="200">
+</div>
     <section>
         <div class="inner-page-content">
             <div class="breadcrumb">
-                <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                <ul style="display:flex;font-size:12px;    padding-top: 11px;">
                     <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp; </span></a>
                     </li> /
                     <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Tanned Skin</span></li>
