@@ -310,7 +310,7 @@
             src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1"
             alt="Skin Lightening Treatment" width="100%" height="200">
     </div>
-    <section>
+    <section class="col-xs-12 col-sm-12 col-md-12">
         <div class="inner-page-content">
             <div class="breadcrumb">
                 <ul style="display:flex;font-size:12px;    padding-top: 11px;">
@@ -355,7 +355,7 @@
                             </div> -->
                     </div>
                 </section>
-                <section class="col-xs-12 col-sm-12 col-md-12 highlights">
+                <section class="highlights">
                     <div class="container">
                         <div class="highlights-main">
                             <h2>Highlights</h2>
@@ -377,7 +377,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="intro" class="col-xs-12 col-sm-12 col-md-12 intro">
+                <section id="intro" class="intro">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">What Is Tanned Skin?</h2>
@@ -391,7 +391,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="causes" class="col-xs-12 col-sm-12 col-md-12 causes">
+                <section id="causes" class="causes">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Causes Of Tanned Skin</h2>
@@ -446,42 +446,9 @@
                         </div>
                     </div>
                 </section>
-                 <!-- ======= About Us Section ======= -->
-    <section id="types" class="types">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>About Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Us Section -->
-                <section  class="col-xs-12 col-sm-12 col-md-12 types ">
-                    <div id="types"   class="container">
+                <section id="types" class="types">
+                    <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Types &amp; Classification:</h2>
                             <p>Accurate classification of your skin type can provide an estimate of the extent of
@@ -502,7 +469,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="diagnosis" class="col-xs-12 col-sm-12 col-md-12 diagnosis">
+                <section id="diagnosis" class="diagnosis">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Diagnosis:</h2>
@@ -521,7 +488,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="prevention" class="col-xs-12 col-sm-12 col-md-12 prevention">
+                <section id="prevention" class="prevention">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Prevention and Management:</h2>
@@ -546,7 +513,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 treatment">
+                <section id="treatment" class="treatment">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Treatment Options </h2>
