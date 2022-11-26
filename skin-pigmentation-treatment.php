@@ -413,8 +413,8 @@ include("include/config.php");
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <i class="more-less fa fa-plus"></i> Is Laser Treatment Good For Reducing The
-                                        Pigmentation On The Face?
+                                        <i class="more-less fa fa-plus"></i> IS LASER TREATMENT GOOD FOR REDUCING THE
+                                        PIGMENTATION ON THE FACE?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
