@@ -293,10 +293,10 @@
     <!-- ======= Header ======= -->
     <?php include("include/header.php");?>
     <!-- End Header -->
-
+<!-- 
     <div class="med_tittle_section  banner-image" style="padding-top: 115px;">
         <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1" alt="Skin Lightening Treatment" width="1410" height="200">
-</div>
+</div> -->
     <section>
         <div class="inner-page-content">
             <div class="breadcrumb">
