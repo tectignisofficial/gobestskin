@@ -124,7 +124,7 @@ include("include/config.php");
                 <div>
                     <img src="assets/img/skin-lightening.jpg" alt="" style="width: -webkit-fill-available;">
                 </div>
-                <div class="row">
+                <div class="row" style="margin-right: 0px;margin-left: 0px;">
                     <div class="col-12">
 
                         <div class="container">
