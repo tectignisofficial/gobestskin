@@ -270,6 +270,19 @@
             padding-top: 50px;
             padding-bottom: 40px;
         }
+
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
     </style>
 
 </head>
@@ -293,8 +306,10 @@
     <!-- End Header -->
 
     <div class="med_tittle_section  banner-image" style="padding-top: 106px;">
-        <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1" alt="Skin Lightening Treatment" width="100%" height="200">
-</div>
+        <img loading="lazy"
+            src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1"
+            alt="Skin Lightening Treatment" width="100%" height="200">
+    </div>
     <section>
         <div class="inner-page-content">
             <div class="breadcrumb">
@@ -311,7 +326,7 @@
                         <h1 class="med_bottompadder40">Tanned Skin: Causes, Prevention And Treatment</h1>
                         <div class="nav-folderized">
                             <div class="table-of-contents  ftr__list checknav">
-                                <h4>Table Of contents</h4>
+                                <h4>Table of contents</h4>
                                 <ul>
                                     <li></li>
                                     <li><a href="#intro">Intro</a></li>
@@ -431,8 +446,42 @@
                         </div>
                     </div>
                 </section>
-                <section id="types" class="col-xs-12 col-sm-12 col-md-12 types ">
-                    <div class="container">
+                 <!-- ======= About Us Section ======= -->
+    <section id="types" class="types">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About Us</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+            </ul>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+                <section  class="col-xs-12 col-sm-12 col-md-12 types ">
+                    <div id="types"   class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Types &amp; Classification:</h2>
                             <p>Accurate classification of your skin type can provide an estimate of the extent of
@@ -529,6 +578,19 @@
                             <p>Your dermatologist will work with you every step of the way to improve your skin tone
                                 post tanning. Call to book an appointment with an experienced dermatologist at Oliva
                                 Hair &amp; Skin Clinic because protecting your skin is essential.</p>
+                            <hr>
+                            <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
+                                    of
+                                    care is a passion!</em></p>
+                            <p><strong>How to get started?&nbsp;</strong><strong><img class="emoji" role="img"
+                                        draggable="false" src="https://s.w.org/images/core/emoji/13.0.0/svg/1f517.svg"
+                                        alt="🔗"><a href="make-an-appointment.php">Book
+                                        Appointment</a>&nbsp;or&nbsp;<img class="emoji" role="img" draggable="false"
+                                        src="https://s.w.org/images/core/emoji/13.0.0/svg/1f4de.svg" alt="📞"><a
+                                        href="tel:1800-103-3893">1800-103-3893</a>&nbsp;to enjoy the best
+                                    results!</strong>
+                            </p>
+                            <hr>
                         </div>
                     </div>
                 </section>

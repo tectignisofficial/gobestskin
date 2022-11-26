@@ -126,6 +126,7 @@
             float: left;
             padding-top: 0px;
             padding-bottom: 35px;
+            background: white;
         }
 
         .types h2 {
@@ -270,6 +271,18 @@
             padding-top: 50px;
             padding-bottom: 40px;
         }
+
+        img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
     </style>
 
 </head>
@@ -292,53 +305,59 @@
     <?php include("include/header.php");?>
     <!-- End Header -->
     <div class="med_tittle_section  banner-image" style="padding-top: 106px;">
-    <img loading="lazy" src="https://www.olivaclinic.com/wp-content/uploads/2020/12/Stretch-Marks.jpg" alt="Stretch-Marks" width="100%" height="200" class="webpexpress-processed">
+        <img loading="lazy" src="https://www.olivaclinic.com/wp-content/uploads/2020/12/Stretch-Marks.jpg"
+            alt="Stretch-Marks" width="100%" height="200" class="webpexpress-processed">
     </div>
 
     <div class="inner-page-content">
         <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
             <div class="container">
-            <div class="breadcrumb">
-                <ul style="display:flex;font-size:12px;    padding-top: 11px;">
-                    <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp; </span></a>
-                    </li> /
-                    <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Tanned Skin</span></li>
-                </ul>
-            </div>
+                <div class="breadcrumb">
+                    <ul style="display:flex;font-size:12px;    padding-top: 11px;">
+                        <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp;
+                                </span></a>
+                        </li> /
+                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Tanned Skin</span></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="template_concern_page">
             <section class="col-xs-12 col-sm-12 col-md-12 about-allergies">
                 <div class="container">
                     <pre
-                        style="display:none;">24416<br>page-template/template_concern_page.php<br>https://www.olivaclinic.com/tanned-skin/<br>24880<br>page-template/template_concern_page.php</pre>
+                        style="display:none;">24416<br>page-template/template_concern_page.php<br><br>24880<br>page-template/template_concern_page.php</pre>
                     <h1 class="med_bottompadder40">Stretch Marks: Causes, Treatments And Management</h1>
-                    <div class="table-of-contents">
-                        <ul>
-                            <li><a href="#intro">Intro</a></li>
-                            <li><a href="#types">Types</a></li>
-                            <li><a href="#causes">Causes</a></li>
-                            <li><a href="#symptoms">Symptoms</a></li>
-                            <li><a href="#diagnosis">Diagnosis</a></li>
-                            <li><a href="#treatments">Treatments</a></li>
-                            <li><a href="#prevention">Prevention</a></li>
-                        </ul>
-                    </div>
-                    <div class="table-of-contents mobile-view">
-                        <button class="collapsed" data-toggle="collapse" data-target="#contents">Table of
-                            contents</button>
-                        <div id="contents" class="collapse">
-                            <ul>
-                                <li><a href="#intro">Intro</a></li>
-                                <li><a href="#types">Types</a></li>
-                                <li><a href="#causes">Causes</a></li>
-                                <li><a href="#symptoms">Symptoms</a></li>
-                                <li><a href="#diagnosis">Diagnosis</a></li>
-                                <li><a href="#treatments">Treatments</a></li>
-                                <li><a href="#prevention">Prevention</a></li>
-                            </ul>
+                    <div class="nav-folderized">
+                            <div class="table-of-contents  ftr__list checknav">
+                                <h4>Table of contents</h4>
+                                <ul>
+                                    <li></li>
+                                    <li><a href="#intro">Intro</a></li>
+                                    <li><a href="#types">Types</a></li>
+                                    <li><a href="#causes">Causes</a></li>
+                                    <li><a href="#symptoms">Symptoms</a></li>
+                                    <li><a href="#diagnosis">Diagnosis</a></li>
+                                    <li><a href="#treatments">Treatments</a></li>
+                                    <li><a href="#prevention">Prevention</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
+                    <!-- <div class="table-of-contents mobile-view">
+                        <div class="nav-folderized">
+                            <div id="contents" class="table-of-contents  ftr__list checknav">
+                                <ul>
+                                    <li><a href="#intro">Intro</a></li>
+                                    <li><a href="#types">Types</a></li>
+                                    <li><a href="#causes">Causes</a></li>
+                                    <li><a href="#symptoms">Symptoms</a></li>
+                                    <li><a href="#diagnosis">Diagnosis</a></li>
+                                    <li><a href="#treatments">Treatments</a></li>
+                                    <li><a href="#prevention">Prevention</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
             </section>
 
@@ -361,7 +380,7 @@
                 </div>
             </section>
 
-            <section id="intro" class="col-xs-12 col-sm-12 col-md-12 ">
+            <section id="intro" class="col-xs-12 col-sm-12 col-md-12 intro">
                 <div class="container">
                     <div class="row">
                         <h2 class="med_bottompadder40">What Are Stretch Marks? </h2>
@@ -473,7 +492,7 @@
                         <p>🔗 <a href="https://www.olivaclinic.com/stretch-marks-removal-treatment/">Oliva’s Advanced
                                 Stretch Mark Removal Treatment</a></p>
                         <p><strong>Stretch Mark Removal Procedure at Oliva Skin And Hair Clinic:</strong></p>
-                        <p><iframe width="640" height="360"
+                        <p><iframe width="640" height="360" class="iframevideo"
                                 src="https://www.youtube.com/embed/cuMC2hgJsGU?feature=oembed" frameborder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen=""></iframe></p>
@@ -497,13 +516,12 @@
                                 care is a passion!</em></p>
                         <p><strong>How to get started?&nbsp;</strong><strong><img class="emoji" role="img"
                                     draggable="false" src="https://s.w.org/images/core/emoji/13.0.0/svg/1f517.svg"
-                                    alt="🔗"><a href="https://www.olivaclinic.com/book-appointment/">Book
+                                    alt="🔗"><a href="make-an-appointment.php">Book
                                     Appointment</a>&nbsp;or&nbsp;<img class="emoji" role="img" draggable="false"
                                     src="https://s.w.org/images/core/emoji/13.0.0/svg/1f4de.svg" alt="📞"><a
                                     href="tel:1800-103-3893">1800-103-3893</a>&nbsp;to enjoy the best results!</strong>
                         </p>
                         <hr>
-                        <p>&nbsp;</p>
                     </div>
                 </div>
             </section>
