@@ -446,7 +446,6 @@
                         </div>
                     </div>
                 </section>
-
                 <section id="types" class="types ">
                     <div class="container">
                         <div class="row">
