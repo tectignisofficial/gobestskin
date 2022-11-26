@@ -1886,6 +1886,16 @@ section {
 .iframevideo{
   width:inherit;
 }
+.carousalImage{
+  border-left: none !important;
+  padding-left:0px !important
+}
+.why-line{
+font-size: 10px !important;
+}
+figure img{
+  width: 65px;
+}
 }
 .why_gobest{
   padding: 60px 0;
@@ -1920,4 +1930,7 @@ section {
 }
 .breadcrumb ul li{
   list-style: none;
+}
+.carousalImage{
+  border-left: 1px solid #d8d6d6;padding-left:30px
 }

@@ -269,7 +269,7 @@ include("include/config.php");
                                     </div>
 
                                     <div class="col-12 col-md-4 col-lg-4 text-center">
-                                        <div style="border-left: 1px solid #d8d6d6;padding-left:30px">
+                                        <div class="carousalImage">
                                             <section id="hero">
                                                 <div id="heroCarousel" data-bs-interval="5000"
                                                     class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -580,7 +580,7 @@ include("include/config.php");
 
 
                     </div>
-                    < </div> <!--before/after--> </div> </section> <!-- End Contact Section -->
+                    </div> <!--before/after--> </div> </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
 
