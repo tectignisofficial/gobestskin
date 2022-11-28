@@ -45,6 +45,11 @@
                 position: relative;
             }
 
+            .med_tittle_section img{
+                width: 100% !important;
+                height: 100px !important;
+            }
+
             .breadcrumb {
                 margin-left: 0 !important;
             }
@@ -435,8 +440,7 @@
                             <hr>
                             <p><strong>Informative Resources:</strong></p>
                             <ul>
-                                <li><a
-                                        href="#">How
+                                <li><a href="#">How
                                         To Remove Sun Tan From Face?</a></li>
                                 <li><a href="#">Myths And Facts
                                         About Skin Fairness</a></li>
@@ -517,7 +521,7 @@
                         <div class="row">
                             <h2 class="med_bottompadder40">Treatment Options </h2>
                             <p>If you are hoping to treat suntanned skin effectively, then look no further than
-                            Gobest Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
+                                Gobest Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
                             </p>
                             <ul>
                                 <li class="chemicalpeels">Chemical Peels<br>
@@ -542,7 +546,8 @@
                                 today.</p>
                             <p><strong>Prognosis:</strong></p>
                             <p>Your dermatologist will work with you every step of the way to improve your skin tone
-                                post tanning. Call to book an appointment with an experienced dermatologist at Gobest Skin & Hair
+                                post tanning. Call to book an appointment with an experienced dermatologist at Gobest
+                                Skin & Hair
                                 Hair &amp; Skin Clinic because protecting your skin is essential.</p>
                             <hr>
                             <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
