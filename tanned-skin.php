@@ -270,6 +270,19 @@
             padding-top: 50px;
             padding-bottom: 40px;
         }
+
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
     </style>
 
 </head>
@@ -293,9 +306,11 @@
     <!-- End Header -->
 
     <div class="med_tittle_section  banner-image" style="padding-top: 106px;">
-        <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1" alt="Skin Lightening Treatment" width="100%" height="200">
-</div>
-    <section>
+        <img loading="lazy"
+            src="https://www.olivaclinic.com/wp-content/banner/service/desktop/skin-lightening.jpg?var=1"
+            alt="Skin Lightening Treatment" width="100%" height="200">
+    </div>
+    <section class="col-xs-12 col-sm-12 col-md-12">
         <div class="inner-page-content">
             <div class="breadcrumb">
                 <ul style="display:flex;font-size:12px;    padding-top: 11px;">
@@ -311,7 +326,7 @@
                         <h1 class="med_bottompadder40">Tanned Skin: Causes, Prevention And Treatment</h1>
                         <div class="nav-folderized">
                             <div class="table-of-contents  ftr__list checknav">
-                                <h4>Table Of contents</h4>
+                                <h4>Table of contents</h4>
                                 <ul>
                                     <li></li>
                                     <li><a href="#intro">Intro</a></li>
@@ -340,7 +355,7 @@
                             </div> -->
                     </div>
                 </section>
-                <section class="col-xs-12 col-sm-12 col-md-12 highlights">
+                <section class="highlights">
                     <div class="container">
                         <div class="highlights-main">
                             <h2>Highlights</h2>
@@ -362,7 +377,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="intro" class="col-xs-12 col-sm-12 col-md-12 intro">
+                <section id="intro" class="intro">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">What Is Tanned Skin?</h2>
@@ -376,7 +391,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="causes" class="col-xs-12 col-sm-12 col-md-12 causes">
+                <section id="causes" class="causes">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Causes Of Tanned Skin</h2>
@@ -421,9 +436,9 @@
                             <p><strong>Informative Resources:</strong></p>
                             <ul>
                                 <li><a
-                                        href="https://www.olivaclinic.com/blog/sun-tan-removal-treatment-tips-skin-face/">How
+                                        href="#">How
                                         To Remove Sun Tan From Face?</a></li>
-                                <li><a href="https://www.olivaclinic.com/blog/how-to-become-fair/">Myths And Facts
+                                <li><a href="#">Myths And Facts
                                         About Skin Fairness</a></li>
                             </ul>
                             <hr>
@@ -431,7 +446,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="types" class="col-xs-12 col-sm-12 col-md-12 types ">
+                <section id="types" class="types ">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Types &amp; Classification:</h2>
@@ -453,7 +468,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="diagnosis" class="col-xs-12 col-sm-12 col-md-12 diagnosis">
+                <section id="diagnosis" class="diagnosis">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Diagnosis:</h2>
@@ -472,7 +487,7 @@
                         </div>
                     </div>
                 </section>
-                <section id="prevention" class="col-xs-12 col-sm-12 col-md-12 prevention">
+                <section id="prevention" class="prevention">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Prevention and Management:</h2>
@@ -497,12 +512,12 @@
                         </div>
                     </div>
                 </section>
-                <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 treatment">
+                <section id="treatment" class="treatment">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Treatment Options </h2>
                             <p>If you are hoping to treat suntanned skin effectively, then look no further than
-                                Oliva Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
+                            Gobest Skin &amp; Hair Clinic. Types of anti-tan treatments available here include:
                             </p>
                             <ul>
                                 <li class="chemicalpeels">Chemical Peels<br>
@@ -521,14 +536,27 @@
                                         allowfullscreen=""></iframe></li>
                                 <li>Topical and Oral Medications</li>
                             </ul>
-                            <p>The experienced and trained dermatologists at Oliva Clinic can chalk out a
+                            <p>The experienced and trained dermatologists at Gobest Skin & Hair Clinic can chalk out a
                                 custom-designed treatment plan for you. They can also guide you on post-treatment
                                 care to ensure you get optimal results and long-lasting satisfaction. Reach out
                                 today.</p>
                             <p><strong>Prognosis:</strong></p>
                             <p>Your dermatologist will work with you every step of the way to improve your skin tone
-                                post tanning. Call to book an appointment with an experienced dermatologist at Oliva
+                                post tanning. Call to book an appointment with an experienced dermatologist at Gobest Skin & Hair
                                 Hair &amp; Skin Clinic because protecting your skin is essential.</p>
+                            <hr>
+                            <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
+                                    of
+                                    care is a passion!</em></p>
+                            <p><strong>How to get started?&nbsp;</strong><strong><img class="emoji" role="img"
+                                        draggable="false" src="https://s.w.org/images/core/emoji/13.0.0/svg/1f517.svg"
+                                        alt="🔗"><a href="make-an-appointment.php">Book
+                                        Appointment</a>&nbsp;or&nbsp;<img class="emoji" role="img" draggable="false"
+                                        src="https://s.w.org/images/core/emoji/13.0.0/svg/1f4de.svg" alt="📞"><a
+                                        href="tel:1800-103-3893">1800-103-3893</a>&nbsp;to enjoy the best
+                                    results!</strong>
+                            </p>
+                            <hr>
                         </div>
                     </div>
                 </section>
