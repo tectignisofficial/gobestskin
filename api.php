@@ -14,4 +14,15 @@ if(isset($_POST['callback'])){
         header('location:index.php');
     }
 }
+
+if(isset($_POST['subscribe_send'])){
+    date_default_timezone_set('Asia/Kolkata');
+    $date=date('d/m/y h:i');
+    $email=$_POST['your-email'];
+    $url=$_POST['url'];
+    $sql=mysqli_query($conn,"INSERT INTO `subscribe`(`email`, `date`) VALUES ('$email','$date')");
+    if($sql==1){
+        header("location:".$url);
+    }
+}
 ?>

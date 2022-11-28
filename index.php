@@ -268,7 +268,9 @@ while($arr=mysqli_fetch_array($sql)){
 
 
   </main><!-- End #main -->
-
+<!--subscribe-->
+<?php include("include/subscribe.php");?>
+<!--subscribe-->
   <!-- ======= Footer ======= -->
 
   <?php include("include/footer.php");?>

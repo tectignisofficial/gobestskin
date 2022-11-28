@@ -175,7 +175,9 @@ include("include/config.php");
   
 
   </main><!-- End #main -->
-
+<!--subscribe-->
+<?php include("include/subscribe.php");?>
+<!--subscribe-->
   <!-- ======= Footer ======= -->
 
   <?php include("include/footer.php");?>

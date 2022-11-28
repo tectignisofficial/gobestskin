@@ -396,15 +396,17 @@ include("include/config.php");
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <i class="more-less fa fa-plus"></i> 
-HOW MANY SESSIONS OF LASER HAIR REMOVAL DO YOU NEED TO SEE RESULTS?
+                                        <i class="more-less fa fa-plus"></i>
+                                        HOW MANY SESSIONS OF LASER HAIR REMOVAL DO YOU NEED TO SEE RESULTS?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>A majority of our clients experience a measurable change in the growth and thickness of hair within 6-8 sessions. However, the results may vary based on the hair type, the age of the client and the underlying hormonal state.
-                                    </strong>
+                                        <p>A majority of our clients experience a measurable change in the growth and
+                                            thickness of hair within 6-8 sessions. However, the results may vary based
+                                            on the hair type, the age of the client and the underlying hormonal state.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -412,14 +414,15 @@ HOW MANY SESSIONS OF LASER HAIR REMOVAL DO YOU NEED TO SEE RESULTS?
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="more-less fa fa-plus"></i> 
-IS LASER HAIR REMOVAL A PERMANENT TREATMENT?
+                                        <i class="more-less fa fa-plus"></i>
+                                        IS LASER HAIR REMOVAL A PERMANENT TREATMENT?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>Yes, 91%* of our clients enjoy long-lasting satisfaction and optimal results with the help of minimal maintenance sessions.
+                                        <p>Yes, 91%* of our clients enjoy long-lasting satisfaction and optimal results
+                                            with the help of minimal maintenance sessions.</p>
                                     </div>
                                 </div>
                             </div>
@@ -429,13 +432,17 @@ IS LASER HAIR REMOVAL A PERMANENT TREATMENT?
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         <i class="more-less fa fa-plus"></i>
-IS LASER TREATMENT SAFE?
+                                        IS LASER TREATMENT SAFE?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>At Oliva, we use Soprano Ice, a USFDA-approved cutting-edge laser technology. The advanced laser equipment available at Oliva is amongst the most versatile in the world. Our team of experienced dermatologists customise the intensity of the laser beam according to the comfort and requirements of the clients, making the procedure doubly safe and super effective.
+                                        <p>At Oliva, we use Soprano Ice, a USFDA-approved cutting-edge laser technology.
+                                            The advanced laser equipment available at Oliva is amongst the most
+                                            versatile in the world. Our team of experienced dermatologists customise the
+                                            intensity of the laser beam according to the comfort and requirements of the
+                                            clients, making the procedure doubly safe and super effective.</p>
                                     </div>
                                 </div>
                             </div>
@@ -445,13 +452,16 @@ IS LASER TREATMENT SAFE?
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <i class="more-less fa fa-plus"></i>
-IS LASER HAIR REMOVAL A PAINFUL TREATMENT?
+                                        IS LASER HAIR REMOVAL A PAINFUL TREATMENT?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> Not at all. The LHR procedure at Oliva is exceptionally comfortable. The cooling tip of the Soprano Ice machines guarantees safe and effective hair removal minus thermal injuries. Some of our clients state that LHR at Oliva feels like a relaxing hot stone massage!
+                                        <p> Not at all. The LHR procedure at Oliva is exceptionally comfortable. The
+                                            cooling tip of the Soprano Ice machines guarantees safe and effective hair
+                                            removal minus thermal injuries. Some of our clients state that LHR at Oliva
+                                            feels like a relaxing hot stone massage!</p>
                                     </div>
                                 </div>
                             </div>
@@ -460,14 +470,15 @@ IS LASER HAIR REMOVAL A PAINFUL TREATMENT?
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFive">
-                                        <i class="more-less fa fa-plus"></i> 
-HOW TO PREPARE FOR LASER HAIR REMOVAL AT OUR CLINIC?
+                                        <i class="more-less fa fa-plus"></i>
+                                        HOW TO PREPARE FOR LASER HAIR REMOVAL AT OUR CLINIC?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> At Oliva, your dermatologist may advise you to stop waxing, threading, or plucking the target area two weeks before your first session.
+                                        <p> At Oliva, your dermatologist may advise you to stop waxing, threading, or
+                                            plucking the target area two weeks before your first session.</p>
                                     </div>
                                 </div>
                             </div>
@@ -476,13 +487,15 @@ HOW TO PREPARE FOR LASER HAIR REMOVAL AT OUR CLINIC?
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <i class="more-less fa fa-plus"></i>
-WHAT ARE THE POST-CARE INSTRUCTIONS FOR LASER HAIR REMOVAL SERVICE?
+                                        WHAT ARE THE POST-CARE INSTRUCTIONS FOR LASER HAIR REMOVAL SERVICE?
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>Your dermatologist may advise you to avoid the use of conventional hair removal methods during the intervals between sessions. The roots of the hair must remain undisturbed throughout the treatment plan.
+                                        <p>Your dermatologist may advise you to avoid the use of conventional hair
+                                            removal methods during the intervals between sessions. The roots of the hair
+                                            must remain undisturbed throughout the treatment plan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -492,17 +505,20 @@ WHAT ARE THE POST-CARE INSTRUCTIONS FOR LASER HAIR REMOVAL SERVICE?
                                         data-bs-target="#collapseSeven" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <i class="more-less fa fa-plus"></i>
-IS LASER BODY HAIR REMOVAL AN EXPENSIVE TREATMENT?
+                                        IS LASER BODY HAIR REMOVAL AN EXPENSIVE TREATMENT?
                                     </button>
                                 </h2>
                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>As laser hair removal is such a revolutionary technology with fabulous benefits, people assume that it must, therefore, be incredibly expensive. However, surprisingly, it is a cost-effective option in comparison to the traditional methods of hair removal.
+                                        <p>As laser hair removal is such a revolutionary technology with fabulous
+                                            benefits, people assume that it must, therefore, be incredibly expensive.
+                                            However, surprisingly, it is a cost-effective option in comparison to the
+                                            traditional methods of hair removal.</p>
                                     </div>
                                 </div>
                             </div>
-                         
+
                         </div>
                     </div>
                 </div>
@@ -511,7 +527,9 @@ IS LASER BODY HAIR REMOVAL AN EXPENSIVE TREATMENT?
         </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
-
+<!--subscribe-->
+<?php include("include/subscribe.php");?>
+<!--subscribe-->
     <!-- ======= Footer ======= -->
     <?php include("include/footer.php");?>
     <!-- End Footer -->

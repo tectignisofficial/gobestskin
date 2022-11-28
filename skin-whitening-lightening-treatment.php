@@ -588,7 +588,9 @@ include("include/config.php");
         </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
-
+<!--subscribe-->
+<?php include("include/subscribe.php");?>
+<!--subscribe-->
     <!-- ======= Footer ======= -->
     <?php include("include/footer.php");?>
     <!-- End Footer -->

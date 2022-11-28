@@ -206,18 +206,18 @@ include("include/config.php");
                                                 them painlessly and visibly.</p>
                                         </div>
                                         <div>
-                                            <h5>Scientifically-Proven Pigmentation Treatments Available At Oliva:</h5>
+                                            <h5>Scientifically-Proven Pigmentation Treatments Available At Gobest Skin & Hair:</h5>
                                             <p>It is possible to treat and reduce pigmentation with the help of advanced
                                                 scientifically-proven procedures that eliminate your skin’s melanin
                                                 build-up safely and effectively and lighten your skin tone. The
-                                                treatments at Oliva begin after consultation with a qualified
+                                                treatments at Gobest Skin & Hair begin after consultation with a qualified
                                                 dermatologist who analyses the affected area for the type, depth and
                                                 possible causes of pigmentation. He/she customises the treatment plan as
                                                 per requirement and may suggest the following methods as a single or
                                                 combination treatment based on the diagnosis.</p>
                                             <ol>
                                                 <li><span style="font-weight:bold;">Chemical peels:
-                                                    </span> At Oliva, dermatologists prime your skin before applying
+                                                    </span> At Gobest Skin & Hair, dermatologists prime your skin before applying
                                                     plant-based extracts for controlled exfoliation of damaged layers,
                                                     known as chemical peeling. Chemical peels help eliminate melanin
                                                     build-up, reduce pigment formation and reveal visibly brighter skin.
@@ -228,7 +228,7 @@ include("include/config.php");
                                                     procedure.
                                                 </li>
                                                 <li><span style="font-weight:bold;">Laser Toning:
-                                                    </span> This revolutionary method, available at Oliva, uses a laser
+                                                    </span> This revolutionary method, available at Gobest Skin & Hair, uses a laser
                                                     beam to break the excess melanin into smaller particles, which the
                                                     immune system of the skin eventually eliminates to help restore your
                                                     flawless complexion. It is ideal for treating superficial and deeper
@@ -243,7 +243,7 @@ include("include/config.php");
                                                     severity of pigmentation and the target area.
                                                 </li>
                                             </ol>
-                                            <p>Besides the above procedures, Oliva’s expert dermatologists advise a
+                                            <p>Besides the above procedures, Gobest Skin & Hair’s expert dermatologists advise a
                                                 customised skin-care regimen based on your skin type using suitable
                                                 non-comedogenic products like cleanser, sunscreen and topical
                                                 medications to optimise the treatment results and deliver long-lasting
@@ -256,26 +256,26 @@ include("include/config.php");
                                             </p>
                                         </div>
                                         <div>
-                                            <h5>Why Choose Oliva For Pigmentation Treatment?</h5>
-                                            <p>Here are some reasons that make Oliva the top clinic for pigmentation
+                                            <h5>Why Choose Gobest Skin & Hair For Pigmentation Treatment?</h5>
+                                            <p>Here are some reasons that make Gobest Skin & Hair the top clinic for pigmentation
                                                 treatment:</p>
                                             <ul>
-                                                <li>Oliva is synonymous with unparalleled medical expertise with the
+                                                <li>Gobest Skin & Hair is synonymous with unparalleled medical expertise with the
                                                     largest in-house team of 85+ qualified dermatologists.</li>
-                                                <li>Oliva has an impressive track record of performing more than 50,000
+                                                <li>Gobest Skin & Hair has an impressive track record of performing more than 50,000
                                                     pigmentation treatments with a holistic approach.
                                                 </li>
-                                                <li>Oliva offers USFDA-approved treatments using revolutionary laser
+                                                <li>Gobest Skin & Hair offers USFDA-approved treatments using revolutionary laser
                                                     technology and follows stringent protocols at par with global
                                                     standards to prioritise your safety and comfort.
                                                 </li>
                                                 <li>Our facilities across India have state-of-the-art amenities to
                                                     ensure you enjoy a world-class experience and outstanding results.
                                                 </li>
-                                                <li>Over 3,00,000 clients rate Oliva an unprecedented 91% on the
+                                                <li>Over 3,00,000 clients rate Gobest Skin & Hair an unprecedented 91% on the
                                                     satisfaction scale for our unmatched quality of care.</li>
                                                 <li>
-                                                    Oliva is a trusted name for advanced aesthetic treatments and the
+                                                    Gobest Skin & Hair is a trusted name for advanced aesthetic treatments and the
                                                     proud winner of many industry awards, including the No 1 Skin & Hair
                                                     Clinic title by the Times of India for four consecutive years.
                                                 </li>
@@ -335,7 +335,7 @@ include("include/config.php");
                                     <div class="text-center">
                                         <h3>Laser Treatment For Pigmented And Dull Skin Explained By A Dermatologist
                                         </h3>
-                                        <p>Oliva offers advanced FDA approved laser toning treatment for reducing skin
+                                        <p>Gobest Skin & Hair offers advanced FDA approved laser toning treatment for reducing skin
                                             pigmentation and dullness visibly. Check out the video and gain an insight
                                             into the details of the procedure performed by an expert dermatologist.</p>
                                         <a class="cta-btn scrollto" href="videos.php">Watch Other Videos</a>
@@ -449,10 +449,10 @@ include("include/config.php");
                                         </p>
                                         <strong>*Please note that the general price range mentioned here is indicative
                                             only based on current market trends and is subject to constant change. This
-                                            cost does not apply to pigmentation treatment at Oliva specifically, as we
+                                            cost does not apply to pigmentation treatment at Gobest Skin & Hair specifically, as we
                                             specialise in providing customised treatment unique to each client’s needs.
-                                            The cost of our treatment at Oliva remains subjective and varies from person
-                                            to person. Please visit your nearest Oliva clinic to learn about your
+                                            The cost of our treatment at Gobest Skin & Hair remains subjective and varies from person
+                                            to person. Please visit your nearest Gobest Skin & Hair clinic to learn about your
                                             customised treatment plan and the cost involved.</strong>
 
 
@@ -491,7 +491,7 @@ include("include/config.php");
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>No, pigmentation does not usually recur after laser treatment at Oliva, as
+                                        <p>No, pigmentation does not usually recur after laser treatment at Gobest Skin & Hair, as
                                             our doctors treat the root cause with a holistic approach. However, you must
                                             follow the pre and post-care instructions and go for minimal maintenance
                                             sessions as your dermatologist recommends to enjoy long-lasting results.</p>
@@ -527,7 +527,7 @@ include("include/config.php");
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Oliva accepts all leading payment options, including cash, credit and debit
+                                        <p>Gobest Skin & Hair accepts all leading payment options, including cash, credit and debit
                                             cards, e-wallets and Paytm.</p>
                                     </div>
                                 </div>
@@ -543,7 +543,7 @@ include("include/config.php");
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>For optimal results, dermatologists at Oliva recommend approximately six to
+                                        <p>For optimal results, dermatologists at Gobest Skin & Hair recommend approximately six to
                                             eight pigmentation treatment sessions. However, the exact number of sessions
                                             you need will depend on your skin type, the cause and severity of your
                                             condition, the selected treatment modality, and the target area.</p>
@@ -563,10 +563,10 @@ include("include/config.php");
                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>No significant side effects are associated with the pigmentation treatment as
-                                            the dermatologists at Oliva thoroughly analyse your skin type, the cause and
+                                            the dermatologists at Gobest Skin & Hair thoroughly analyse your skin type, the cause and
                                             level of pigment and then customise the treatment accordingly. Also,
                                             adequate pre-care guidance helps prepare the skin for advanced aesthetic
-                                            treatment. At Oliva, our trained medical experts use cutting-edge
+                                            treatment. At Gobest Skin & Hair, our trained medical experts use cutting-edge
                                             USFDA-approved laser technology and abide by global safety standards to
                                             deliver optimal results with minimal risk. They offer extensive post-care
                                             support to alleviate any transient discomfort you may feel and reduce
@@ -604,7 +604,7 @@ IS THERE A PERMANENT CURE FOR PIGMENTATION?
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Yes, you can enjoy long-lasting results with Oliva’s advanced solutions. However, you must complete your recommended sessions diligently, follow pre and post-care advice, use adequate sun protection and opt for minimal maintenance sessions as per your dermatologist’s advice based on your pigmentation type, cause and severity.</p>
+                                        <p>Yes, you can enjoy long-lasting results with Gobest Skin & Hair’s advanced solutions. However, you must complete your recommended sessions diligently, follow pre and post-care advice, use adequate sun protection and opt for minimal maintenance sessions as per your dermatologist’s advice based on your pigmentation type, cause and severity.</p>
                                     </div>
                                 </div>
                             </div>
@@ -619,7 +619,7 @@ WHAT ARE THE PRE-CARE INSTRUCTIONS ONE HAS TO FOLLOW?                           
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Your experienced dermatologist at Oliva may share the following pre-care instructions:</p>
+                                        <p>Your experienced dermatologist at Gobest Skin & Hair may share the following pre-care instructions:</p>
                                         <ul>
                                             <li>Men should shave at least 12 hours before the session.</li>
                                             <li>Your doctor may advise you to stop using specific medications and products three to four days before the service.</li>
@@ -644,7 +644,7 @@ WHAT ARE THE POST-CARE INSTRUCTIONS ONE HAS TO FOLLOW?
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Our medical experts at Oliva may share the following post-care advice to minimise the side effects and optimise the results of pigmentation treatment:</p>
+                                        <p>Our medical experts at Gobest Skin & Hair may share the following post-care advice to minimise the side effects and optimise the results of pigmentation treatment:</p>
                                         <ul>
                                             <li>Avoid using soap or cleanser for the first 12 hours after the service; wash your face with only water.</li>
                                             <li>Do not exercise and use makeup for 24 hours post-treatment.</li>
@@ -669,7 +669,9 @@ WHAT ARE THE POST-CARE INSTRUCTIONS ONE HAS TO FOLLOW?
         </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
-
+<!--subscribe-->
+<?php include("include/subscribe.php");?>
+<!--subscribe-->
     <!-- ======= Footer ======= -->
     <?php include("include/footer.php");?>
     <!-- End Footer -->

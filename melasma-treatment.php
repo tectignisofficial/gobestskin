@@ -138,161 +138,243 @@ include("include/config.php");
                                 </div>
                                 <div class="row">
 
-                                    <h2>Laser Treatment For Body Hair Removal</h2>
-                                    <p class="treatment-subtitle"><strong>Effective Solution To Get Hair-Free And Supple
-                                            Skin</strong></p>
+                                    <h2>Melasma: Causes, Symptoms, Types, Treatments & Prevention Tips</h2>
+
                                     <div class="col-12 col-md-8 col-lg-8">
-                                        <p>The term “laser” is an acronym for Light Amplification by Stimulated Emission
-                                            of
-                                            Radiation. Laser hair removal (LHR) is an advanced aesthetic treatment that
-                                            uses
-                                            a high-energy beam of light in a focussed manner to destroy stem cells found
-                                            in
-                                            hair follicles systematically. This eradicates the possibility of new hair
-                                            growth and delivers long-lasting results. The innovative use of laser
-                                            technology
-                                            for hair removal offers a high degree of precision, causing no damage to the
-                                            surrounding skin.</p>
+                                        <p>Melasma is a pigmentation disorder that affects the skin’s tone and
+                                            appearance and may lead to premature ageing in adult women. It is a benign
+                                            skin disease, but its chronicity and persistence can often make it
+                                            challenging to treat.</p>
+                                        <p>However, experienced dermatologists at Gobest Skin & Hair excel in treating different
+                                            pigmentary concerns, including melasma, using revolutionary USFDA-approved
+                                            methods with proven safety and efficacy to help you regain your flawless
+                                            complexion. Read on to know more about the melasma treatment procedure,
+                                            results, cost and more!</p>
 
                                         <div>
-                                            <h5>What Are The Benefits Of Laser Hair Removal Service?</h5>
-                                            <p>Laser Hair Removal (LHR) procedure at Gobest Skin & Hair is a skin
-                                                investment that you
-                                                make today that pays you rich dividends for life! At Gobest Skin & Hair,
-                                                LHR is a
-                                                safe,
-                                                painless and holistic treatment to eliminate hair growth that causes
-                                                zero
-                                                damage to your skin. The results are permanent and provide a practical
-                                                and
-                                                cost-effective alternative to waxing and shaving. Other benefits of
-                                                laser
-                                                hair removal are as follows:</p>
-                                            <ul>
-                                                <li>Offers permanent hair reduction</li>
-                                                <li>Suitable for hair removal from any area of the body</li>
-                                                <li>A quick procedure that lasts for 45 minutes to an hour</li>
-                                                <li>Zero downtime</li>
-                                                <li>No significant side effects</li>
-                                                <li>A hassle-free method that is cost-effective in the long run</li>
-                                            </ul>
+                                            <h5>What Is Melasma?</h5>
+                                            <p>Melasma is a skin disease that leads to the appearance of flat brownish
+                                                or blue-grey patches on the skin, especially on the face. It affects
+                                                adults and is a more common complaint among women than men. Chloasma, or
+                                                mask of pregnancy, is another name for melasma. Sun exposure is a common
+                                                risk factor. Melasma is a chronic pigmentary disorder that waxes and
+                                                wanes but often remains resistant to treatment.</p>
                                         </div>
                                         <div>
-                                            <h5>Is LHR A Safe Treatment For All Areas Of The Body</h5>
-                                            <p>The advanced laser machines at our clinic enable us to perform the hair
-                                                removal treatment on all Indian skin types. We treat different areas of
-                                                the
-                                                body for both men and women based on their specific grooming needs. We
-                                                offer
-                                                the following packages:</p>
+                                            <h5>Where Does Melasma Commonly Occur?</h5>
+                                            <p>Melasma occurs most commonly on the face, including:</p>
                                             <ul>
-                                                <li>Full body hair removal</li>
-                                                <li>Facial hair removal</li>
-                                                <li>Underarm hair removal</li>
-                                                <li>Bikini (private part/pubic) hair removal</li>
-                                                <li>Upper lip and chin hair removal</li>
-                                                <li>Leg hair removal</li>
-                                                <li>Chest, abdomen and back hair removal</li>
-                                                <li>Arms and upper body hair removal</li>
+                                                <li>Cheeks</li>
+                                                <li>Forehead</li>
+                                                <li>Bridge of nose</li>
+                                                <li>Chin</li>
                                             </ul>
+                                            <p>Apart from the face, it rarely involves the exposed skin of the forearms,
+                                                neck and back.</p>
                                         </div>
                                         <div>
-                                            <h5>What Are The Steps Of LHR Treatment Procedure?</h5>
-                                            <p>Here are the steps you can expect during a session of LHR treatment at
-                                                Gobest Skin & Hair:
+                                            <h5>What Are The Types Of Melasma?</h5>
+                                            <p>Dermatologists categorise the types of melasma based on the depth of the
+                                                skin discolouration:
                                             </p>
                                             <ul>
-                                                <li>Trained therapists will shave the target area and apply a cooling
-                                                    gel
-                                                    before the laser treatment.</li>
-                                                <li>An experienced doctor will customise the parameters of the laser
-                                                    beam
-                                                    according to your skin and hair type.</li>
-                                                <li>The therapist will divide the target area into sections.</li>
-                                                <li>The dermatologist will use the handheld laser device over the target
-                                                    area to eliminate the unwanted hair follicles.</li>
-                                                <li>At the end of the procedure, the therapist will apply a cold
-                                                    compress to
-                                                    alleviate any discomfort or redness.</li>
+                                                <li><strong>Epidermal Melasma: </strong>The melanin deposit in the
+                                                    topmost layer of skin, i.e., the epidermis, leads to dark brown
+                                                    patches with well-defined borders. This superficial type of melasma
+                                                    responds best to treatment.
+                                                </li>
+                                                <li><strong>Dermal Melasma: </strong>The pigment build-up in the dermis,
+                                                    the deeper layer of skin, is not easily accessible. It leads to the
+                                                    appearance of light brown or bluish-grey diffused patches that
+                                                    respond poorly to treatment.</li>
+                                                <li><strong>Mixed Melasma: </strong>This pigmentary concern causes
+                                                    different colour patches in the epidermis and dermis. This is the
+                                                    most common type of melasma, and the treatment response usually
+                                                    varies depending on the amount and location of the melanin build-up.
+                                                </li>
                                             </ul>
                                         </div>
                                         <div>
-                                            <h5>Are You A Suitable Candidate For Laser Hair Removal?</h5>
-                                            <p>If you are somebody who wants to get rid of unwanted hair forever, then
-                                                you
-                                                are the right candidate for laser hair removal treatment at Gobest Skin
-                                                & Hair
-                                                Clinic.
-                                                This procedure is suitable for all skin types, notably lighter skin tone
-                                                and
-                                                darker hair.</p>
-                                            <p>However, it is not advisable for pregnant and lactating women and young
-                                                adults (undergoing puberty) as they may be experiencing significant
-                                                hormonal
-                                                changes during these stages.</p>
+                                            <h5>Signs And Symptoms Of Melasma</h5>
+                                            <p>The signs and symptoms of melasma include:</p>
+                                            <ul>
+                                                <li>Freckle-like spots</li>
+                                                <li>Flat patches of brown, blue or grey colour</li>
+                                                <li>Defined or diffused patches</li>
+                                            </ul>
+                                            <p>The patches usually occur symmetrically on the cheeks, forehead, nose,
+                                                chin and jawline.</p>
                                         </div>
                                         <div>
-                                            <h5>What Is The Cost Of Laser Hair Removal Treatment?</h5>
-                                            <p>The cost of laser hair removal treatment in India starts at Rs 1,600* per
-                                                session and may range up to Rs 30,000* per session. The price might vary
-                                                for
-                                                individuals depending on factors like the size of the target area, the
-                                                hair
-                                                colour, type and density, the skin tone and the underlying cause of hair
-                                                growth that determine the suitable laser technology and the number of
-                                                sessions required. For example, upper lip hair removal is less expensive
-                                                as
-                                                compared to full-body hair removal.</p>
-                                            <p style="font-weight:bold;">* T&C Apply. The average prices mentioned here
-                                                are
-                                                approximate and indicative ONLY and are subject to revision based on
-                                                your
-                                                individual hair removal needs. If you would like to know the exact cost
-                                                for
-                                                the laser hair removal procedure, it is advisable to consult with our
-                                                dermatologists and attain a customised treatment plan. This information
-                                                is
-                                                an estimate only and is in no way a final quote or a fixed price of
-                                                laser
-                                                hair removal treatment at Gobest Skin & Hair.</p>
+                                            <h5>What Causes Melasma?</h5>
+                                            <p>Here are two primary causes of melasma:</p>
+                                            <ul>
+                                                <li><strong>Sun/UV Exposure: </strong>Exposure to UV radiation from the
+                                                    sun or laptop/TV screens can trigger excess melanin production in
+                                                    the skin. It can worsen melasma if present or cause recurrence after
+                                                    treatment.</li>
+                                                <li><strong>Hormonal Imbalances:</strong>Dermatologists often correlate
+                                                    melasma cases with estrogen and progesterone sensitivity. Melasma is
+                                                    significantly more common in pregnant women and those using
+                                                    high-dose hormonal contraceptive pills. Hormonal changes during
+                                                    menopause or conditions like hypothyroidism can often cause or
+                                                    worsen melasma.</li>
+                                            </ul>
+                                            <p>Apart from these, a few other factors may trigger melasma:</p>
+                                            <ul>
+                                                <li><strong>Family History: </strong>Those with a positive history of
+                                                    melasma in the family have a higher risk than others.</li>
+                                                <li><strong>Skin Colour:</strong>People with dark skin are more likely
+                                                    to develop melasma than those who are fairer.</li>
+                                                <li><strong>Chemical-based Skin Care Products: </strong> Skin-care
+                                                    products with fragrances and chemicals that cause skin irritation
+                                                    can trigger melasma.</li>
+
+                                            </ul>
                                         </div>
                                         <div>
-                                            <h5>How To Get Started With The LHR Treatment At Gobest Skin & Hair?</h5>
-                                            <p>You can book an appointment online or over the phone by dialling
-                                                1800-103-3893. Our customer care team will schedule an appointment with
-                                                an
-                                                expert dermatologist at your preferred time and convenience.</p><br>
+                                            <h5>How To Diagnose Melasma?</h5>
+                                            <p>Dermatologists at Gobest Skin & Hair diagnose melasma by clinically examining the
+                                                discoloured skin.</p>
+                                            <p>They may use Wood’s lamp method to observe the skin under blue light to
+                                                identify the pigmentation level. In exceptional cases, they may perform
+                                                a biopsy in the affected area to confirm the diagnosis under a
+                                                microscope.</p>
+                                        </div>
+                                        <div>
+                                            <h5>What Is The Treatment For Melasma?</h5>
+                                            <p>Although many advanced treatments are available, the response of melasma
+                                                to treatments remains variable. No single treatment option can ensure
+                                                total and permanent relief from melasma.</p>
+                                            <p>At Gobest Skin & Hair, your doctor will customise your treatment and recommend regular
+                                                maintenance to reduce melasma and prevent a recurrence. She may
+                                                recommend any of the following options as standalone or combo treatment
+                                                based on the type, cause and severity of your skin condition:</p>
+                                            <ul>
+                                                <li><strong>Topical or Oral Medications:</strong> Medications,
+                                                    especially topical creams, are often the first line of treatment and
+                                                    an essential part of post-care. It may include:
+                                                    <ol>
+                                                        <li><strong>Hydroquinone:</strong> Your dermatologist at Gobest Skin & Hair
+                                                            may recommend hydroquinone with a concentration of 2-4% as
+                                                            the primary treatment for melasma. She may advise you to
+                                                            apply it at night on the patches for 3-4 months. Prolonged
+                                                            use may aggravate pigmentation.</li>
+                                                        <li><strong>Retinoids:</strong> Medical experts often use
+                                                            tretinoin in conjunction with hydroquinone or other
+                                                            bleaching agents at night to boost the results of melasma
+                                                            treatment.</li>
+                                                        <li><strong>Bleaching Agents:</strong> Skin lightening agents
+                                                            like kojic acid, azelaic acid, glycolic acid, arbutin and
+                                                            Vitamin C can reduce melanin synthesis and help lighten the
+                                                            pigmented patches. Your doctor may add it to your post-care
+                                                            regimen as long-term maintenance therapy to minimise the
+                                                            chances of the recurrence of melasma.</li>
+                                                        <li><strong>Tranexamic Acid:</strong> A newer molecule used in
+                                                            oral, injectable or topical form by leading dermatologists
+                                                            for treating melasma is quite effective and may be a part of
+                                                            a combination treatment.</li>
+                                                        <li><strong>Hormonal Medications: </strong> Your dermatologist
+                                                            may assess your hormonal health and advise you to
+                                                            discontinue any medication that may induce melasma.</li>
+                                                    </ol>
+                                                </li>
+                                                <li><strong>Advanced Procedural Treatments:</strong> Here are some
+                                                    in-clinic treatments that your dermatologist at Gobest Skin & Hair may recommend
+                                                    for attaining visible results of melasma treatment.
+                                                    <ol>
+                                                        <li><strong>Chemical Peels:</strong> The application of
+                                                            different concentrations of natural extracts like glycolic
+                                                            acid and kojic acid on the discoloured skin for controlled
+                                                            exfoliation of top layers inhibits melanin formation. It is
+                                                            most effective in reducing epidermal melasma. However, you
+                                                            may need multiple sessions of chemical peel treatment at
+                                                            regular intervals of a few weeks to attain visible results.
+                                                        </li>
+                                                        <li><strong>Laser Treatment:</strong>Dermatologists at Gobest Skin & Hair
+                                                            undergo rigorous training to use the latest USFDA-approved
+                                                            Q-switched Nd:YAG laser technology and treat deeper melasma
+                                                            that does not respond to topical medication and peel
+                                                            treatment. The laser beam penetrates the deeper layers to
+                                                            break down the excess melanin without adversely affecting
+                                                            the surrounding skin. However, the precise treatment may
+                                                            require multiple sessions based on the type and severity of
+                                                            your skin condition to provide the best results and for
+                                                            regular maintenance.</li>
+                                                    </ol>
+                                                </li>
+                                            </ul>
+                                            <p>Remember, preventing exposure to UV rays is the most crucial step in
+                                                treating melasma, as even mild sun damage can increase, trigger or cause
+                                                recurrence. It is mandatory to use sun protection with every treatment
+                                                modality.</p>
+                                        </div>
+                                        <div>
+                                            <h5>How To Prevent Melasma?</h5>
+                                            <p>Unfortunately, there is no sure-shot way to prevent melasma altogether.
+                                                However, the following measures can reduce the risk of melasma and
+                                                recurrence:</p>
+                                            <ul>
+                                                <li><strong>Avoid Excessive Sun Exposure: </strong>Do not go out during
+                                                    peak sunlight hours or use protective gear like scarves, sunglasses
+                                                    and umbrellas to prevent melasma and other forms of sun damage to
+                                                    the skin.</li>
+                                                <li><strong>Regular Use Of Sunscreen:</strong> Use sunscreen with SPF 30
+                                                    or above recommended by your dermatologist 15-20 minutes before
+                                                    going out in the sun. Reapply every three hours to prevent melasma
+                                                    and lighten existing pigmentary conditions.</li>
+                                                <li><strong>Healthy Diet And Skin-Care Habits:</strong> A nutrient-rich
+                                                    diet with vitamin D and regular skin-care helps to keep the skin
+                                                    healthy and protect it from multiple disorders, including
+                                                    discolouration.</li>
+                                                <li><strong>Judicious Use Of Hormonal Pills And Contraceptives:
+                                                    </strong>Consult a doctor to avoid indiscriminate use of hormonal
+                                                    pills if you have a positive family history of melasma.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>Why Choose Gobest Skin & Hair For Melasma Treatment?</h5>
+                                            <p>Here are the top reasons to choose Gobest Skin & Hair for melasma treatment:</p>
+                                            <ul>
+                                                <li>Largest team of over 100+ experienced dermatologists with unmatched
+                                                    expertise in providing holistic treatments customised to cater to
+                                                    your unique skin and hair needs</li>
+                                                <li>Latest USFDA-approved Q-switched Nd:YAG laser technology is
+                                                    available in-house for safe and effective non-surgical melasma
+                                                    treatment</li>
+                                                <li>Stringent protocols and world-class service for the excellent
+                                                    quality of care</li>
+                                                <li>23 modern facilities present in seven cities, including Hyderabad,
+                                                    Chennai, Bengaluru, Kolkata, Pune, Vizag and Kochi, to safeguard
+                                                    client comfort and privacy during service</li>
+                                                <li>An outstanding 91% rating voted by over 3,00,000 satisfied clients
+                                                    during 12 years of service</li>
+                                                <li>Winner of the Times of India No 1 Skin and Hair Clinic Award for
+                                                    four consecutive years</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>How to Get Started?</h5>
+                                            <p>If you think you have melasma, it is best to consult our expert
+                                                dermatologists at Gobest Skin & Hair and seek a customised treatment. You can visit
+                                                your nearest Gobest Skin & Hair Skin & Hair Clinic in <a
+                                                    href="akurdi-branch.php">AKURDI BRANCH</a>, <a
+                                                    href="wakad-branch.php">WAKAD BRANCH</a>, <a
+                                                    href="baner-branch.php">BANER BRANCH</a>, <a
+                                                    href="pimple-saudagar-branch.php">PIMPLE SAUDAGAR BRANCH</a> and <a
+                                                    href="hinjewadi.php">HINJEWADI BRANCH</a> or fill out the 🔗<a
+                                                    href="make-an-appointment.php">Book An Appointment</a> form.
+                                                Alternatively, you can call us on our toll-free number <i
+                                                    class="fa fa-phone"></i><a href="tel:+91 72648 89986">+91
+                                                    7264889986</a> and request our customer support team to facilitate a
+                                                consultation based on a date, time and location of your choice.</p>
                                         </div>
 
                                     </div>
 
                                     <div class="col-12 col-md-4 col-lg-4 text-center">
                                         <div class="carousalImage">
-                                            <section id="hero">
-                                                <div id="heroCarousel" data-bs-interval="5000"
-                                                    class="carousel slide carousel-fade" data-bs-ride="carousel">
-                                                    <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
-                                                    <div class="carousel-inner" role="listbox">
-                                                        <!-- Slide 1 -->
-                                                        <div class="carousel-item active"
-                                                            style="background-image: url(assets/img/slide/lasercaro1.webp)">
-                                                        </div>
-                                                        <!-- Slide 2 -->
-                                                        <div class="carousel-item"
-                                                            style="background-image: url(assets/img/slide/lasercaro2.webp)">
-                                                        </div>
-                                                        <!-- Slide 3 -->
-                                                        <div class="carousel-item"
-                                                            style="background-image: url(assets/img/slide/lasercaro3.webp)">
-                                                        </div>
-                                                        <!-- Slide 4 -->
-                                                        <div class="carousel-item"
-                                                            style="background-image: url(assets/img/slide/lasercaro4.webp)">
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </section>
+                                            <img src="assets/img/Melasma-Treatment.png.webp" alt="" style="width:100%;">
                                         </div>
                                     </div>
                                 </div>
@@ -301,7 +383,7 @@ include("include/config.php");
                     </div>
                 </div>
                 <!--video-->
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <section id="cta" class="cta">
                         <div class="container" data-aos="zoom-in">
                             <div class="row">
@@ -330,11 +412,11 @@ include("include/config.php");
 
                         </div>
                     </section>
-                </div>
+                </div> -->
                 <!--end video-->
 
                 <!--before/after-->
-                <div class="col-12">
+                <!-- <div class="col-12">
                     <section class="why_gobest">
                         <div class="container">
                             <div class="row">
@@ -377,7 +459,7 @@ include("include/config.php");
                             </div>
                         </div>
                     </section>
-                </div>
+                </div> -->
                 <div class="col-12">
                     <div class="container demo">
 
@@ -394,15 +476,24 @@ include("include/config.php");
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        <i class="more-less fa fa-plus"></i> 
-HOW MANY SESSIONS OF LASER HAIR REMOVAL DO YOU NEED TO SEE RESULTS?
+                                        <i class="more-less fa fa-plus"></i>
+                                        HOW MUCH DOES MELASMA TREATMENT COST?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>A majority of our clients experience a measurable change in the growth and thickness of hair within 6-8 sessions. However, the results may vary based on the hair type, the age of the client and the underlying hormonal state.
-                                    </strong>
+                                        <p>The cost of melasma treatment ranges from Rs 4,500 to 10,000 per session.</p>
+                                        <p><strong>*However, these prices are indicative only, are subject to revision
+                                                based on industry trends and strictly do not apply to melasma treatment
+                                                at Gobest Skin & Hair as we specialise in customised treatments. The cost of melasma
+                                                treatment at Gobest Skin & Hair varies from person to person and depends on unique
+                                                factors like the skin type, severity of the condition and the suitable
+                                                modalities recommended by our dermatologist as solo or combo procedures,
+                                                the number of sessions and the size of the affected area. Please visit
+                                                your nearest Gobest Skin & Hair Clinic to find out the exact cost of your customised
+                                                melasma treatment at the earliest.
+                                            </strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -410,14 +501,18 @@ HOW MANY SESSIONS OF LASER HAIR REMOVAL DO YOU NEED TO SEE RESULTS?
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <i class="more-less fa fa-plus"></i> 
-IS LASER HAIR REMOVAL A PERMANENT TREATMENT?
+                                        <i class="more-less fa fa-plus"></i>
+                                        WHO IS AT RISK OF MELASMA?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>Yes, 91%* of our clients enjoy long-lasting satisfaction and optimal results with the help of minimal maintenance sessions.
+                                        <p>Melasma occurs more in dark-skinned women than men. People with a family
+                                            history, regular sun exposure and those taking hormonal medicines have
+                                            increased chances of melasma. Pregnancy can also be a risk factor.
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -427,13 +522,15 @@ IS LASER HAIR REMOVAL A PERMANENT TREATMENT?
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         <i class="more-less fa fa-plus"></i>
-IS LASER TREATMENT SAFE?
+                                        IS MELASMA CANCEROUS?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>At Oliva, we use Soprano Ice, a USFDA-approved cutting-edge laser technology. The advanced laser equipment available at Oliva is amongst the most versatile in the world. Our team of experienced dermatologists customise the intensity of the laser beam according to the comfort and requirements of the clients, making the procedure doubly safe and super effective.
+                                        <p>Melasma is not a sign of cancer, nor can it become malignant in future.
+                                            However, since skin cancers sometimes cause discolouration, visiting a
+                                            dermatologist at the earliest is advisable to confirm your diagnosis.</p>
                                     </div>
                                 </div>
                             </div>
@@ -443,13 +540,16 @@ IS LASER TREATMENT SAFE?
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <i class="more-less fa fa-plus"></i>
-IS LASER HAIR REMOVAL A PAINFUL TREATMENT?
+                                        IS MELASMA PERMANENT?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> Not at all. The LHR procedure at Oliva is exceptionally comfortable. The cooling tip of the Soprano Ice machines guarantees safe and effective hair removal minus thermal injuries. Some of our clients state that LHR at Oliva feels like a relaxing hot stone massage!
+                                        <p>Melasma is a chronic skin discolouration that may fade naturally in
+                                            pregnancy-induced cases or after treatment, but the risk of future
+                                            recurrence remains. In some cases, melasma might be permanent and
+                                            unresponsive to treatment.</p>
                                     </div>
                                 </div>
                             </div>
@@ -458,14 +558,16 @@ IS LASER HAIR REMOVAL A PAINFUL TREATMENT?
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFive">
-                                        <i class="more-less fa fa-plus"></i> 
-HOW TO PREPARE FOR LASER HAIR REMOVAL AT OUR CLINIC?
+                                        <i class="more-less fa fa-plus"></i>
+                                        IS MELASMA PAINFUL?
+
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> At Oliva, your dermatologist may advise you to stop waxing, threading, or plucking the target area two weeks before your first session.
+                                        <p>No, melasma is asymptomatic. There is no pain/itchiness/irritation associated
+                                            with it.</p>
                                     </div>
                                 </div>
                             </div>
@@ -474,13 +576,15 @@ HOW TO PREPARE FOR LASER HAIR REMOVAL AT OUR CLINIC?
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <i class="more-less fa fa-plus"></i>
-WHAT ARE THE POST-CARE INSTRUCTIONS FOR LASER HAIR REMOVAL SERVICE?
+                                        DO FOOD HABITS AFFECT MELASMA?
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>Your dermatologist may advise you to avoid the use of conventional hair removal methods during the intervals between sessions. The roots of the hair must remain undisturbed throughout the treatment plan.
+                                        <p>No food worsens or causes melasma. However, dermatologists recommend a diet
+                                            rich in Vitamin D for healthy skin, which may reduce the chances of melasma
+                                            in the long run.</p>
                                     </div>
                                 </div>
                             </div>
@@ -490,17 +594,37 @@ WHAT ARE THE POST-CARE INSTRUCTIONS FOR LASER HAIR REMOVAL SERVICE?
                                         data-bs-target="#collapseSeven" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <i class="more-less fa fa-plus"></i>
-IS LASER BODY HAIR REMOVAL AN EXPENSIVE TREATMENT?
+                                        CAN MELASMA APPEAR OVERNIGHT?
                                     </button>
                                 </h2>
                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>As laser hair removal is such a revolutionary technology with fabulous benefits, people assume that it must, therefore, be incredibly expensive. However, surprisingly, it is a cost-effective option in comparison to the traditional methods of hair removal.
+                                        <p>No, the discoloured patches that appear due to melasma form gradually over
+                                            months to years.</p>
                                     </div>
                                 </div>
                             </div>
-                         
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        <i class="more-less fa fa-plus"></i>
+                                        ARE FRECKLES SAME AS MELASMA?
+
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>No, melasma may sometimes start with freckle-like spots, but freckles are not
+                                            the same as melasma. They have a familial tendency and respond well to
+                                            treatment.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -509,7 +633,9 @@ IS LASER BODY HAIR REMOVAL AN EXPENSIVE TREATMENT?
         </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
-
+<!--subscribe-->
+<?php include("include/subscribe.php");?>
+<!--subscribe-->
     <!-- ======= Footer ======= -->
     <?php include("include/footer.php");?>
     <!-- End Footer -->
