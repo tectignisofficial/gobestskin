@@ -315,7 +315,7 @@
             <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
                 <div class="container">
                     <div class="breadcrumb">
-                        <ul style="display:flex;font-size:12px;    padding-top: 11px;">
+                        <ul style="display:flex;font-size:12px;    padding-top: 11px;padding-left:0">
                             <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp;
                                     </span></a>
                             </li> /

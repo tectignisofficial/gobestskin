@@ -113,7 +113,7 @@
                 <div>
                 </div>
           </li>
-          <li class="nav-item dropdown dropdown-hover position-static"><a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><span>Conditions</span> <i
+          <li class="nav-item  dropdown-hover position-static"><a href="#" class="nav-link " data-bs-toggle="dropdown"><span>Conditions</span> <i
                 class="bi bi-chevron-down"></i></a>
             <div class="dropdown-menu w-100 mt-0" aria-labelledby="navbarDropdown"
               style="border-top-left-radius: 0; border-top-right-radius: 0;">
@@ -223,7 +223,7 @@
                           <div class="list-group list-group-flush">
                             <a class="list-group-item list-group-item-action actionlass">Acne/ Scar </a>
                             <a href="acne-pimple-treatment.php" class="list-group-item list-group-item-action">Pimple Treatment</a>
-                            <a href="pimple-acne-scar-treatment.php" class="list-group-item list-group-item-action actionlass">Acne/ Scar Treatment</a>
+                            <a href="pimple-acne-scar-treatment.php" class="list-group-item list-group-item-action ">Acne/ Scar Treatment</a>
                           </div>
                         </div>
                       </div>
