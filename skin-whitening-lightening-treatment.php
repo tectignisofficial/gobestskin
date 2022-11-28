@@ -111,7 +111,7 @@ include("include/config.php");
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Skin Whitening Lighting treatment</h2>
+                    <!-- <h2>Skin Whitening Lighting treatment</h2> -->
 
                 </div>
 
@@ -124,11 +124,11 @@ include("include/config.php");
                     <div class="col-12">
 
                         <div class="container">
-                            <div class="row mt-5">
+                            <div class="row mt-3">
 
                                 <div class="col-12">
                                     <div class="breadcrumb">
-                                        <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                                        <ul style="display:flex;font-size:10px;    padding-top: 11px;padding-left:0">
                                             <li><i class="fa fa-home"></i> <a href="index.php"
                                                     title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                             </li> /
@@ -138,7 +138,7 @@ include("include/config.php");
                                     </div>
                                     <div class="row">
 
-                                        <h2>Safe & Effective Skin Lightening Treatment</h2>
+                                        <h2 class="h5hight">Safe & Effective Skin Lightening Treatment</h2>
                                         <p class="treatment-subtitle"><strong>FDA-approved Solutions to Get A Brighter
                                                 Complexion and An Even Skin Tone!</strong></p>
                                         <div class="col-12 col-md-8 col-lg-8">
@@ -407,14 +407,14 @@ include("include/config.php");
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>The cost of treatment may vary from individual to individual depending
+                                        <p>The cost of treatment may vary from individual to individual depending
                                             upon
                                             various factors, such as the targeted area for treatment, underlying cause,
                                             the
                                             severity of the skin condition, the number of sessions and the type of
                                             treatment. To know about the cost of treatment, visit our clinic, consult
                                             with
-                                            our dermatologists and obtain a customised treatment plan.
+                                            our dermatologists and obtain a customised treatment plan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -428,13 +428,13 @@ include("include/config.php");
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong>You can start noticing an improvement in skin tone after the first few
+                                        <p>You can start noticing an improvement in skin tone after the first few
                                             sessions
                                             of Gobest Skin & Hair’s advanced Skin lightening treatment and see visible
                                             results as the
                                             sessions proceed. However, you need to complete the treatment and follow pre
                                             and
-                                            post-care advice to achieve the best skin lightening results.
+                                            post-care advice to achieve the best skin lightening results.</p>
                                     </div>
                                 </div>
                             </div>
@@ -449,9 +449,9 @@ include("include/config.php");
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> No, the skin lightening treatment at Gobest Skin & Hair is virtually
+                                        <p> No, the skin lightening treatment at Gobest Skin & Hair is virtually
                                             pain-free. You might experience slight heating or pricking sensation, which
-                                            is transient.
+                                            is transient.</p>
                                     </div>
                                 </div>
                             </div>
@@ -466,11 +466,11 @@ include("include/config.php");
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> "Any individual who is 18 years or above can opt for skin lightening
+                                        <p> "Any individual who is 18 years or above can opt for skin lightening
                                             treatment at Gobest Skin & Hair. However, our doctors do not recommend that
                                             pregnant and lactating women undergo this treatment. Also, it is advisable
                                             to avoid opting for this treatment if you have an active infection in the
-                                            target area."
+                                            target area."</p>
                                     </div>
                                 </div>
                             </div>
@@ -486,7 +486,7 @@ include("include/config.php");
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> "Since qualified dermatologists at Gobest Skin & Hair perform the
+                                        <p> "Since qualified dermatologists at Gobest Skin & Hair perform the
                                             customised
                                             treatment after
                                             a thorough skin analysis using top-notch USFDA-approved technology, perform
@@ -495,7 +495,7 @@ include("include/config.php");
                                             standards,
                                             the side effects are minimal. Applying soothing creams and cold compressions
                                             can
-                                            further alleviate any rare irritation or transient redness."
+                                            further alleviate any rare irritation or transient redness."</p>
                                     </div>
                                 </div>
                             </div>
@@ -509,12 +509,12 @@ include("include/config.php");
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> "The laser skin lightening treatment has minimal or no recovery time,
+                                        <p> "The laser skin lightening treatment has minimal or no recovery time,
                                             and you
                                             can resume your normal activities right after the treatment. However,
                                             chemical
                                             peel treatments may involve downtime of up to four days with adequate
-                                            post-treatment care to accelerate the process of skin recovery."
+                                            post-treatment care to accelerate the process of skin recovery."</p>
                                     </div>
                                 </div>
                             </div>
@@ -529,11 +529,11 @@ include("include/config.php");
                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <strong> "The results usually are long-lasting, depending on the underlying skin
+                                        <p> "The results usually are long-lasting, depending on the underlying skin
                                             condition and post-care. One needs to follow adequate sun protection and
                                             visit
                                             the dermatologist for minimal maintenance support to prolong the treatment
-                                            results and enjoy long-lasting satisfaction."
+                                            results and enjoy long-lasting satisfaction."</p>
                                     </div>
                                 </div>
                             </div>

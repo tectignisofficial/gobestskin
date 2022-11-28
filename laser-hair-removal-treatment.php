@@ -112,7 +112,7 @@ include("include/config.php");
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Laser hair Removal treatment</h2>
+                    <!-- <h2>Laser hair Removal Treatment</h2> -->
 
                 </div>
 
@@ -125,11 +125,11 @@ include("include/config.php");
                 <div class="col-12">
 
                     <div class="container">
-                        <div class="row mt-5">
+                        <div class="row mt-3">
 
                             <div class="col-12">
                                 <div class="breadcrumb">
-                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;padding-left:0">
                                         <li><i class="fa fa-home"></i> <a href="index.php"
                                                 title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                         </li> /
@@ -140,7 +140,7 @@ include("include/config.php");
                                 </div>
                                 <div class="row">
 
-                                    <h2>Laser Treatment For Body Hair Removal</h2>
+                                    <h2 class="h5hight">Laser Treatment For Body Hair Removal</h2>
                                     <p class="treatment-subtitle"><strong>Effective Solution To Get Hair-Free And Supple
                                             Skin</strong></p>
                                     <div class="col-12 col-md-8 col-lg-8">
@@ -261,7 +261,7 @@ include("include/config.php");
                                         <div>
                                             <h5>How To Get Started With The LHR Treatment At Gobest Skin & Hair?</h5>
                                             <p>You can book an appointment online or over the phone by dialling
-                                                1800-103-3893. Our customer care team will schedule an appointment with
+                                            <a href="tel:91 72648 89986">91 72648 89986</a>. Our customer care team will schedule an appointment with
                                                 an
                                                 expert dermatologist at your preferred time and convenience.</p><br>
                                         </div>
@@ -438,8 +438,8 @@ include("include/config.php");
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>At Oliva, we use Soprano Ice, a USFDA-approved cutting-edge laser technology.
-                                            The advanced laser equipment available at Oliva is amongst the most
+                                        <p>At Gobest Skin & Hair, we use Soprano Ice, a USFDA-approved cutting-edge laser technology.
+                                            The advanced laser equipment available at Gobest Skin & Hair is amongst the most
                                             versatile in the world. Our team of experienced dermatologists customise the
                                             intensity of the laser beam according to the comfort and requirements of the
                                             clients, making the procedure doubly safe and super effective.</p>
@@ -458,9 +458,9 @@ include("include/config.php");
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p> Not at all. The LHR procedure at Oliva is exceptionally comfortable. The
+                                        <p> Not at all. The LHR procedure at Gobest Skin & Hair is exceptionally comfortable. The
                                             cooling tip of the Soprano Ice machines guarantees safe and effective hair
-                                            removal minus thermal injuries. Some of our clients state that LHR at Oliva
+                                            removal minus thermal injuries. Some of our clients state that LHR at Gobest Skin & Hair
                                             feels like a relaxing hot stone massage!</p>
                                     </div>
                                 </div>
@@ -477,7 +477,7 @@ include("include/config.php");
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p> At Oliva, your dermatologist may advise you to stop waxing, threading, or
+                                        <p> At Gobest Skin & Hair, your dermatologist may advise you to stop waxing, threading, or
                                             plucking the target area two weeks before your first session.</p>
                                     </div>
                                 </div>

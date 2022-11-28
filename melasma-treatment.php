@@ -112,7 +112,7 @@ include("include/config.php");
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Melasma Treatment</h2>
+                    <!-- <h2>Melasma Treatment</h2> -->
 
                 </div>
 
@@ -125,11 +125,11 @@ include("include/config.php");
                 <div class="col-12">
 
                     <div class="container">
-                        <div class="row mt-5">
+                        <div class="row mt-3">
 
                             <div class="col-12">
                                 <div class="breadcrumb">
-                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;padding-left:0">
                                         <li><i class="fa fa-home"></i> <a href="index.php"
                                                 title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                         </li> /
@@ -138,7 +138,7 @@ include("include/config.php");
                                 </div>
                                 <div class="row">
 
-                                    <h2>Melasma: Causes, Symptoms, Types, Treatments & Prevention Tips</h2>
+                                    <h2 class="h5hight">Melasma: Causes, Symptoms, Types, Treatments & Prevention Tips</h2>
 
                                     <div class="col-12 col-md-8 col-lg-8">
                                         <p>Melasma is a pigmentation disorder that affects the skin’s tone and
@@ -606,17 +606,17 @@ include("include/config.php");
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
+                                <h2 class="accordion-header" id="headingEight">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSeven" aria-expanded="false"
-                                        aria-controls="collapseSeven">
+                                        data-bs-target="#collapseEight" aria-expanded="false"
+                                        aria-controls="collapseEight">
                                         <i class="more-less fa fa-plus"></i>
                                         ARE FRECKLES SAME AS MELASMA?
 
                                     </button>
                                 </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse"
-                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div id="collapseEight" class="accordion-collapse collapse"
+                                    aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>No, melasma may sometimes start with freckle-like spots, but freckles are not
                                             the same as melasma. They have a familial tendency and respond well to

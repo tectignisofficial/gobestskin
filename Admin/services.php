@@ -119,7 +119,7 @@ include("include/config.php");
                                             class="fa fa-plus"></i> 
                                         Add Services
                                     </a>
-                                    <a class="btn btn-primary mr-2" style="float: right;" href="services_form.php"> 
+                                    <a class="btn btn-primary mr-2" style="float: right;" href="service_link.php"> 
                                         Service Link
                                     </a>
                                 </div>

@@ -20,7 +20,7 @@ if(isset($_POST['subscribe_send'])){
     $date=date('d/m/y h:i');
     $email=$_POST['your-email'];
     $url=$_POST['url'];
-    $sql=mysqli_query($conn,"INSERT INTO `subscribe`(`email`, `date`) VALUES ('$email','$date')");
+    $sql=mysqli_query($conn,"INSERT INTO `newsletter`(`email`, `date`) VALUES ('$email','$date')");
     if($sql==1){
         header("location:".$url);
     }

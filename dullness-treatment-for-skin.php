@@ -111,7 +111,7 @@ include("include/config.php");
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Dull Skin Treatments</h2>
+                    <!-- <h2>Dull Skin Treatments</h2> -->
 
                 </div>
 
@@ -124,11 +124,11 @@ include("include/config.php");
                 <div class="col-12">
 
                     <div class="container">
-                        <div class="row mt-5">
+                        <div class="row mt-3">
 
                             <div class="col-12">
                                 <div class="breadcrumb">
-                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                                    <ul style="display:flex;font-size:10px;padding-left:0;padding-top: 11px;">
                                         <li><i class="fa fa-home"></i> <a href="index.php"
                                                 title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                         </li> /
@@ -138,7 +138,7 @@ include("include/config.php");
                                 </div>
                                 <div class="row">
 
-                                    <h2>Best Treatment For Dull & Lifeless Skin</h2>
+                                    <h2 class="h5hight">Best Treatment For Dull & Lifeless Skin</h2>
                                     <p class="treatment-subtitle"><strong>World-class Solution to Get A Radiant
                                             Complexion!</strong></p>
                                     <div class="col-12 col-md-8 col-lg-8">
@@ -433,14 +433,14 @@ include("include/config.php");
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
+                                <h2 class="accordion-header" id="headingOne1">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
                                         <i class="more-less fa fa-plus"></i>
                                         HOW SOON WOULD I SEE THE RESULTS?
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                <div id="collapseOne1" class="accordion-collapse collapse" aria-labelledby="headingOne1"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>

@@ -112,14 +112,14 @@ include("include/config.php");
             <div class="container">
 
                 <div class="section-title">
-                    <!-- <h2>Weight Loss Treatment</h2> -->
+                    <!-- <h2>Inch Loss Treatment</h2> -->
 
                 </div>
 
             </div>
 
             <div>
-                <img src="assets/img/Weight-Losss.jpg.webp" alt="" style="width: -webkit-fill-available;">
+                <img src="assets/img/inch-loss.jpg" alt="" style="width: -webkit-fill-available;">
             </div>
             <div class="row" style="margin-right: 0px;margin-left: 0px;">
                 <div class="col-12">
@@ -133,157 +133,131 @@ include("include/config.php");
                                         <li><i class="fa fa-home"></i> <a href="index.php"
                                                 title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                         </li> /
-                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Weight Loss Treatment</span>
+                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Inch Loss Treatment</span>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="row">
 
-                                    <h2 class="h5hight">Nonsurgical Weight Loss Treatment</h2>
-                                    <p class="treatment-subtitle"><strong>Best Slimming Clinics Near You
-
+                                    <h2 class="h5hight">Nonsurgical Fat Loss Treatment</h2>
+                                    <p class="treatment-subtitle"><strong>Lose Belly Fat With Our Scientifically Proven
+                                            Program
                                         </strong></p>
                                     <div class="col-12 col-md-8 col-lg-8">
                                         <p>
-                                            Do you know a comprehensive weight loss program helps you get rid of
-                                            unhealthy fat and not just shed the extra kilos? Are you looking for a
-                                            customised weight loss treatment that assures you of sustainable results?
-                                            Well, if you too are looking for healthy weight loss, approved by leading
-                                            doctors and top nutritionists, it’s time to read this page and make an
-                                            informed decision.</p>
-                                        <p>Before learning about how to choose the best weight loss plan, it is critical
-                                            to understand why losing weight should be a priority.</p>
+
+                                            Despite shedding weight, most of us fail to flaunt a toned look because
+                                            belly fat removal seems next to impossible! It is equally challenging to
+                                            lose inches from the arm, waistline and thigh or get rid of lower back fat
+                                            and armpit bulge. In short, getting rid of lower body fat is a concern that
+                                            plagues most of us! . Read on to know more
+
+                                        </p>
 
                                         <div>
-                                            <h5>Don’t Let Excess Weight Reduce Your Life Expectancy!</h5>
-                                            <p>Being overweight or obese can be detrimental to your health and quality
-                                                of life and can result in the following:
+                                            <h5>Different Body Types And Fat Distribution</h5>
+                                            <ul>
+                                                <li><strong>Men:</strong> Android obesity associated with men having
+                                                    apple-shaped bodies suggests excess fat deposit in the belly region.
+                                                    It indicates high levels of visceral fat and increased risk of
+                                                    suffering from severe health conditions.</li>
+                                                <li><strong>Women:</strong> Gynoid obesity associated with women having
+                                                    pear-shaped bodies indicates excess fat accumulation around the hips
+                                                    and thighs. A high waist-hip ratio may suggest that you are more
+                                                    prone to metabolic diseases than others.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>Why Is Inch Loss Critical For Enjoying Good Health?</h5>
+                                            <p>A high body fat percentage poses a significant health risk, yet it often
+                                                goes undetected due to the following reasons:</p>
+                                            <ul>
+                                                <li>Most of us focus on losing kilos and attaining the ideal BMI (Body
+                                                    Mass Index). However, what we may forget to factor in is our body
+                                                    fat percentage. Metabolic obesity is a critical indicator of
+                                                    unhealthy visceral fat. According to WHO, a ratio of waist and hip
+                                                    circumference or WHR of .9 in men and .85 in women is a predictor of
+                                                    heart diseases, brain stroke and Type 2 diabetes.</li>
+                                                <li>A simplistic fitness regimen that includes diet control and workouts
+                                                    fails to reduce the stubborn fat deposits. Getting back into shape
+                                                    is more challenging for people who have hormonal issues, genetic
+                                                    propensity, insulin resistance, and metabolic diseases such as
+                                                    diabetes, hypercholesterolemia and heart-related illnesses than it
+                                                    is for others.</li>
+                                                <li>The significance of Body Composition Analysis (BCA) remains an
+                                                    unheard topic even among health-conscious people. We lack awareness
+                                                    about the different types of fats and the specialised treatments
+                                                    available for each. Your belly fat problem may be due to both excess
+                                                    subcutaneous fat, found directly under the skin, and visceral fat
+                                                    stored in the abdominal cavity around vital organs like liver,
+                                                    pancreas and intestines. Only a qualified medical professional can
+                                                    recommend a suitable treatment based on your BCA</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>Advanced Inch Loss/Fat Loss Treatments Available At Gobest Skin & Hair</h5>
+                                            <p>Inch loss is desirable not only for aesthetic reasons but also on health
+                                                grounds. Gobest Skin & Hair offers non-surgical body contouring and weight management
+                                                services for a comprehensive treatment of unhealthy body fat.</p>
+                                            <ul>
+                                                <li><strong>Body Contouring: </strong>The advanced non-invasive body
+                                                    contouring treatment based on revolutionary USFDA-approved
+                                                    ultrasound and radiofrequency technology helps in a permanent
+                                                    reduction of stubborn subcutaneous fat from specific areas of the
+                                                    body. It is a safe, painless, and effective treatment for inch loss
+                                                    as it helps to get rid of excess belly fat and love handle to attain
+                                                    a slim waistline. It is also an ideal option for toning your body
+                                                    and eliminating arm, thigh, and back fat. You can opt for it if you
+                                                    have a BMI below 30kg/m<sup>2</sup>.</li>
+                                                <li><strong>Beyond Weight Loss Program: </strong>Our signature service
+                                                    is a sustainable program that inculcates lifestyle changes and
+                                                    healthy eating habits. You cannot measure the life-long health
+                                                    benefits it assures in terms of kilos.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>What Are The Benefits Of Opting For Gobest Skin & Hair Fat Loss Treatment?
+                                            </h5>
+                                            <p>Here are the top reasons for choosing inch loss at Gobest Skin & Hair:</p>
+                                            <ul>
+                                                <li>Targeted inch loss helps you get rid of stubborn fat deposits
+                                                    effectively yet effortlessly.</li>
+                                                <li>It enables you to achieve a more defined body shape than before.
+                                                </li>
+                                                <li>It prevents the problem of saggy skin, the aftermath of measurable
+                                                    fat loss.</li>
+                                                <li>The treatment is safe and painless and does not involve any
+                                                    significant discomfort or downtime.</li>
+                                                <li>It is a quick, non-surgical procedure that delivers sustainable
+                                                    results.</li>
+                                                <li>It offers long-lasting satisfaction, especially when combined with
+                                                    our ancillary Beyond Weight Loss services.</li>
+                                            </ul>
+                                        </div>
+
+                                        <div>
+                                            <h5>Steps To Achieve Inch Loss At Gobest Skin & Hair</h5>
+                                            <p>If you enrol for inch loss at Gobest Skin & Hair, here are the steps you may expect:
                                             </p>
                                             <ul>
-                                                <li>Increased fatigue, stiffness, breathlessness, sleeplessness and
-                                                    joint pains.</li>
-                                                <li>Higher risk of suffering from acute lifestyle diseases and poor
-                                                    sexual health.</li>
-                                                <li>Spike in mortality rate and a significant reduction in life span by
-                                                    a few years.</li>
-                                                <li>Impaired body image, weak interpersonal communication skills, mood
-                                                    and eating disorders.</li>
-                                                <li>A surge in hospitalisation and medication-related expenditure.</li>
+                                                <li>Creation of Metabolic fingerprint for each client based on age, sex,
+                                                    BMI, body fat percentage, muscle mass, medical history, activity
+                                                    levels and other vital health parameters.</li>
+                                                <li>Customised Body Contouring treatment based on the assessment of fat,
+                                                    sag and cellulite by a qualified dermatologist.</li>
+                                                <li>Complimentary meal-planning by a team of leading nutritionists for
+                                                    attaining optimal inch loss.</li>
+                                                <li>Add-on service like Beyond Weight Loss Program is available to
+                                                    prolong the results and provide long-lasting satisfaction.</li>
                                             </ul>
-                                            <p>Now that you know the adverse effects of being overweight, here is some
-                                                good news for you. Weight loss has multidimensional benefits and
-                                                shedding those extra kilos can help you promote your physical, mental
-                                                and emotional well-being!</p>
-                                            <p>Even losing between 5 and 10 per cent of your current weight can start
-                                                lowering your risk of suffering from several psycho-pathological
-                                                complications.</p>
-                                            <p>However, any weight loss journey is not simple, read the next section to
-                                                find out the common roadblocks you may face while trying to get rid of
-                                                the extra kilos.</p>
-                                        </div>
-                                        <div>
-                                            <h5>Why Is It Tough To Lose Weight? </h5>
-                                            <p>Most of us struggle to lose weight due to the following reasons:</p>
-                                            <ul>
-                                                <li>The popularity of home remedies, crash diets, diet pills and
-                                                    massages as overnight weight loss therapies</li>
-                                                <li>Reliance on peer advice, viral fitness fads and misleading ads of
-                                                    dubious weight loss clinics and slimming centres</li>
-                                                <li>Unrealistic expectations of ‘miraculous’ results from instant
-                                                    slimming treatments</li>
-                                                <li>A dearth of customised solutions to overcome a plateau and see
-                                                    progressive weight loss results</li>
-                                                <li>Incorrect interpretation of the outcome leads to decreased
-                                                    motivation levels</li>
-                                                <li>Strict diets and strenuous workouts are unsuitable for long-term
-                                                    weight maintenance</li>
-                                            </ul>
-                                            <p>Despite the above challenges, we all have examples all around us of
-                                                people who have managed to become fighting fit by knocking off the extra
-                                                kilos through sheer determination and discipline. The key to their
-                                                success story is finding a customised, comprehensive and sustainable
-                                                weight loss program.</p>
-                                            <p>Read on to know more about a healthy weight loss treatment that assures
-                                                results which cannot be measured by the weighing scale alone!</p>
-                                        </div>
-                                        <div>
-                                            <h5>Gobest Skin & Hair’s ‘Beyond Weight Loss’ Program:</h5>
-                                            <p>As the name suggests, Gobest Skin & Hair’s holistic weight management program aims to
-                                                deliver long-term health benefits and encourage lifestyle transformation
-                                                beyond weight reduction. Here are the benefits you can expect if you
-                                                enrol for it:</p>
-                                            <ul>
-                                                <li>Achieve targeted weight loss and maintain a healthy Body Mass Index
-                                                    (BMI)</li>
-                                                <li>Become slim without suffering from muscle loss and nutrient
-                                                    deficiency</li>
-                                                <li>Eliminate unhealthy fat from your body and improve your metabolism
-                                                </li>
-                                                <li>Sustain weight goals and prevent regain through an extensive
-                                                    maintenance program</li>
-                                            </ul>
-                                            <p>Additionally, we empower you to lead a healthy life:</p>
-                                            <ul>
-                                                <li>Manage your co-morbidities and improve your vital parameters</li>
-                                                <li>Enhance your fitness scores, flexibility, stamina and agility</li>
-                                                <li>Boost your health with a customised nutritional and lifestyle
-                                                    management plan</li>
-                                                <li>Enhance your overall shape with the help of additional body
-                                                    contouring services.</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <h5>A 100% Healthy And Scientific Approach To Lose Weight:
-                                            </h5>
-                                            <p>‘Beyond Weight Loss’ program is a comprehensive weight management
-                                                solution based on your ‘metabolic fingerprint’ that includes critical
-                                                parameters like your current weight, health condition, body composition,
-                                                fat distribution, body mass index and muscle mass.</p>
-                                            <p>Weight loss experts at Gobest Skin & Hair excel at suggesting a sustainable action
-                                                plan tailor-made for you to manage not only your weight but also improve
-                                                your health profile. The ‘Beyond Weight Loss Program’ is inclusive of
-                                                the following:</p>
-                                            <ul>
-                                                <li>Healthy Nutritional Plan</li>
-                                                <li>Lifestyle Modification</li>
-                                                <li>Exercise Prescription</li>
-                                                <li>Maintenance Support</li>
-                                            </ul>
-                                            <p>Go right ahead to know more about what makes the weight management
-                                                program at Gobest Skin & Hair unique.</p>
-                                        </div>
-
-                                        <div>
-                                            <h5>Why Choose Gobest Skin & Hair’s ‘Beyond Weight Loss’ Program?</h5>
-                                            <p>Here are the top reasons why Gobest Skin & Hair’s ‘Beyond weight Loss’ program is the
-                                                best option for qualitative weight loss.</p>
-                                            <ul>
-                                                <li>A safe weight loss therapy minus surgery, dubious devices or
-                                                    spurious pills.</li>
-                                                <li>Powered by a team of leading nutritionists, qualified doctors and
-                                                    top fitness trainers.</li>
-                                                <li>Extensive support to track your progress and help you achieve the
-                                                    best results.</li>
-                                                <li>Value for money program that includes both the active and
-                                                    maintenance phase ensuring long-lasting satisfaction.</li>
-                                                <li>Provision of add-on body contouring service to enhance your shape
-                                                    after weight loss.</li>
-                                                <li>Sustainable nutrition plans based on your tastes and preferences,
-                                                    health condition, weight goals and lifestyle habits.</li>
-                                                <li>Customised exercise prescription to achieve weight loss based on
-                                                    your current activity levels, weight and health concerns.</li>
-                                            </ul>
-                                            <p>Now that you know that Gobest Skin & Hair can not only help you slim down by shedding
-                                                those extra kilos but become healthy too by losing unhealthy fat. Why
-                                                wait? Kick-start your 360◦ fitness revolution right away!</p>
                                         </div>
 
                                         <div>
                                             <h5>How To Get Started?</h5>
-                                            <p>You can seek an appointment online or over the phone by dialling
+                                            <p>You can book an appointment online or over the phone by dialling
                                                 <a href="tel:91 72648 89986">91 72648 89986</a>. Our customer care team
-                                                will be happy to help you book a consultation with a weight loss expert
-                                                at your nearest Gobest Skin & Hair clinic at your preferred time.</p><br>
+                                                will schedule an appointment with an expert dermatologist at your
+                                                preferred time and location.</p><br>
                                         </div>
 
                                     </div>
@@ -299,7 +273,7 @@ include("include/config.php");
                     </div>
                 </div>
                 <!--video-->
-                <!-- <div class="col-12">
+                <div class="col-12">
                     <section id="cta" class="cta">
                         <div class="container" data-aos="zoom-in">
                             <div class="row">
@@ -323,7 +297,7 @@ include("include/config.php");
 
                         </div>
                     </section>
-                </div> -->
+                </div>
                 <!--end video-->
 
                 <!--before/after-->
@@ -388,17 +362,24 @@ include("include/config.php");
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <i class="more-less fa fa-plus"></i>
-                                        Who Is An Eligible Candidate For This Weight Loss Program?
+                                        Who Is A Suitable Candidate For Inch Loss At Gobest Skin & Hair?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Anybody who wants to become healthy, prevent lifestyle diseases and shed the
-                                            extra weight can enrol for Gobest Skin & Hair’s ‘Beyond Weight Loss’ program. It is also
-                                            suitable for those who have attained their weight goals and want to avoid
-                                            regain. However, pregnant and early lactating women and people with critical
-                                            illnesses should avoid opting for this program.</p>
+                                        <p>Any individual above 18 years of age with a BMI below 30 who wants to attain
+                                            the desired shape and get rid of the fat bulges from specific areas of the
+                                            body such as the abdomen, flanks and arms can opt for Gobest Skin & Hair’s body
+                                            contouring treatment and enjoy inch loss. Those who are eager to lose thigh,
+                                            belly, waistline and arm fat without any surgical procedure or those who
+                                            failed to get back into shape even after following strict weight loss
+                                            programs are also ideal candidates for it.</p>
+                                        <p>However, pregnant or early lactating women (before completing three months
+                                            post-delivery) and patients having chronic heart and liver diseases or those
+                                            on pacemakers should avoid opting for this treatment.</p>
+                                        <p>People with BMI above 30 may opt for our Beyond Weight loss program
+                                            immediately to eventually be eligible for our body contouring treatment.</p>
                                     </div>
                                 </div>
                             </div>
@@ -407,17 +388,16 @@ include("include/config.php");
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <i class="more-less fa fa-plus"></i>
-                                        How Many Kilos Of Weight Ideally Can I Shed With Your Program?
+                                        How Does Your Body Burn Fat?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Gobest Skin & Hair’s ‘Beyond Weight Loss’ program focuses on improving your metabolic
-                                            well-being by ensuring sustainable fat loss and not rapid weight loss. Our
-                                            holistic and scientific approach helps you to prevent lifestyle diseases and
-                                            enhance the quality of your life, and so you cannot measure the long term
-                                            health benefits of the program in terms of kilos alone.</p>
+                                        <p>The fat loss process starts when the body burns fat and converts it into
+                                            usable energy which, in turn, causes fat cells or adipocytes to shrink. The
+                                            lymphatic system disposes of the destroyed fat cell membranes eventually.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -427,16 +407,20 @@ include("include/config.php");
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         <i class="more-less fa fa-plus"></i>
-                                        How Long Does It Take Before You Start Seeing Weight Loss?
+                                        Are Ultrasound And Radiofrequency Technology Used For Body Fat Reduction Safe?
+                                        What Are The Side Effects?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>You can start seeing weight loss as early as the first month depending on
-                                            your baseline weight and health condition and your diligent adherence to the
-                                            nutrition plans and exercise prescription suggested by our weight loss
-                                            experts.</p>
+                                        <p>Inch loss service at Gobest Skin & Hair is an entirely safe procedure performed under the
+                                            guidance of experienced doctors. The use of clinically-proven and
+                                            USFDA-approved ultrasound and radiofrequency-based technologies help to
+                                            eliminate unwanted fat non-surgically. It also helps define specific body
+                                            areas with the help of collagen remodelling. The skin tightening benefits of
+                                            radiofrequency technology delivers a sculpted look minus the sag and pain.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -446,14 +430,18 @@ include("include/config.php");
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <i class="more-less fa fa-plus"></i>
-                                        Will I Regain Weight After Completing The Program?
+                                        What Is The Average Number Of Sessions Needed For Body Fat Removal?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Our comprehensive ‘Beyond Weight Loss’ program helps you achieve sustainable
-                                            results as it is inclusive of extensive maintenance support.</p>
+                                        <p>Leading doctors at Gobest Skin & Hair usually recommend 4-8 sessions to help you achieve
+                                            the desired inch loss with an interval of up to 7 to 14 days between each
+                                            visit. However, your expert dermatologist will decide the exact number of
+                                            sessions you need while customising your treatment plan based on the fat,
+                                            sag, cellulite or a combination of these in the target area, and other
+                                            factors that vary for every individual.</p>
                                     </div>
                                 </div>
                             </div>
@@ -463,19 +451,14 @@ include("include/config.php");
                                         data-bs-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFive">
                                         <i class="more-less fa fa-plus"></i>
-                                        Would You Suggest Me Fad Diets To Reduce Weight Quickly? How Can You Help Me
-                                        Overcome Unhealthy Food Cravings?
+                                        Does Inch Loss Treatment Provide Permanent Fat Reduction?
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Top nutritionists at Gobest Skin & Hair specialise in suggesting customised nutrient-rich
-                                            meal plans based on your underlying health conditions, targeted weight loss,
-                                            nutritional requirement, tastes and cultural preferences to slowly and
-                                            steadily wean you off junk food and inculcate healthy eating habits. They
-                                            will suggest nutritious, wholesome and palatable alternatives to overcome
-                                            your unhealthy food cravings to help you achieve sustainable weight loss.
+                                        <p>Yes, the results can be long lasting in the target area if you follow the
+                                            diet recommended by our experienced nutritionists and exercise regularly.
                                         </p>
                                     </div>
                                 </div>
@@ -485,15 +468,14 @@ include("include/config.php");
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <i class="more-less fa fa-plus"></i>
-                                        What Kind Of Exercise Routine Do You Recommend For Weight Loss?
+                                        Can People With Critical Illness Opt For This Treatment?
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Our fitness experts will suggest a customised exercise prescription for you
-                                            based on your current weight, health concerns and activity levels and
-                                            targeted heart rate to achieve your weight loss goals.</p>
+                                        <p>No. The health condition and medication of critically ill individuals may not
+                                            be compatible with the inch loss treatment.</p>
                                     </div>
                                 </div>
                             </div>
@@ -503,15 +485,15 @@ include("include/config.php");
                                         data-bs-target="#collapseSeven" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <i class="more-less fa fa-plus"></i>
-                                        Is The Program Safe For Me?
+                                        How To Know That The Fat Loss Program Is Working For Me?
                                     </button>
                                 </h2>
                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Yes, the program is 100% safe as it is evidence-based, natural and
-                                            scientific. It does not involve any dubious pills, surgeries, massages and
-                                            slimming belts.</p>
+                                        <p>You can monitor your inch loss and measure the results by noting a
+                                            significant drop in your outfit size at the end of the treatment and a toned
+                                            appearance of the target area.</p>
                                     </div>
                                 </div>
                             </div>
@@ -521,37 +503,18 @@ include("include/config.php");
                                         data-bs-target="#collapseEight" aria-expanded="false"
                                         aria-controls="collapseEight">
                                         <i class="more-less fa fa-plus"></i>
-                                        How Can I Say If I Am Losing Weight?
+                                        Is Losing Inches Better Than Reducing Weight?
                                     </button>
                                 </h2>
                                 <div id="collapseEight" class="accordion-collapse collapse"
                                     aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Our team will closely track your progress throughout the program at our
-                                            clinic by regularly assessing your Body composition analysis to understand
-                                            both the quantity and quality of weight loss. They will record your weight
-                                            and fat loss, changes in muscle mass and Body Mass Index at regular
-                                            intervals.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingNine">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseNine" aria-expanded="false"
-                                        aria-controls="collapseNine">
-                                        <i class="more-less fa fa-plus"></i>
-                                        How To Choose A Weight Loss Doctor?
-                                    </button>
-                                </h2>
-                                <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        <p>There are no weight loss doctors as such. Gobest Skin & Hair has a team of experts that
-                                            includes qualified doctors, experienced nutritionists and certified fitness
-                                            trainers who can evaluate your health condition, dietary habits and
-                                            lifestyle practices to curate a customised solution for you to help you shed
-                                            the extra kilos along with unhealthy fat.</p>
+                                        <p>Losing inches is as crucial as reducing weight in your journey towards
+                                            maintaining a healthy waist size and ideal waist-to-hip ratio. Abdominal
+                                            obesity due to excess fat accumulation around your waist increases your risk
+                                            of metabolic syndrome. So, losing inches from specific areas of the body and
+                                            following a healthy diet and a workout routine can help you prevent
+                                            lifestyle diseases and remain in shape even after the treatment is over.</p>
                                     </div>
                                 </div>
                             </div>

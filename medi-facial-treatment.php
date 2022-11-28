@@ -112,7 +112,7 @@ include("include/config.php");
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Melasma Treatment</h2>
+                    <!-- <h2>Signature Facial</h2> -->
 
                 </div>
 
@@ -125,258 +125,178 @@ include("include/config.php");
                 <div class="col-12">
 
                     <div class="container">
-                        <div class="row mt-5">
+                        <div class="row mt-3">
 
                             <div class="col-12">
                                 <div class="breadcrumb">
-                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;">
+                                    <ul style="display:flex;font-size:10px;    padding-top: 11px;padding-left:0">
                                         <li><i class="fa fa-home"></i> <a href="index.php"
                                                 title="Home"><span>Home&nbsp;&nbsp; </span></a>
                                         </li> /
-                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Melasma Treatment</span></li>
+                                        <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Signature Facial</span></li>
                                     </ul>
                                 </div>
                                 <div class="row">
 
-                                    <h2>Melasma: Causes, Symptoms, Types, Treatments & Prevention Tips</h2>
-
+                                    <h2 class="h5hight">Medi Facial: A Revolutionary Way To Treat Your Skin</h2>
+                                    <h5>Repair, Balance, Hydrate And Nourish Your Skin</h5>
                                     <div class="col-12 col-md-8 col-lg-8">
-                                        <p>Melasma is a pigmentation disorder that affects the skin’s tone and
-                                            appearance and may lead to premature ageing in adult women. It is a benign
-                                            skin disease, but its chronicity and persistence can often make it
-                                            challenging to treat.</p>
-                                        <p>However, experienced dermatologists at Gobest Skin & Hair excel in treating different
-                                            pigmentary concerns, including melasma, using revolutionary USFDA-approved
-                                            methods with proven safety and efficacy to help you regain your flawless
-                                            complexion. Read on to know more about the melasma treatment procedure,
-                                            results, cost and more!</p>
+                                        <p>
+                                            Most of us opt for monthly facials as a beauty ritual for rejuvenating our
+                                            skin. However, these salon facials involve harsh chemicals and bleaches that
+                                            provide only temporary results and do more harm than good to our skin. Read
+                                            on to know the safest bet to attain radiant and rejuvenated skin!</p>
 
                                         <div>
-                                            <h5>What Is Melasma?</h5>
-                                            <p>Melasma is a skin disease that leads to the appearance of flat brownish
-                                                or blue-grey patches on the skin, especially on the face. It affects
-                                                adults and is a more common complaint among women than men. Chloasma, or
-                                                mask of pregnancy, is another name for melasma. Sun exposure is a common
-                                                risk factor. Melasma is a chronic pigmentary disorder that waxes and
-                                                wanes but often remains resistant to treatment.</p>
+                                            <h5>What Is A Medical Facial?</h5>
+                                            <p>Medical Facial, popularly known as Medi-Facial, is a skin treatment for
+                                                improving the skin tone, texture and collagen production, thereby,
+                                                slowing down ageing. Backed by medical science, it is more effective
+                                                than harsh chemical-based salon facials and offers tremendous skin
+                                                benefits in the long run without any side-effects.</p>
                                         </div>
                                         <div>
-                                            <h5>Where Does Melasma Commonly Occur?</h5>
-                                            <p>Melasma occurs most commonly on the face, including:</p>
-                                            <ul>
-                                                <li>Cheeks</li>
-                                                <li>Forehead</li>
-                                                <li>Bridge of nose</li>
-                                                <li>Chin</li>
-                                            </ul>
-                                            <p>Apart from the face, it rarely involves the exposed skin of the forearms,
-                                                neck and back.</p>
+                                            <h5>What Is Gobest Skin & Hair’s Signature Facial?</h5>
+                                            <p>Performed under the supervision of Gobest Skin & Hair’s team of rigorously-trained
+                                                dermatologists, Gobest Skin & Hair’s Signature Facial uses medically-proven
+                                                ingredients and cutting-edge radiofrequency and ultrasound technology to
+                                                assure most effective results. It is an advanced facial that offers
+                                                customised care for all skin types, including sensitive skin. It
+                                                repairs, replenishes and rejuvenates to ensure you enjoy luminous skin
+                                                that steals the spotlight wherever you go!</p>
+
                                         </div>
                                         <div>
-                                            <h5>What Are The Types Of Melasma?</h5>
-                                            <p>Dermatologists categorise the types of melasma based on the depth of the
-                                                skin discolouration:
+                                            <h5>What Are The Benefits Of Signature Facial?</h5>
+                                            <p>Gobest Skin & Hair’s Signature Facial is a safe and versatile treatment suitable for
+                                                oily, dry and normal skin types. It offers multiple benefits, including
+                                                the following:
                                             </p>
                                             <ul>
-                                                <li><strong>Epidermal Melasma: </strong>The melanin deposit in the
-                                                    topmost layer of skin, i.e., the epidermis, leads to dark brown
-                                                    patches with well-defined borders. This superficial type of melasma
-                                                    responds best to treatment.
+                                                <li>Revitalises dull skin</li>
+                                                <li>Improves skin texture</li>
+                                                <li>Smoothens the skin</li>
+                                                <li>Rejuvenates & ensures a youthful glow</li>
+                                                <li>Maintains the pH balance of oily skin and grants a shine-free look
                                                 </li>
-                                                <li><strong>Dermal Melasma: </strong>The pigment build-up in the dermis,
-                                                    the deeper layer of skin, is not easily accessible. It leads to the
-                                                    appearance of light brown or bluish-grey diffused patches that
-                                                    respond poorly to treatment.</li>
-                                                <li><strong>Mixed Melasma: </strong>This pigmentary concern causes
-                                                    different colour patches in the epidermis and dermis. This is the
-                                                    most common type of melasma, and the treatment response usually
-                                                    varies depending on the amount and location of the melanin build-up.
+                                                <li>Provides a visibly brighter skin tone after every session</li>
+                                                <li>Enhances skin’s firmness (due to collagen modulation using
+                                                    radiofrequency technology)
+                                                </li>
+                                                <li>High safety index, even for easily irritated delicate skin</li>
+                                                <li>A quick and comfortable procedure with zero downtime</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h5>What Makes Our Signature Facial The New Super-Facial?</h5>
+                                            <p>It is a science-backed facial procedure that uses the perfect combination
+                                                of cutting edge TriPollar® RF and ultrasound technology and curated
+                                                active ingredients for delivering the best results. This replenishes
+                                                cellular metabolism, ensures skin renewal and optimises absorption for
+                                                enhanced repair and replenishment. Unlike other technologies, Gobest Skin & Hair’s
+                                                Signature Facial utilises natural oxygen from within, resulting in
+                                                effective treatment and immediate results.</p>
+                                            <p>Our unique features include:</p>
+                                            <ul>
+                                                <li>Internationally marketed state-of-the-art Medi-Facial advice</li>
+                                                <li>Treatment consists of gentle TriPollar® RF radiofrequency to
+                                                    maintain the firmness of the skin</li>
+                                                <li>And ultrasound technology to aid the trans-epidermal delivery of
+                                                    active substances
                                                 </li>
                                             </ul>
                                         </div>
                                         <div>
-                                            <h5>Signs And Symptoms Of Melasma</h5>
-                                            <p>The signs and symptoms of melasma include:</p>
+                                            <h5>What Are The Types Of Medi-Facials Available At Gobest Skin & Hair?</h5>
+                                            <p>The ingredients used for Gobest Skin & Hair’s Signature Facial come with a high level
+                                                of conscientiousness, and their features include the following::</p>
                                             <ul>
-                                                <li>Freckle-like spots</li>
-                                                <li>Flat patches of brown, blue or grey colour</li>
-                                                <li>Defined or diffused patches</li>
+                                                <li>Environment-friendly
+                                                </li>
+                                                <li>Not tested on animals</li>
+                                                <li>No added colours or fragrances</li>
+                                                <li>Clinically-validated</li>
+                                                <li>Botanicals, including bamboo and camu camu to maintain the pH
+                                                    balance of oily skin
+                                                </li>
+                                                <li>Natural antioxidants such as Horsetail extract, caffeic acid,
+                                                    ferulic acid and vitamin C to minimise the damage caused by
+                                                    pollution and poor lifestyle habits
+                                                </li>
+                                                <li>Protectants like Caprylic/Capric Triglycerides to prevent
+                                                    dehydration and dryness of skin</li>
+                                                <li>Exfoliating agents like salicylic acid, mandelic acid and retinyl
+                                                    palmitate and nourishing agents ingredients like Argan oil, Jojoba
+                                                    oil and Shea butter</li>
+                                                <li>Anti-ageing ingredients like red algae, Leontopodium Alpinum Callus
+                                                    Culture Extract (Edelweiss) and Palmitoyl Peptide Complex to
+                                                    stimulate the repair process in the deeper tissue and minimise sun
+                                                    damage</li>
+                                                <li>Brightening agents like kojic acid, alpha arbutin, azelaic acid,
+                                                    Opuntia fruit extract and Carrot extract, Undecylenoyl Phenylalanine
+                                                    and Diacetyl Boldine</li>
+                                                <li>Plant-based anti-acne agents like Oligopeptide-10 Complex with
+                                                    proven anti-microbial properties</li>
                                             </ul>
-                                            <p>The patches usually occur symmetrically on the cheeks, forehead, nose,
-                                                chin and jawline.</p>
-                                        </div>
-                                        <div>
-                                            <h5>What Causes Melasma?</h5>
-                                            <p>Here are two primary causes of melasma:</p>
-                                            <ul>
-                                                <li><strong>Sun/UV Exposure: </strong>Exposure to UV radiation from the
-                                                    sun or laptop/TV screens can trigger excess melanin production in
-                                                    the skin. It can worsen melasma if present or cause recurrence after
-                                                    treatment.</li>
-                                                <li><strong>Hormonal Imbalances:</strong>Dermatologists often correlate
-                                                    melasma cases with estrogen and progesterone sensitivity. Melasma is
-                                                    significantly more common in pregnant women and those using
-                                                    high-dose hormonal contraceptive pills. Hormonal changes during
-                                                    menopause or conditions like hypothyroidism can often cause or
-                                                    worsen melasma.</li>
-                                            </ul>
-                                            <p>Apart from these, a few other factors may trigger melasma:</p>
-                                            <ul>
-                                                <li><strong>Family History: </strong>Those with a positive history of
-                                                    melasma in the family have a higher risk than others.</li>
-                                                <li><strong>Skin Colour:</strong>People with dark skin are more likely
-                                                    to develop melasma than those who are fairer.</li>
-                                                <li><strong>Chemical-based Skin Care Products: </strong> Skin-care
-                                                    products with fragrances and chemicals that cause skin irritation
-                                                    can trigger melasma.</li>
 
+                                        </div>
+                                        <div>
+                                            <h5>What Does The Procedure Include?</h5>
+                                            <p>Gobest Skin & Hair’s revolutionary 3-in-1 Signature Facial is the safest way to
+                                                maintain the youthful radiance of your skin and comprised the following
+                                                steps:</p>
+                                            <p><strong>Exfoliate. Oxygenate. Infuse.</strong></p>
+                                            <ul>
+                                                <li><strong>Step 1: Exfoliation</strong>It reduces the layer of dead
+                                                    cells using oxypods.</li>
+                                                <li><strong>Step 2: Oxygenation</strong>It increases the supply of
+                                                    natural oxygen to the skin.</li>
+                                                <li><strong>Step 3: Nourishment</strong>It ensures deep skin nourishment
+                                                    by infusing revitalising nutrients.</li>
                                             </ul>
                                         </div>
                                         <div>
-                                            <h5>How To Diagnose Melasma?</h5>
-                                            <p>Dermatologists at Gobest Skin & Hair diagnose melasma by clinically examining the
-                                                discoloured skin.</p>
-                                            <p>They may use Wood’s lamp method to observe the skin under blue light to
-                                                identify the pigmentation level. In exceptional cases, they may perform
-                                                a biopsy in the affected area to confirm the diagnosis under a
-                                                microscope.</p>
+                                            <h5>What To Expect After Undergoing Signature Facial Treatment?</h5>
+                                            <p>You can expect glowing smooth and rejuvenated skin soon after the
+                                                session. You can note a visibly brighter complexion and progressive
+                                                improvement in your skin texture after every session.
+
+                                            </p>
+
                                         </div>
                                         <div>
-                                            <h5>What Is The Treatment For Melasma?</h5>
-                                            <p>Although many advanced treatments are available, the response of melasma
-                                                to treatments remains variable. No single treatment option can ensure
-                                                total and permanent relief from melasma.</p>
-                                            <p>At Gobest Skin & Hair, your doctor will customise your treatment and recommend regular
-                                                maintenance to reduce melasma and prevent a recurrence. She may
-                                                recommend any of the following options as standalone or combo treatment
-                                                based on the type, cause and severity of your skin condition:</p>
+                                            <h5>Why Choose Gobest Skin & Hair?</h5>
+                                            <p>Here are the top reasons why you should choose Gobest Skin & Hair for our
+                                                revolutionary 3-in-1 Signature Facial:
+
+                                            </p>
                                             <ul>
-                                                <li><strong>Topical or Oral Medications:</strong> Medications,
-                                                    especially topical creams, are often the first line of treatment and
-                                                    an essential part of post-care. It may include:
-                                                    <ol>
-                                                        <li><strong>Hydroquinone:</strong> Your dermatologist at Gobest Skin & Hair
-                                                            may recommend hydroquinone with a concentration of 2-4% as
-                                                            the primary treatment for melasma. She may advise you to
-                                                            apply it at night on the patches for 3-4 months. Prolonged
-                                                            use may aggravate pigmentation.</li>
-                                                        <li><strong>Retinoids:</strong> Medical experts often use
-                                                            tretinoin in conjunction with hydroquinone or other
-                                                            bleaching agents at night to boost the results of melasma
-                                                            treatment.</li>
-                                                        <li><strong>Bleaching Agents:</strong> Skin lightening agents
-                                                            like kojic acid, azelaic acid, glycolic acid, arbutin and
-                                                            Vitamin C can reduce melanin synthesis and help lighten the
-                                                            pigmented patches. Your doctor may add it to your post-care
-                                                            regimen as long-term maintenance therapy to minimise the
-                                                            chances of the recurrence of melasma.</li>
-                                                        <li><strong>Tranexamic Acid:</strong> A newer molecule used in
-                                                            oral, injectable or topical form by leading dermatologists
-                                                            for treating melasma is quite effective and may be a part of
-                                                            a combination treatment.</li>
-                                                        <li><strong>Hormonal Medications: </strong> Your dermatologist
-                                                            may assess your hormonal health and advise you to
-                                                            discontinue any medication that may induce melasma.</li>
-                                                    </ol>
+                                                <li>Leading team of rigorously trained dermatologists and certified skin
+                                                    therapists</li>
+                                                <li>Unparalleled commitment to stringent safety and hygiene protocols
                                                 </li>
-                                                <li><strong>Advanced Procedural Treatments:</strong> Here are some
-                                                    in-clinic treatments that your dermatologist at Gobest Skin & Hair may recommend
-                                                    for attaining visible results of melasma treatment.
-                                                    <ol>
-                                                        <li><strong>Chemical Peels:</strong> The application of
-                                                            different concentrations of natural extracts like glycolic
-                                                            acid and kojic acid on the discoloured skin for controlled
-                                                            exfoliation of top layers inhibits melanin formation. It is
-                                                            most effective in reducing epidermal melasma. However, you
-                                                            may need multiple sessions of chemical peel treatment at
-                                                            regular intervals of a few weeks to attain visible results.
-                                                        </li>
-                                                        <li><strong>Laser Treatment:</strong>Dermatologists at Gobest Skin & Hair
-                                                            undergo rigorous training to use the latest USFDA-approved
-                                                            Q-switched Nd:YAG laser technology and treat deeper melasma
-                                                            that does not respond to topical medication and peel
-                                                            treatment. The laser beam penetrates the deeper layers to
-                                                            break down the excess melanin without adversely affecting
-                                                            the surrounding skin. However, the precise treatment may
-                                                            require multiple sessions based on the type and severity of
-                                                            your skin condition to provide the best results and for
-                                                            regular maintenance.</li>
-                                                    </ol>
+                                                <li>Latest technology and top-notch equipment, which conform to the EU’s
+                                                    safety standards</li>
+                                                <li>Maintain a sterile environment and world-class facilities to
+                                                    prioritise client comfort and privacy</li>
+                                                <li>Awarded by the industry for unmatched expertise in performing
+                                                    advanced skin-care treatments</li>
+                                                <li>Rated 91% on the satisfaction scale by over 2.5 lakh happy customers
                                                 </li>
                                             </ul>
-                                            <p>Remember, preventing exposure to UV rays is the most crucial step in
-                                                treating melasma, as even mild sun damage can increase, trigger or cause
-                                                recurrence. It is mandatory to use sun protection with every treatment
-                                                modality.</p>
                                         </div>
                                         <div>
-                                            <h5>How To Prevent Melasma?</h5>
-                                            <p>Unfortunately, there is no sure-shot way to prevent melasma altogether.
-                                                However, the following measures can reduce the risk of melasma and
-                                                recurrence:</p>
-                                            <ul>
-                                                <li><strong>Avoid Excessive Sun Exposure: </strong>Do not go out during
-                                                    peak sunlight hours or use protective gear like scarves, sunglasses
-                                                    and umbrellas to prevent melasma and other forms of sun damage to
-                                                    the skin.</li>
-                                                <li><strong>Regular Use Of Sunscreen:</strong> Use sunscreen with SPF 30
-                                                    or above recommended by your dermatologist 15-20 minutes before
-                                                    going out in the sun. Reapply every three hours to prevent melasma
-                                                    and lighten existing pigmentary conditions.</li>
-                                                <li><strong>Healthy Diet And Skin-Care Habits:</strong> A nutrient-rich
-                                                    diet with vitamin D and regular skin-care helps to keep the skin
-                                                    healthy and protect it from multiple disorders, including
-                                                    discolouration.</li>
-                                                <li><strong>Judicious Use Of Hormonal Pills And Contraceptives:
-                                                    </strong>Consult a doctor to avoid indiscriminate use of hormonal
-                                                    pills if you have a positive family history of melasma.</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <h5>Why Choose Gobest Skin & Hair For Melasma Treatment?</h5>
-                                            <p>Here are the top reasons to choose Gobest Skin & Hair for melasma treatment:</p>
-                                            <ul>
-                                                <li>Largest team of over 100+ experienced dermatologists with unmatched
-                                                    expertise in providing holistic treatments customised to cater to
-                                                    your unique skin and hair needs</li>
-                                                <li>Latest USFDA-approved Q-switched Nd:YAG laser technology is
-                                                    available in-house for safe and effective non-surgical melasma
-                                                    treatment</li>
-                                                <li>Stringent protocols and world-class service for the excellent
-                                                    quality of care</li>
-                                                <li>23 modern facilities present in seven cities, including Hyderabad,
-                                                    Chennai, Bengaluru, Kolkata, Pune, Vizag and Kochi, to safeguard
-                                                    client comfort and privacy during service</li>
-                                                <li>An outstanding 91% rating voted by over 3,00,000 satisfied clients
-                                                    during 12 years of service</li>
-                                                <li>Winner of the Times of India No 1 Skin and Hair Clinic Award for
-                                                    four consecutive years</li>
-                                            </ul>
-                                        </div>
-                                        <div>
-                                            <h5>How to Get Started?</h5>
-                                            <p>If you think you have melasma, it is best to consult our expert
-                                                dermatologists at Gobest Skin & Hair and seek a customised treatment. You can visit
-                                                your nearest Gobest Skin & Hair Skin & Hair Clinic in <a
-                                                    href="akurdi-branch.php">AKURDI BRANCH</a>, <a
-                                                    href="wakad-branch.php">WAKAD BRANCH</a>, <a
-                                                    href="baner-branch.php">BANER BRANCH</a>, <a
-                                                    href="pimple-saudagar-branch.php">PIMPLE SAUDAGAR BRANCH</a> and <a
-                                                    href="hinjewadi.php">HINJEWADI BRANCH</a> or fill out the 🔗<a
-                                                    href="make-an-appointment.php">Book An Appointment</a> form.
-                                                Alternatively, you can call us on our toll-free number <i
+                                            <h5>How To Get Started?</h5>
+                                            <p>Book an appointment online or over the phone by dialling <i
                                                     class="fa fa-phone"></i><a href="tel:+91 72648 89986">+91
-                                                    7264889986</a> and request our customer support team to facilitate a
-                                                consultation based on a date, time and location of your choice.</p>
+                                                    7264889986</a> Our customer care team will schedule an appointment
+                                                with an experienced dermatologist at your preferred time and
+                                                convenience.</p>
                                         </div>
 
                                     </div>
 
-                                    <div class="col-12 col-md-4 col-lg-4 text-center">
-                                        <div class="carousalImage">
-                                            <img src="assets/img/Melasma-Treatment.png.webp" alt="" style="width:100%;">
-                                        </div>
-                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -467,8 +387,6 @@ include("include/config.php");
                             <h2 style="font-family: Anton, sans-serif;" class="mb-4 text-center"> Frequently Asked
                                 Questions</h2>
                         </div>
-
-
                         <!-- panel-group -->
 
                         <div class="accordion" id="accordionExample">
@@ -477,23 +395,17 @@ include("include/config.php");
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                         <i class="more-less fa fa-plus"></i>
-                                        HOW MUCH DOES MELASMA TREATMENT COST?
+
+                                        HOW MANY SESSIONS OF SIGNATURE FACIAL DO DOCTORS PRESCRIBE?
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>The cost of melasma treatment ranges from Rs 4,500 to 10,000 per session.</p>
-                                        <p><strong>*However, these prices are indicative only, are subject to revision
-                                                based on industry trends and strictly do not apply to melasma treatment
-                                                at Gobest Skin & Hair as we specialise in customised treatments. The cost of melasma
-                                                treatment at Gobest Skin & Hair varies from person to person and depends on unique
-                                                factors like the skin type, severity of the condition and the suitable
-                                                modalities recommended by our dermatologist as solo or combo procedures,
-                                                the number of sessions and the size of the affected area. Please visit
-                                                your nearest Gobest Skin & Hair Clinic to find out the exact cost of your customised
-                                                melasma treatment at the earliest.
-                                            </strong></p>
+                                        <p>The average number of sessions that Gobest Skin & Hair’s dermatologists recommend is four.
+                                            However, our medical team excels at offering customised solutions and
+                                            suggests the number of sessions based on each individual’s specific skin
+                                            type and concern</p>
                                     </div>
                                 </div>
                             </div>
@@ -502,17 +414,16 @@ include("include/config.php");
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <i class="more-less fa fa-plus"></i>
-                                        WHO IS AT RISK OF MELASMA?
+                                        WHAT ARE THE COMMON SIDE-EFFECTS OF SIGNATURE FACIAL?
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Melasma occurs more in dark-skinned women than men. People with a family
-                                            history, regular sun exposure and those taking hormonal medicines have
-                                            increased chances of melasma. Pregnancy can also be a risk factor.
-
-                                        </p>
+                                        <p>There are no significant side-effects of the Signature Facial. Although there
+                                            are chances of breakouts after the service due to purging that follows
+                                            exfoliation you need not worry as our experienced dermatologists help
+                                            minimise them. </p>
                                     </div>
                                 </div>
                             </div>
@@ -522,15 +433,14 @@ include("include/config.php");
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
                                         <i class="more-less fa fa-plus"></i>
-                                        IS MELASMA CANCEROUS?
+                                        WHAT IS THE DOWNTIME OF SIGNATURE FACIAL?
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Melasma is not a sign of cancer, nor can it become malignant in future.
-                                            However, since skin cancers sometimes cause discolouration, visiting a
-                                            dermatologist at the earliest is advisable to confirm your diagnosis.</p>
+                                        <p>Well, Gobest Skin & Hair’s Signature Facial is a quick and comfortable procedure with zero
+                                            downtime.</p>
                                     </div>
                                 </div>
                             </div>
@@ -540,16 +450,15 @@ include("include/config.php");
                                         data-bs-target="#collapseFour" aria-expanded="false"
                                         aria-controls="collapseFour">
                                         <i class="more-less fa fa-plus"></i>
-                                        IS MELASMA PERMANENT?
+                                        IS IT A PAINFUL TREATMENT?
                                     </button>
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Melasma is a chronic skin discolouration that may fade naturally in
-                                            pregnancy-induced cases or after treatment, but the risk of future
-                                            recurrence remains. In some cases, melasma might be permanent and
-                                            unresponsive to treatment.</p>
+                                        <p>The treatment is virtually painless. However, one may temporarily feel mild
+                                            tingling and burning sensation during exfoliation, which subsides
+                                            immediately.</p>
                                     </div>
                                 </div>
                             </div>
@@ -559,15 +468,16 @@ include("include/config.php");
                                         data-bs-target="#collapseFive" aria-expanded="false"
                                         aria-controls="collapseFive">
                                         <i class="more-less fa fa-plus"></i>
-                                        IS MELASMA PAINFUL?
+                                        HOW SOON CAN YOU SEE THE RESULTS?
 
                                     </button>
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>No, melasma is asymptomatic. There is no pain/itchiness/irritation associated
-                                            with it.</p>
+                                        <p>You can notice a notable improvement in the tone and texture of your skin
+                                            immediately after the session. You can attain a brighter complexion and
+                                            smoother skin as each session progresses.</p>
                                     </div>
                                 </div>
                             </div>
@@ -576,15 +486,15 @@ include("include/config.php");
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                         <i class="more-less fa fa-plus"></i>
-                                        DO FOOD HABITS AFFECT MELASMA?
+                                        HOW LONG DO THE RESULTS LAST?
                                     </button>
                                 </h2>
                                 <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>No food worsens or causes melasma. However, dermatologists recommend a diet
-                                            rich in Vitamin D for healthy skin, which may reduce the chances of melasma
-                                            in the long run.</p>
+                                        <p>The results usually last for up to 14 days after each session, and you can
+                                            prolong them further with diligent skin-care as recommended by our
+                                            experienced dermatologists.</p>
                                     </div>
                                 </div>
                             </div>
@@ -594,33 +504,77 @@ include("include/config.php");
                                         data-bs-target="#collapseSeven" aria-expanded="false"
                                         aria-controls="collapseSeven">
                                         <i class="more-less fa fa-plus"></i>
-                                        CAN MELASMA APPEAR OVERNIGHT?
+                                        CAN I TAKE SIGNATURE FACIAL BEFORE AN IMPORTANT EVENT?
                                     </button>
                                 </h2>
                                 <div id="collapseSeven" class="accordion-collapse collapse"
                                     aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>No, the discoloured patches that appear due to melasma form gradually over
-                                            months to years.</p>
+                                        <p>Absolutely! Availing the Signature facial service 2-3 days before your big
+                                            day will ensure your skin look its healthiest and radiant best!</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingSeven">
+                                <h2 class="accordion-header" id="headingSeven1">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseSeven" aria-expanded="false"
-                                        aria-controls="collapseSeven">
+                                        data-bs-target="#collapseSeven1" aria-expanded="false"
+                                        aria-controls="collapseSeven1">
                                         <i class="more-less fa fa-plus"></i>
-                                        ARE FRECKLES SAME AS MELASMA?
+                                        HOW SOON CAN I WEAR MAKEUP?
 
                                     </button>
                                 </h2>
-                                <div id="collapseSeven" class="accordion-collapse collapse"
-                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                <div id="collapseSeven1" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven1" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>No, melasma may sometimes start with freckle-like spots, but freckles are not
-                                            the same as melasma. They have a familial tendency and respond well to
-                                            treatment.</p>
+                                        <p>You can apply makeup the very next day after the session. You may even use it
+                                            on the day of the service too.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven2" aria-expanded="false"
+                                        aria-controls="collapseSeven2">
+                                        <i class="more-less fa fa-plus"></i>
+                                        CAN I TAKE SIGNATURE FACIAL WITH OTHER SERVICES?
+
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven2" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven2" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Absolutely! You can opt for Gobest Skin & Hair’s Signature Facial a week after availing
+                                            our other skin services, including peels, laser hair reduction, laser
+                                            toning, Ultralift (HIFU + intragen), Ultrascupt (HIFU) and Botox treatments.
+                                            However, you need to observe an interval of four weeks before undergoing
+                                            filler treatment.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven3" aria-expanded="false"
+                                        aria-controls="collapseSeven3">
+                                        <i class="more-less fa fa-plus"></i>
+                                        WHAT IS AN OXYPOD?
+
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven3" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven3" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>An oxypod comprises therapeutic active ingredients in their solid dormant
+                                            state minus any chemicals, dyes, or preservatives. These elements become
+                                            activated during the procedure, which guarantees maximum performance,
+                                            freshness and optimal and sustainable results.
+
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -633,9 +587,9 @@ include("include/config.php");
         </section> <!-- End Contact Section -->
 
     </main><!-- End #main -->
-<!--subscribe-->
-<?php include("include/subscribe.php");?>
-<!--subscribe-->
+    <!--subscribe-->
+    <?php include("include/subscribe.php");?>
+    <!--subscribe-->
     <!-- ======= Footer ======= -->
     <?php include("include/footer.php");?>
     <!-- End Footer -->
