@@ -1993,4 +1993,7 @@ figure img{
 .click_display_mobile{
   display:none;
 }
+.position-static .list-group .list-group-item{
+  
+}
 

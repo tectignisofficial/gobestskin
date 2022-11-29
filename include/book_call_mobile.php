@@ -110,8 +110,7 @@
         .hidepop {
             display: none;
         }
-    }
-    .sidebar-contact input,select{
+        .sidebar-contact input,select{
         border-left: none !important;
     border-color: #3fbbc0 !important;
     color:slategrey !important;
@@ -121,6 +120,11 @@
     padding: 0px 10% 20px;
     text-align: center;
     }
+    }
+    input,select {
+        color:slategrey !important; 
+    }
+
 </style>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css">
@@ -212,12 +216,13 @@ else {
                         <span class="input-group-text"> <i class="fa fa-map-marker"></i> </span>
                     </div>
                     <select name="select_city" class="form-control" required="">
-                                <option value="">Select City</option>
-                                <option value="AKURDI BRANCH">AKURDI BRANCH</option>
-                                <option value="WAKAD BRANCH">WAKAD BRANCH</option>
-                                <option value="BANER BRANCH">BANER BRANCH</option>
-                                <option value="PIMPLE SAUDAGAR BRANCH">PIMPLE SAUDAGAR BRANCH</option>
-                                <option value="HINJEWADI BRANCH">HINJEWADI BRANCH</option>
+                                <option value="" disabled selected>Select City</option>
+                                <?php 
+                                $branchsql=mysqli_query($conn,"select * from branch");
+                                 while($brancharr=mysqli_fetch_array($branchsql)){
+                                ?>
+                                <option value="<?= $brancharr['branch_name']; ?>"><?= $brancharr['branch_name']; ?></option>
+                                <?php } ?>
                             </select>
                 </div> <!-- form-group// -->
                 <div class="form-group input-group">

@@ -192,7 +192,7 @@
           <li class="nav-item  dropdown-hover position-static"><a href="#" class="nav-link"><span>Treatments</span> <i
                 class="bi bi-chevron-down"></i></a>
             <div class="dropdown-menu mt-0" aria-labelledby="navbarDropdown"
-              style="border-top-left-radius: 0;width:150%; border-top-right-radius: 0;">
+              style="border-top-left-radius: 0;width:100%; border-top-right-radius: 0;">
               <div class="">
                 <div class="row my-4">
                   <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
@@ -256,7 +256,7 @@
                       <a href="" class="list-group-item list-group-item-action actionlass">Anti-Aging</a>
                       <div class="row">
                         <div class="col-md-12 col-lg-12 mb-12 mb-lg-0">
-                          <div class="list-group list-group-flush">
+                          <div class="list-group list-group-flush"  style="overflow:hidden">
                             <a href="botox-treatment.php" class="list-group-item list-group-item-action">Botox Treatment</a>
                             <a href="dermal-fillers-treatment.php" class="list-group-item list-group-item-action">Dermal Fillers Treatment</a>
                             <a href="skin-tightening-treatment.php" class="list-group-item list-group-item-action">Skin Tightening</a>
@@ -264,7 +264,7 @@
                           </div>
                         </div>
                         <div class="col-md-12 col-lg-12 mb-12 mb-lg-0 mt-4">
-                          <div class="list-group list-group-flush">
+                          <div class="list-group list-group-flush"  style="overflow:hidden">
                             <a class="list-group-item list-group-item-action actionlass">More</a>
                             <a href="permanent-tattoo-removal.php" class="list-group-item list-group-item-action">Tattoo Removal Treatment</a>
                             <a href="stretch-marks-removal-treatment.php" class="list-group-item list-group-item-action">Stretch Marks Removal Treatment</a>
@@ -343,11 +343,16 @@
               style="border-top-left-radius: 0; border-top-right-radius: 0;">
               <div class="container">
                 <div class="row my-4">
+                <?php
+                    // $branchsql=mysqli_query($conn,"select * from branch");
+                    // while($brancharr=mysqli_fetch_array($branchsql)){
+                    ?>
                   <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
                       <a href="akurdi-branch.php" class="list-group-item list-group-item-action">AKURDI BRANCH</a>
                     </div>
                   </div>
+                  <?php //} ?>
                   <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
                     <div class="list-group list-group-flush">
                       <a href="wakad-branch.php" class="list-group-item list-group-item-action">WAKAD BRANCH</a>

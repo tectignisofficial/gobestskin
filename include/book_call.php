@@ -26,12 +26,13 @@
                         </div>
                         <div class="col-3 col-md-2">
                             <select name="select_city" class="form-control" required="">
-                                <option value="">Select City</option>
-                                <option value="AKURDI BRANCH">AKURDI BRANCH</option>
-                                <option value="WAKAD BRANCH">WAKAD BRANCH</option>
-                                <option value="BANER BRANCH">BANER BRANCH</option>
-                                <option value="PIMPLE SAUDAGAR BRANCH">PIMPLE SAUDAGAR BRANCH</option>
-                                <option value="HINJEWADI BRANCH">HINJEWADI BRANCH</option>
+                                <option value="" disabled selected>Select City</option>
+                                <?php 
+                                $branchsql=mysqli_query($conn,"select * from branch");
+                                 while($brancharr=mysqli_fetch_array($branchsql)){
+                                ?>
+                                <option value="<?= $brancharr['branch_name']; ?>"><?= $brancharr['branch_name']; ?></option>
+                                <?php } ?>
                             </select>
                         </div>
                         <div class="col-3 col-md-2">
