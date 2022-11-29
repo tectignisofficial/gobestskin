@@ -301,10 +301,16 @@
         }
 
         .img-3 {
-            width: 180px;
+            width: 200px;
             height: auto;
-            margin-right: 05.6%;
+            margin-right: 0.6%;
             float: left;
+        }
+
+        
+        .img-3 img {
+                width: 100% !important;
+                height: 100% !important;
         }
     </style>
 
@@ -408,7 +414,7 @@
                     </div>
                 </section>
 
-                <section id="intro" class="col-xs-12 col-sm-12 col-md-12 ">
+                <section id="intro" class="intro">
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">Acne Vulgaris - Meaning And Medical Definition:</h2>
@@ -662,7 +668,7 @@
                                         Beauty Tips For Acne Breakouts</a></li>
                                 <li><a href="#">Top 10 Mistakes
                                         To Avoid Worsening Your Acne Outbreaks!</a></li>
-                                <li><a href="https://www.olivaclinic.com/blog/top-myths-and-facts-acne/">Top 10 Acne
+                                <li><a href="#">Top 10 Acne
                                         Myths Your Need To Bust Now!</a></li>
                             </ul>
                             <hr>
@@ -684,7 +690,7 @@
                                     gels that contain retinoids in conjunction with advanced procedures to unclog the
                                     pores effectively and reduce acne.</li>
                                 <li><strong>Topical Antibiotics:</strong> Our medical experts may suggest the <a
-                                        href="https://www.olivaclinic.com/blog/top-antibiotics-acne-india/">application
+                                        href="#">application
                                         of antibiotic</a> creams to minimise the bacterial activity and inflammation
                                     associated with acne.</li>
                                 <li><strong>Oral Medications:</strong> Your experienced dermatologist at Oliva may
@@ -693,14 +699,14 @@
                             </ul>
                             <p><strong>Advanced Aesthetic Procedures:</strong></p>
                             <ul>
-                                <li><strong><a href="https://www.olivaclinic.com/blog/skin-peels/">Chemical
+                                <li><strong><a href="#">Chemical
                                             Peels</a>:</strong> Top dermatologists at Oliva apply plant-based extracts
                                     for controlled exfoliation of the skin to minimise acne.</li>
                             </ul>
                             <p>Check out the video here to know all about the advanced chemical peel treatment procedure
                                 at Oliva Clinic.</p>
                             <p><iframe title="Chemical Peel Treatment – Benefits, Procedure, Before &amp; After Results"
-                                    width="640" height="360"
+                                    width="640" height="360" class="iframevideo"
                                     src="https://www.youtube.com/embed/gBypU29ipnA?feature=oembed" frameborder="0"
                                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen=""></iframe></p>
@@ -731,7 +737,7 @@
                             <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
                                     of care is a passion!</em></p>
                             <p><strong>How to get started?&nbsp;</strong><strong>🔗<a
-                                        href="https://www.olivaclinic.com/book-appointment/">Book Appointment</a> or
+                                        href="make-an-appointment.php">Book Appointment</a> or
                                     📞<a href="tel:1800-103-3893">1800-103-3893</a> to enjoy the best results!</strong>
                             </p>
                             <hr>
