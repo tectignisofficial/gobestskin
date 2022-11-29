@@ -45,10 +45,19 @@
                 position: relative;
             }
 
-            .img-3 {
-                width: 32%;
-                margin-right: 1.3%;
-                float: left;
+            .img-3 img {
+                width: 100% !important;
+                height: 100% !important;
+                margin-right: 1.3% !important;
+                float: left !important;
+            }
+            .img-3{
+                width:27% !important;
+            }
+
+           .alignnone {
+                width: 350px !important;
+                height: 245px !important;
             }
 
             .breadcrumb {
@@ -291,8 +300,9 @@
         }
 
         .img-3 {
-            width: 16%;
-            margin-right: 10.6%;
+            width: 180px;
+            height: auto;
+            margin-right: 05.6%;
             float: left;
         }
     </style>
@@ -416,6 +426,7 @@
                                 out its causes. Also, explore effective treatments and preventive tips for minimising
                                 them, right here!</p>
                             <p><strong>Below are some images of open pores:</strong></p>
+
                             <div class="img-3">
                                 <picture>
                                     <source
@@ -423,8 +434,10 @@
                                         type="image/webp"><img class="alignnone webpexpress-processed"
                                         title="open pores on face"
                                         src="https://www.olivaclinic.com/wp-content/uploads/2019/12/open-pores-face.jpg"
-                                        alt="open pores on face" width="263" height="250"></picture>
+                                        alt="open pores on face" width="173" height="160"></picture>
                             </div>
+
+
                             <div class="img-3">
                                 <picture>
                                     <source
@@ -432,8 +445,10 @@
                                         type="image/webp"><img class="alignnone webpexpress-processed"
                                         title="open pores on nose"
                                         src="https://www.olivaclinic.com/wp-content/uploads/2019/12/open-pores-nose.jpg"
-                                        alt="open pores on nose" width="263" height="250"></picture>
+                                        alt="open pores on nose" width="173" height="160"></picture>
                             </div>
+
+
                             <div class="img-3">
                                 <picture>
                                     <source
@@ -441,273 +456,275 @@
                                         type="image/webp"><img class="alignnone webpexpress-processed"
                                         title="open pores on forehead "
                                         src="https://www.olivaclinic.com/wp-content/uploads/2019/12/open-pores-forehead.jpg"
-                                        alt="open pores on forehead " width="263" height="250"></picture>
+                                        alt="open pores on forehead " width="173" height="160"></picture>
                             </div>
-                        </div>
-                    </div>
-                </section>
-                <section id="causes" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">What Causes Large Open Pores?</h2>
-                            <p>Check out the top reasons for the occurrence of open pores:</p>
-                            <ul>
-                                <li><strong>Excessive Sebum Production: </strong>Excessive secretion of sebum,
-                                    especially in the case of those who have oily or combination skin leads to the
-                                    enlargement of hair follicle openings and the appearance of large open pores.</li>
-                                <li><strong>Increased Hair Follicle Volume:</strong> Hair follicles are tubular in
-                                    structure. Thicker hair follicles have a bigger follicular opening that forms skin
-                                    pores. These dilate further to allow the flow of natural oil and appear enlarged.
-                                </li>
-                                <li><strong>Heredity Factor:</strong> Genetic predisposition and ethnicity are
-                                    significant internal factors that cause large open pores.</li>
-                                <li><strong>Ageing And Sun Exposure:</strong> <a
-                                        href="https://www.olivaclinic.com/ageing-issues/">Ageing</a> and sun damage may
-                                    adversely affect the collagen and elastin fibres in the skin. Diminished strength
-                                    and elasticity of the skin may make the pores appear crater-like in older adults.
-                                </li>
-                                <li><strong>Chronic Acne:</strong> Pores in <a
-                                        href="https://www.olivaclinic.com/acne-vulgaris/">acne-prone skin</a>, clog and
-                                    cause blackheads and whiteheads. Moreover, inflammatory acne weakens sebum glands
-                                    and follicular openings and enlarges the pores.</li>
-                                <li><strong>Hormonal Changes:</strong> Hormonal fluctuations stimulate the hyperactivity
-                                    of sebaceous glands and trigger the production of excessive sebum, which results in
-                                    large open pores.</li>
-                                <li><strong>Acute Skin Conditions And Nutritional Deficiency:</strong> Chronic
-                                    radiodermatitis and vitamin A deficiency are other uncommon causes of enlarged skin
-                                    pores.</li>
-                            </ul>
-                            <hr>
-                            <p><strong>Informative Resources:</strong></p>
-                            <ul>
-                                <li><a href="https://www.olivaclinic.com/blog/how-to-get-a-clear-skin/">Top 10 Mistakes
-                                        To Avoid Wornesing Your Acne Outbreak!</a></li>
-                                <li><a href="https://www.olivaclinic.com/blog/how-to-get-rid-of-pimples/">How To Get Rid
-                                        Of Acne Fast?</a></li>
-                            </ul>
-                            <hr>
-                        </div>
-                    </div>
-                </section>
-                <section id="diagnosis" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">How To Diagnose Large Open Pores?</h2>
-                            <p>A dermatologist will first perform a physical examination of the affected area. He or she
-                                will determine the severity of the condition based on the following criteria:</p>
-                            <ul>
-                                <li>Size of the pores</li>
-                                <li>Location of the pores</li>
-                                <li>Severity of the condition</li>
-                                <li>Size of the affected area</li>
-                            </ul>
-                            <p>Post-evaluation, the dermatologist will note your family and medical history, hormonal
-                                health and lifestyle habits to identify the underlying cause of the concern. Based on
-                                his assessment of <a
-                                    href="https://www.olivaclinic.com/blog/how-to-know-your-skin-type/">your skin
-                                    type</a>, the severity of the condition and the underlying cause, he will recommend
-                                a customised treatment plan for reducing your open pores visibly.</p>
-                        </div>
-                    </div>
-                </section>
-                <section id="risk" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">Are You At Risk? </h2>
-                            <p>If along with large pores on your face, you experience skin infections or acne, you
-                                should consult a dermatologist immediately. Keep in mind that large skin pores are
-                                benign, cause no <a href="https://www.olivaclinic.com/pigmentation/">pigmentation</a>,
-                                and do not cause other skin afflictions. They are not a serious medical concern.</p>
-                            <p>However, seek medical help if you note a significant increase in pore size, distribution
-                                or density. Your dermatologist can treat the condition effectively to improve your skin
-                                texture.</p>
-                        </div>
-                    </div>
-                </section>
-                <section id="self-care" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">Self-Care:</h2>
-                            <p>Though it is the first line of action for most people, open pores treatment at home is a
-                                bad idea. Avoid using any OTC products like creams, serums and toners for reducing open
-                                pores as they will give you temporary results at best. Unsupervised use of medicated
-                                ointments may cause a severe side-effect. Experimenting with home remedies for open
-                                pores that have unproven safety and efficacy may cause an allergic reaction and worsen
-                                your skin condition. It is best to consult a dermatologist for recommending any
-                                skin-care products or aesthetic procedures based on your skin type, cause and condition.
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">Advanced Treatments For Large Open Pores:</h2>
-                            <p>Enlarged pores are challenging to treat as they may be a result of various underlying
-                                factors. Leading dermatologists at Oliva combine medical treatments for open pores with
-                                advanced aesthetic procedures to give you visible results. They focus on treating
-                                primary triggers by controlling excessive sebum production and minimising skin damage
-                                due to ageing.</p>
-                            <p>Your medical expert at Oliva may suggest the following modalities as standalone or
-                                combination treatment to give you the best results:</p>
-                            <ul>
-                                <li><strong>Topical Therapies:</strong> Many qualified skin experts recommend the use of
-                                    topical applications like Tretinoin, topical nicotinamide, Vitamin C, or AHAs to
-                                    diminish open pores. They also advise the dosage and direction for use to ensure
-                                    visible improvement in your skin texture.</li>
-                                <li><strong>Oral Medications:</strong> The medical experts at Oliva have a holistic
-                                    approach. They may prescribe oral medicines such as oral retinoids (Isotretinoin),
-                                    antiandrogens (spironolactone) and oral contraceptives to treat any hormonal cause
-                                    of enlarged pores. You must follow the instructions related to the drug intake
-                                    strictly to get the best results without any side-effects.</li>
-                                <li><strong>Laser Toning:</strong> Top doctors at Oliva specialise in performing
-                                    advanced laser treatment for open pores using USFDA-approved technology. They use
-                                    Q-Switched YAG and fractionated erbium YAG laser to boost the collagen production in
-                                    the skin and minimise the appearance of open pores effectively. A 2011 study
-                                    revealed that Q-switched lasers visibly reduce open pores when used along with
-                                    photo-activated topical solutions.</li>
-                                <li><strong>Fractional Micro-Needling Radiofrequency (MNRF):</strong> Experienced
-                                    dermatologists at Oliva may use tiny micro-needles to release radiofrequency energy
-                                    in the deeper layers of the skin. It stimulates collagen and elastin production and
-                                    thereby results in the decreased visibility of enlarged pores.</li>
-                            </ul>
-                            <p>Watch the video below to know more about the procedure, benefits and results of the MNRF
-                                treatment at Oliva.</p>
-                            <p><iframe width="640" height="360" class="iframevideo"
-                                    src="https://www.youtube.com/embed/kG07d1Qoubs?feature=oembed" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen=""></iframe></p>
-                            <ul>
-                                <li><strong>Chemical Peels:</strong> The medical team at Oliva recommends the
-                                    application of salicylic acid peels and glycolic acid peels for the controlled
-                                    exfoliation of the dead cells. It helps control excess sebum production and aids
-                                    skin renewal. It is an effective treatment for reducing large skin pores.</li>
-                            </ul>
-                            <p>Check out the video here to know all about the advanced chemical peel treatment at Oliva.
-                            </p>
-                            <p><iframe width="640" height="360" class="iframevideo"
-                                    src="https://www.youtube.com/embed/gBypU29ipnA?feature=oembed" frameborder="0"
-                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen=""></iframe></p>
-                            <ul>
-                                <li><strong>Comedone Extraction:</strong>&nbsp;Our skin experts may use specialised
-                                    tools to extricate open comedones (blackheads) and closed comedones (whiteheads).
-                                    The procedure helps prevent clogging and subsequent widening of pores.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section id="results" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">Before And After Results</h2>
-                            <p>
-                                <picture>
-                                    <source
-                                        srcset="https://www.olivaclinic.com/wp-content/webp-express/webp-images/uploads/2020/04/open-pores.jpg.webp"
-                                        type="image/webp"><img
-                                        class="alignnone size-full wp-image-32869 webpexpress-processed"
-                                        src="https://www.olivaclinic.com/wp-content/uploads/2020/04/open-pores.jpg"
-                                        alt="open pores on face before and after results" width="800" height="345">
-                                </picture>
-                            </p>
-                            <p>Now you know about all the available professional solutions for open pores. Are you aware
-                                that a simple skin-care routine can work wonders for decreasing the appearance of open
-                                pores? Read right ahead to know more!</p>
-                        </div>
-                    </div>
-                </section>
-                <section id="prevention" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">How To Prevent The Appearance Of Large Open Pores?</h2>
-                            <p>If you are wondering how to close the open pores on your face; you can do your bit by
-                                keeping the skin clean and sun-safe. Here are some simple skin-care tips you can follow
-                                to prevent the open pores from becoming prominent:</p>
-                            <ul>
-                                <li><strong>Clean:</strong> Use a gentle, gel-based, non-comedogenic cleanser twice
-                                    daily to unclog pores.</li>
-                                <li><strong>Protect:</strong> Apply a broad-spectrum, water-resistant sunscreen with SPF
-                                    30+ every day to prevent premature skin ageing due to sun damage.</li>
-                                <li><strong>Nourish:</strong> Use water-based moisturisers suitable for oily/combination
-                                    skin. You may also ask your skin specialist to recommend any collagen-boosting
-                                    products, such as retinol.</li>
-                            </ul>
-                            <p>However, if you feel the above tips are not giving you the desired results, it’s
-                                advisable to explore advanced solutions.</p>
-                            <hr>
-                            <p><strong>Informative Resources:</strong></p>
-                            <ul>
-                                <li><a href="#">How To
-                                        Prevent Pimples On Face?</a></li>
-                                <li><a href="#">What
-                                        Is The Best Skin Care Routine For Acne Prone Skin?</a></li>
-                            </ul>
-                            <hr>
-                        </div>
-                    </div>
-                </section>
-                <section id="prognosis" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">Prognosis:</h2>
-                            <p>Please remember, no treatment can remove pores from your face completely or permanently.
-                                However, advanced dermatological procedures can reduce the appearance of enlarged pores
-                                and give you a smoother and more radiant skin texture than before.</p>
-                            <p>If open pores are drawing all your attention of late, consult a dermatologist at Oliva
-                                Skin &amp; Hair Clinic today to find a suitable treatment option that can restore your
-                                smooth and flawless skin!</p>
-                            <hr>
-                            <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
-                                    of care is a passion!</em></p>
-                            <p><strong>How to get started?&nbsp;</strong><strong><img class="emoji" role="img"
-                                        draggable="false" src="https://s.w.org/images/core/emoji/13.0.0/svg/1f517.svg"
-                                        alt="🔗"><a href="make-an-appointment.php">Book
-                                        Appointment</a>&nbsp;or&nbsp;<img class="emoji" role="img" draggable="false"
-                                        src="https://s.w.org/images/core/emoji/13.0.0/svg/1f4de.svg" alt="📞"><a
-                                        href="tel:1800-103-3893">1800-103-3893</a>&nbsp;to enjoy the best
-                                    results!</strong></p>
-                            <hr>
-                        </div>
-                    </div>
-                </section>
-                <section id="faqs" class="col-xs-12 col-sm-12 col-md-12 ">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="med_bottompadder40">Common Questions</h2>
-                            <ul>
-                                <li><strong>What Is The Difference Between Acne Scars And Open Pores?</strong><br>
-                                    Open pores occur due to excess sebum production that eventually leads to acne and <a
-                                        href="#">scars</a>.</li>
-                                <li><strong>Is It Possible To Close Open Pores Permanently?<br>
-                                    </strong>No, it is not possible to permanently close open pores as they help us
-                                    enjoy a healthy skin by releasing natural oils.</li>
-                                <li><strong>Do Open Pores Cause Acne?<br>
-                                    </strong>Open pores do not directly cause acne. They are a sign of excess sebum
-                                    production, which may lead to clogging of pores and acne if left untreated.</li>
-                                <li><strong>Are open pores curable?<br>
-                                    </strong>Open pores are not curable. However, by opting for advanced
-                                    medico-aesthetic treatment at Oliva, you can minimise them effectively.</li>
-                                <li><strong>Can You Shrink Your Pores?<br>
-                                    </strong>Yes, medico-aesthetic treatment performed by experienced dermatologists can
-                                    visibly reduce the size of your skin pores.</li>
-                                <li><strong>Is It Bad To Squeeze Nose Pores?<br>
-                                    </strong>Yes, man-handling large pores on your nose can cause hyperpigmentation and
-                                    scars.</li>
-                                <li><strong>Are Open Pores Bad?<br>
-                                    </strong>Large open pores adversely affect the texture and appearance of your skin
-                                    and maybe a visible sign of premature ageing. However, there are many effective
-                                    treatments available to decrease their appearance.</li>
-                                <li><strong>Do Pores Get Bigger As You Age?<br>
-                                    </strong>Yes, with ageing skin pores may appear enlarged for some people. However,
-                                    it varies from person to person.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </div>
 
+
+
+                        </div>
+                    </div>
+            </div>
+    </section>
+    <section id="causes" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">What Causes Large Open Pores?</h2>
+                <p>Check out the top reasons for the occurrence of open pores:</p>
+                <ul>
+                    <li><strong>Excessive Sebum Production: </strong>Excessive secretion of sebum,
+                        especially in the case of those who have oily or combination skin leads to the
+                        enlargement of hair follicle openings and the appearance of large open pores.</li>
+                    <li><strong>Increased Hair Follicle Volume:</strong> Hair follicles are tubular in
+                        structure. Thicker hair follicles have a bigger follicular opening that forms skin
+                        pores. These dilate further to allow the flow of natural oil and appear enlarged.
+                    </li>
+                    <li><strong>Heredity Factor:</strong> Genetic predisposition and ethnicity are
+                        significant internal factors that cause large open pores.</li>
+                    <li><strong>Ageing And Sun Exposure:</strong> <a
+                            href="https://www.olivaclinic.com/ageing-issues/">Ageing</a> and sun damage may
+                        adversely affect the collagen and elastin fibres in the skin. Diminished strength
+                        and elasticity of the skin may make the pores appear crater-like in older adults.
+                    </li>
+                    <li><strong>Chronic Acne:</strong> Pores in <a
+                            href="https://www.olivaclinic.com/acne-vulgaris/">acne-prone skin</a>, clog and
+                        cause blackheads and whiteheads. Moreover, inflammatory acne weakens sebum glands
+                        and follicular openings and enlarges the pores.</li>
+                    <li><strong>Hormonal Changes:</strong> Hormonal fluctuations stimulate the hyperactivity
+                        of sebaceous glands and trigger the production of excessive sebum, which results in
+                        large open pores.</li>
+                    <li><strong>Acute Skin Conditions And Nutritional Deficiency:</strong> Chronic
+                        radiodermatitis and vitamin A deficiency are other uncommon causes of enlarged skin
+                        pores.</li>
+                </ul>
+                <hr>
+                <p><strong>Informative Resources:</strong></p>
+                <ul>
+                    <li><a href="https://www.olivaclinic.com/blog/how-to-get-a-clear-skin/">Top 10 Mistakes
+                            To Avoid Wornesing Your Acne Outbreak!</a></li>
+                    <li><a href="https://www.olivaclinic.com/blog/how-to-get-rid-of-pimples/">How To Get Rid
+                            Of Acne Fast?</a></li>
+                </ul>
+                <hr>
+            </div>
         </div>
+    </section>
+    <section id="diagnosis" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">How To Diagnose Large Open Pores?</h2>
+                <p>A dermatologist will first perform a physical examination of the affected area. He or she
+                    will determine the severity of the condition based on the following criteria:</p>
+                <ul>
+                    <li>Size of the pores</li>
+                    <li>Location of the pores</li>
+                    <li>Severity of the condition</li>
+                    <li>Size of the affected area</li>
+                </ul>
+                <p>Post-evaluation, the dermatologist will note your family and medical history, hormonal
+                    health and lifestyle habits to identify the underlying cause of the concern. Based on
+                    his assessment of <a href="https://www.olivaclinic.com/blog/how-to-know-your-skin-type/">your skin
+                        type</a>, the severity of the condition and the underlying cause, he will recommend
+                    a customised treatment plan for reducing your open pores visibly.</p>
+            </div>
+        </div>
+    </section>
+    <section id="risk" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">Are You At Risk? </h2>
+                <p>If along with large pores on your face, you experience skin infections or acne, you
+                    should consult a dermatologist immediately. Keep in mind that large skin pores are
+                    benign, cause no <a href="https://www.olivaclinic.com/pigmentation/">pigmentation</a>,
+                    and do not cause other skin afflictions. They are not a serious medical concern.</p>
+                <p>However, seek medical help if you note a significant increase in pore size, distribution
+                    or density. Your dermatologist can treat the condition effectively to improve your skin
+                    texture.</p>
+            </div>
+        </div>
+    </section>
+    <section id="self-care" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">Self-Care:</h2>
+                <p>Though it is the first line of action for most people, open pores treatment at home is a
+                    bad idea. Avoid using any OTC products like creams, serums and toners for reducing open
+                    pores as they will give you temporary results at best. Unsupervised use of medicated
+                    ointments may cause a severe side-effect. Experimenting with home remedies for open
+                    pores that have unproven safety and efficacy may cause an allergic reaction and worsen
+                    your skin condition. It is best to consult a dermatologist for recommending any
+                    skin-care products or aesthetic procedures based on your skin type, cause and condition.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="treatment" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">Advanced Treatments For Large Open Pores:</h2>
+                <p>Enlarged pores are challenging to treat as they may be a result of various underlying
+                    factors. Leading dermatologists at Oliva combine medical treatments for open pores with
+                    advanced aesthetic procedures to give you visible results. They focus on treating
+                    primary triggers by controlling excessive sebum production and minimising skin damage
+                    due to ageing.</p>
+                <p>Your medical expert at Oliva may suggest the following modalities as standalone or
+                    combination treatment to give you the best results:</p>
+                <ul>
+                    <li><strong>Topical Therapies:</strong> Many qualified skin experts recommend the use of
+                        topical applications like Tretinoin, topical nicotinamide, Vitamin C, or AHAs to
+                        diminish open pores. They also advise the dosage and direction for use to ensure
+                        visible improvement in your skin texture.</li>
+                    <li><strong>Oral Medications:</strong> The medical experts at Oliva have a holistic
+                        approach. They may prescribe oral medicines such as oral retinoids (Isotretinoin),
+                        antiandrogens (spironolactone) and oral contraceptives to treat any hormonal cause
+                        of enlarged pores. You must follow the instructions related to the drug intake
+                        strictly to get the best results without any side-effects.</li>
+                    <li><strong>Laser Toning:</strong> Top doctors at Oliva specialise in performing
+                        advanced laser treatment for open pores using USFDA-approved technology. They use
+                        Q-Switched YAG and fractionated erbium YAG laser to boost the collagen production in
+                        the skin and minimise the appearance of open pores effectively. A 2011 study
+                        revealed that Q-switched lasers visibly reduce open pores when used along with
+                        photo-activated topical solutions.</li>
+                    <li><strong>Fractional Micro-Needling Radiofrequency (MNRF):</strong> Experienced
+                        dermatologists at Oliva may use tiny micro-needles to release radiofrequency energy
+                        in the deeper layers of the skin. It stimulates collagen and elastin production and
+                        thereby results in the decreased visibility of enlarged pores.</li>
+                </ul>
+                <p>Watch the video below to know more about the procedure, benefits and results of the MNRF
+                    treatment at Oliva.</p>
+                <p><iframe width="640" height="360" class="iframevideo"
+                        src="https://www.youtube.com/embed/kG07d1Qoubs?feature=oembed" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe></p>
+                <ul>
+                    <li><strong>Chemical Peels:</strong> The medical team at Oliva recommends the
+                        application of salicylic acid peels and glycolic acid peels for the controlled
+                        exfoliation of the dead cells. It helps control excess sebum production and aids
+                        skin renewal. It is an effective treatment for reducing large skin pores.</li>
+                </ul>
+                <p>Check out the video here to know all about the advanced chemical peel treatment at Oliva.
+                </p>
+                <p><iframe width="640" height="360" class="iframevideo"
+                        src="https://www.youtube.com/embed/gBypU29ipnA?feature=oembed" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe></p>
+                <ul>
+                    <li><strong>Comedone Extraction:</strong>&nbsp;Our skin experts may use specialised
+                        tools to extricate open comedones (blackheads) and closed comedones (whiteheads).
+                        The procedure helps prevent clogging and subsequent widening of pores.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="results" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">Before And After Results</h2>
+                <p>
+                    <picture>
+                        <source
+                            srcset="https://www.olivaclinic.com/wp-content/webp-express/webp-images/uploads/2020/04/open-pores.jpg.webp"
+                            type="image/webp"><img class="alignnone size-full wp-image-32869 webpexpress-processed"
+                            src="https://www.olivaclinic.com/wp-content/uploads/2020/04/open-pores.jpg"
+                            alt="open pores on face before and after results" width="800" height="345">
+                    </picture>
+                </p>
+                <p>Now you know about all the available professional solutions for open pores. Are you aware
+                    that a simple skin-care routine can work wonders for decreasing the appearance of open
+                    pores? Read right ahead to know more!</p>
+            </div>
+        </div>
+    </section>
+    <section id="prevention" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">How To Prevent The Appearance Of Large Open Pores?</h2>
+                <p>If you are wondering how to close the open pores on your face; you can do your bit by
+                    keeping the skin clean and sun-safe. Here are some simple skin-care tips you can follow
+                    to prevent the open pores from becoming prominent:</p>
+                <ul>
+                    <li><strong>Clean:</strong> Use a gentle, gel-based, non-comedogenic cleanser twice
+                        daily to unclog pores.</li>
+                    <li><strong>Protect:</strong> Apply a broad-spectrum, water-resistant sunscreen with SPF
+                        30+ every day to prevent premature skin ageing due to sun damage.</li>
+                    <li><strong>Nourish:</strong> Use water-based moisturisers suitable for oily/combination
+                        skin. You may also ask your skin specialist to recommend any collagen-boosting
+                        products, such as retinol.</li>
+                </ul>
+                <p>However, if you feel the above tips are not giving you the desired results, it’s
+                    advisable to explore advanced solutions.</p>
+                <hr>
+                <p><strong>Informative Resources:</strong></p>
+                <ul>
+                    <li><a href="#">How To
+                            Prevent Pimples On Face?</a></li>
+                    <li><a href="#">What
+                            Is The Best Skin Care Routine For Acne Prone Skin?</a></li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <section id="prognosis" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">Prognosis:</h2>
+                <p>Please remember, no treatment can remove pores from your face completely or permanently.
+                    However, advanced dermatological procedures can reduce the appearance of enlarged pores
+                    and give you a smoother and more radiant skin texture than before.</p>
+                <p>If open pores are drawing all your attention of late, consult a dermatologist at Oliva
+                    Skin &amp; Hair Clinic today to find a suitable treatment option that can restore your
+                    smooth and flawless skin!</p>
+                <hr>
+                <p><em>Delivering World-class dermatology solutions is our mission! Redefining the quality
+                        of care is a passion!</em></p>
+                <p><strong>How to get started?&nbsp;</strong><strong><img class="emoji" role="img" draggable="false"
+                            src="https://s.w.org/images/core/emoji/13.0.0/svg/1f517.svg" alt="🔗"><a
+                            href="make-an-appointment.php">Book
+                            Appointment</a>&nbsp;or&nbsp;<img class="emoji" role="img" draggable="false"
+                            src="https://s.w.org/images/core/emoji/13.0.0/svg/1f4de.svg" alt="📞"><a
+                            href="tel:1800-103-3893">1800-103-3893</a>&nbsp;to enjoy the best
+                        results!</strong></p>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <section id="faqs" class="col-xs-12 col-sm-12 col-md-12 ">
+        <div class="container">
+            <div class="row">
+                <h2 class="med_bottompadder40">Common Questions</h2>
+                <ul>
+                    <li><strong>What Is The Difference Between Acne Scars And Open Pores?</strong><br>
+                        Open pores occur due to excess sebum production that eventually leads to acne and <a
+                            href="#">scars</a>.</li>
+                    <li><strong>Is It Possible To Close Open Pores Permanently?<br>
+                        </strong>No, it is not possible to permanently close open pores as they help us
+                        enjoy a healthy skin by releasing natural oils.</li>
+                    <li><strong>Do Open Pores Cause Acne?<br>
+                        </strong>Open pores do not directly cause acne. They are a sign of excess sebum
+                        production, which may lead to clogging of pores and acne if left untreated.</li>
+                    <li><strong>Are open pores curable?<br>
+                        </strong>Open pores are not curable. However, by opting for advanced
+                        medico-aesthetic treatment at Oliva, you can minimise them effectively.</li>
+                    <li><strong>Can You Shrink Your Pores?<br>
+                        </strong>Yes, medico-aesthetic treatment performed by experienced dermatologists can
+                        visibly reduce the size of your skin pores.</li>
+                    <li><strong>Is It Bad To Squeeze Nose Pores?<br>
+                        </strong>Yes, man-handling large pores on your nose can cause hyperpigmentation and
+                        scars.</li>
+                    <li><strong>Are Open Pores Bad?<br>
+                        </strong>Large open pores adversely affect the texture and appearance of your skin
+                        and maybe a visible sign of premature ageing. However, there are many effective
+                        treatments available to decrease their appearance.</li>
+                    <li><strong>Do Pores Get Bigger As You Age?<br>
+                        </strong>Yes, with ageing skin pores may appear enlarged for some people. However,
+                        it varies from person to person.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    </div>
 
     </section>
 
