@@ -147,7 +147,8 @@ include("include/config.php");
                                         <p>Skin ageing is a universal concern. However, poor lifestyle habits and
                                             high-stress levels can cause premature skin ageing in men and women. Most of
                                             us opt for expensive creams and facials to reduce our skin creases. However,
-                                            the results are dissatisfactory and short-lived. Oliva Skin &amp; Hair
+                                            the results are dissatisfactory and short-lived. Gobest Skin & Hair Skin
+                                            &amp; Hair
                                             Clinic brings you an array of advanced aesthetic treatments that can reverse
                                             ageing signs and assure you of visible results. Our leading dermatologists
                                             are adept at safely performing anti-ageing treatments like Botox to minimise
@@ -189,13 +190,14 @@ include("include/config.php");
                                         <div>
                                             <h5>What Aesthetic Concerns Can Dermatologists Treat With Botox?
                                             </h5>
-                                            <p>Dermatologists at Oliva use Botox to minimise facial wrinkles primarily
+                                            <p>Dermatologists at Gobest Skin & Hair use Botox to minimise facial
+                                                wrinkles primarily
                                                 and the below signs of ageing:</p>
                                             <ul>
                                                 <li>Horizontal forehead lines</li>
                                                 <li>Vertical frown or Glabellar lines</li>
                                                 <li>Fine lines at the outer corners of the eyes or <a
-                                                        href="https://www.olivaclinic.com/blog/crows-feet-on-face-and-around-eyes/"
+                                                        href="https://www.Gobest Skin & Hairclinic.com/blog/crows-feet-on-face-and-around-eyes/"
                                                         target="_blank" rel="noopener">Crow’s feet</a></li>
                                                 <li>Horizontal and vertical wrinkles on the bridge of the nose or Bunny
                                                     lines</li>
@@ -206,15 +208,16 @@ include("include/config.php");
                                             </ul>
                                         </div>
                                         <div>
-                                            <h5>What Is The Botox Treatment Procedure At Oliva?
+                                            <h5>What Is The Botox Treatment Procedure At Gobest Skin & Hair?
                                             </h5>
-                                            <p>At Oliva, Botox is a customised treatment that our qualified
+                                            <p>At Gobest Skin & Hair, Botox is a customised treatment that our qualified
                                                 dermatologists perform in a sterile environment adhering to strict
                                                 protocols at par with global safety standards to minimise the risk of
                                                 complications. Here are the steps they follow during the treatment
                                                 process:</p>
                                             <ul>
-                                                <li>Oliva’s leading medical experts perform this advanced anti-ageing
+                                                <li>Gobest Skin & Hair’s leading medical experts perform this advanced
+                                                    anti-ageing
                                                     treatment after conducting a facial assessment to analyse the
                                                     changes in the skin due to ageing, identify the concern areas and
                                                     evaluate the severity of wrinkles and lines.</li>
@@ -227,7 +230,8 @@ include("include/config.php");
                                                     duration.</li>
                                             </ul>
                                             <ul>
-                                                <li>Botox treatment is a lunch-hour procedure at Oliva with virtually
+                                                <li>Botox treatment is a lunch-hour procedure at Gobest Skin & Hair with
+                                                    virtually
                                                     zero downtime and no significant side effects. Our experienced
                                                     doctors use topical anaesthesia to alleviate any discomfort during
                                                     the session.</li>
@@ -239,21 +243,24 @@ include("include/config.php");
                                                 </li>
                                                 <li>You can start noting visible improvement 2-3 days after the
                                                     procedure and the best results in up to ten days.</li>
-                                                <li>Experienced dermatologists at Oliva extend post-care support by
+                                                <li>Experienced dermatologists at Gobest Skin & Hair extend post-care
+                                                    support by
                                                     sharing a detailed list of dos and don’ts that the clients must
                                                     follow diligently to minimise the risk of side effects.</li>
                                                 <li>Your medical expert will suggest the next follow-up session to
                                                     prolong the results based on the severity of your ageing concern.
                                                 </li>
                                             </ul>
-                                            <p>Your qualified dermatologist at Oliva may suggest Botox as a solo or
+                                            <p>Your qualified dermatologist at Gobest Skin & Hair may suggest Botox as a
+                                                solo or
                                                 combo treatment along with other anti-ageing procedures based on the
                                                 type and severity of your concerns to achieve the best results.</p>
                                         </div>
 
                                         <div>
-                                            <h5>Benefits Of Botox Treatment At Oliva</h5>
-                                            <p>If you enrol for Botox treatment at Oliva, here are the assured benefits
+                                            <h5>Benefits Of Botox Treatment At Gobest Skin & Hair</h5>
+                                            <p>If you enrol for Botox treatment at Gobest Skin & Hair, here are the
+                                                assured benefits
                                                 you can look forward to enjoying:</p>
                                             <ul>
                                                 <li>Minimally-invasive and painless procedure</li>
@@ -268,12 +275,14 @@ include("include/config.php");
                                             </ul>
                                         </div>
                                         <div>
-                                            <h5>Why Choose Oliva For Botox Treatment?</h5>
-                                            <p>Here are many critical factors that make Oliva the best clinic for Botox
+                                            <h5>Why Choose Gobest Skin & Hair For Botox Treatment?</h5>
+                                            <p>Here are many critical factors that make Gobest Skin & Hair the best
+                                                clinic for Botox
                                                 treatment:</p>
                                             <ul>
-                                                <li>Oliva offers unmatched medical expertise with the largest team of <a
-                                                        href="https://www.olivaclinic.com/dermatologists/"
+                                                <li>Gobest Skin & Hair offers unmatched medical expertise with the
+                                                    largest team of <a
+                                                        href="https://www.Gobest Skin & Hairclinic.com/dermatologists/"
                                                         target="_blank" rel="noopener">100+ leading dermatologists</a>
                                                 </li>
                                                 <li>Our qualified doctors guarantee customised solutions with a
@@ -281,13 +290,16 @@ include("include/config.php");
                                                 </li>
                                                 <li>Our world-class amenities and global safety standards assure optimal
                                                     client comfort, safety and privacy</li>
-                                                <li>Oliva has an impeccable reputation built over 13 years of excellent
+                                                <li>Gobest Skin & Hair has an impeccable reputation built over 13 years
+                                                    of excellent
                                                     service and an outstanding 91% rating voted by 3,00,000+ satisfied
                                                     clients</li>
-                                                <li>Oliva is the winner of the prestigious Times of India award for
+                                                <li>Gobest Skin & Hair is the winner of the prestigious Times of India
+                                                    award for
                                                     being the No 1 Skin &amp; Hair Clinic chain in the country</li>
                                             </ul>
-                                            <p>Now you know why you should choose Oliva for our signature anti-ageing
+                                            <p>Now you know why you should choose Gobest Skin & Hair for our signature
+                                                anti-ageing
                                                 Botox treatment. Here is how you can book your appointment.</p>
                                         </div>
                                         <div>
@@ -394,7 +406,8 @@ include("include/config.php");
                                             area to be treated and the specific number of Botox units they need.</p>
                                         <p>We recommend you <strong>🔗<a href="make-an-appointment.php">Book An
                                                     Appointment</a></strong> with any of our experienced doctors at
-                                            Oliva and enjoy world-class treatments with guaranteed results and assured
+                                            Gobest Skin & Hair and enjoy world-class treatments with guaranteed results
+                                            and assured
                                             safety!</p>
                                     </div>
                                 </div>
@@ -430,7 +443,8 @@ include("include/config.php");
                                     aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>Since Botox is a minimally invasive treatment, it involves a little pain.
-                                            However, at Oliva, our dermatologists apply numbing cream for one hour to
+                                            However, at Gobest Skin & Hair, our dermatologists apply numbing cream for
+                                            one hour to
                                             rule out any discomfort during the procedure.</p>
                                     </div>
                                 </div>
@@ -447,7 +461,8 @@ include("include/config.php");
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>The Botox treatment at Oliva is a quick lunchtime procedure lasting 1.5
+                                        <p>The Botox treatment at Gobest Skin & Hair is a quick lunchtime procedure
+                                            lasting 1.5
                                             hours. The doctors apply the numbing cream for an hour and take 30 minutes
                                             to administer the Botox shots.</p>
                                     </div>
@@ -468,7 +483,8 @@ include("include/config.php");
                                         <p>A dermatologist is the best judge to suggest whether Botox shots or fillers
                                             are better anti-ageing treatments for you, as both injectables treat
                                             different ageing signs. While Botox or botulinum toxin reduces dynamic
-                                            wrinkles, fillers at Oliva containing hyaluronic acid help minimise static
+                                            wrinkles, fillers at Gobest Skin & Hair containing hyaluronic acid help
+                                            minimise static
                                             wrinkles and correct volume loss due to ageing.</p>
                                     </div>
                                 </div>
@@ -485,7 +501,8 @@ include("include/config.php");
                                     data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         <p>You may feel a slight stinging sensation, redness, and bruising during the
-                                            Botox treatment. However, our experienced medical experts at Oliva are adept
+                                            Botox treatment. However, our experienced medical experts at Gobest Skin &
+                                            Hair are adept
                                             at minimising discomfort by using a topical numbing cream. You can start
                                             seeing the improvement in skin texture within 1-3 days and achieve the best
                                             results within 7-10 days.</p>
@@ -510,7 +527,8 @@ include("include/config.php");
                                             eyes and double vision. Severe side effects may include eyelid drooping for
                                             3 weeks and allergic reactions that may cause rashes, itching and asthma
                                             symptoms.</p>
-                                        <p>However, dermatologists at Oliva take proper precautions, use topical
+                                        <p>However, dermatologists at Gobest Skin & Hair take proper precautions, use
+                                            topical
                                             anaesthesia and provide post-care guidance to minimise these side effects
                                             and assure you of a risk-free Botox treatment. However, you may experience
                                             transient redness that may last for an hour.</p>
@@ -529,7 +547,8 @@ include("include/config.php");
                                 <div id="collapseEight" class="accordion-collapse collapse"
                                     aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        <p>Doctors at Oliva may share the following post-care guidelines:</p>
+                                        <p>Doctors at Gobest Skin & Hair may share the following post-care guidelines:
+                                        </p>
                                         <ul>
                                             <li>Avoid parlour services for a week</li>
                                             <li>Use prescribed creams containing alpha or beta hydroxy acids and retinol
@@ -553,10 +572,12 @@ include("include/config.php");
                                         How Long Does Botox Treatment Results Last?
                                     </button>
                                 </h2>
-                                <div id="collapseFour1" class="accordion-collapse collapse" aria-labelledby="headingFour1"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseFour1" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFour1" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                    <p>The Botox treatment results usually last for 4-6 months, but it may vary for everyone. Your dermatologist will suggest a follow-up session based on the severity of your ageing condition.</p>
+                                        <p>The Botox treatment results usually last for 4-6 months, but it may vary for
+                                            everyone. Your dermatologist will suggest a follow-up session based on the
+                                            severity of your ageing condition.</p>
                                     </div>
                                 </div>
                             </div>
