@@ -41,6 +41,13 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
     <style>
+        @media only screen and (max-width: 991px) {
+            .book-appointment-image {
+                display: none !important;
+            }
+        }
+
+
         .inner-page-content {
             width: 100%;
             float: left;
@@ -487,8 +494,8 @@
                                                 class="wpcf7-form-control wpcf7-checkbox wpcf7-validates-as-required"><span
                                                     class="wpcf7-list-item first last"><input type="checkbox"
                                                         name="agree-term-condition[]"
-                                                        value="I agree to the Terms &amp; Conditions"
-                                                        ><span class="wpcf7-list-item-label">I agree to
+                                                        value="I agree to the Terms &amp; Conditions"><span
+                                                        class="wpcf7-list-item-label">I agree to
                                                         the Terms
                                                         &amp; Conditions</span></span></span></span><span
                                             class="term-and-condition">I agree to the <a
