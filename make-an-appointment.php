@@ -476,9 +476,8 @@
                                                     aria-required="true" aria-invalid="false"
                                                     placeholder="Valid Mobile Number*" required=""></span></label><br>
                                         <label><span class="fa fa-map-marker"></span><span
-                                                class="wpcf7-form-control-wrap" data-name="select-city"><select
-                                                    name="select-city"
-                                                    class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
+                                                class="wpcf7-form-control-wrap" data-name="select-city">
+                                                <select name="select-city" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required"
                                                     aria-required="true" aria-invalid="false" required="">
                                                     <option value="">Select City*</option>
                                                     <option value="Bangalore">Bangalore</option>

@@ -58,6 +58,12 @@ if(isset($_POST['submit'])){
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+      .form-select {
+        color: #6c757d;
+      }
+  </style>
 </head>
 
 <body>
@@ -170,9 +176,19 @@ if(isset($_POST['submit'])){
                 <div class="col-md-6 form-group mt-3">
                   <input type="tel" class="form-control" name="mobile" id="mobile" placeholder="Your phone" required="">
                 </div>
-                <div class="col-md-6 form-group mt-3 ">
-                  <input type="text" class="form-control" name="branch" id="branch" placeholder="Branch Name"
-                    required="">
+                <div class="col-md-6 form-group mt-3">
+                  <!-- <label class="form-label" for="modalEditUserStatus"></label> -->
+                  <?php 
+                                $query=mysqli_query($conn,"select * from branch");
+                                ?>
+                  <select id="modalEditUserStatus" name="branch" class="form-select"
+                    aria-label="Default select example">
+                    <option selected>Branch Name</option>
+                    <?php
+                                    while($sql=mysqli_fetch_array($query)) { ?>
+                    <option value="<?php echo $sql['id']; ?>"> <?php echo $sql['branch_name']; ?></option>
+                    <?php } ?>
+                  </select>
                 </div>
               </div>
               <div class="form-group mt-3">
