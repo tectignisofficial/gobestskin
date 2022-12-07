@@ -1,5 +1,5 @@
 <?php include('include/book_call_mobile.php') ?>
-<section id="appointment" class="appointment section-bg">
+<section id="appointment" class="appointment section-bgg">
     <div class="container" data-aos="fade-up">
         <div class="row">
             <div class="col-6 col-xs-2 col-sm-2 col-md-2 padding-none">
@@ -21,7 +21,7 @@
 
                         </div>
                         <div class="col-3 col-md-2">
-                            <input type="tel" class="form-control" name="no" id="email" placeholder="Your Mobile Number"
+                            <input type="tel" class="form-control" name="no" id="email" placeholder="Mobile No."
                                 required>
                         </div>
                         <div class="col-3 col-md-2">

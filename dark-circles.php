@@ -283,6 +283,11 @@
             background: none !important;
             padding: 0 !important;
         }
+
+        .appointment {
+            padding-top: 40px !important;
+            padding-bottom: 50px !important;
+        }
     </style>
 
 </head>
@@ -306,26 +311,28 @@
     <!-- End Header -->
 
     <div class="med_tittle_section  banner-image" style="padding-top: 106px;">
-    <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/pigmentation-treatment.jpg?var=1" alt="Dark Circles" width="100%" height="200">
+        <img loading="lazy"
+            src="https://www.olivaclinic.com/wp-content/banner/service/desktop/pigmentation-treatment.jpg?var=1"
+            alt="Dark Circles" width="100%" height="200">
     </div>
     <section class="col-xs-12 col-sm-12 col-md-12">
         <div class="inner-page-content">
             <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
                 <div class="container">
-                <div class="breadcrumb">
-                <ul style="display:flex;font-size:12px;    padding-top: 11px;">
-                    <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp; </span></a>
-                    </li> /
-                    <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Dark Circles</span></li>
-                </ul>
-            </div>
+                    <div class="breadcrumb">
+                        <ul style="display:flex;font-size:12px;    padding-top: 11px;">
+                            <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp;
+                                    </span></a>
+                            </li> /
+                            <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Dark Circles</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="template_concern_page">
                 <section class="col-xs-12 col-sm-12 col-md-12 about-allergies">
                     <div class="container">
-                        <pre
-                            style="display:none;">24759<br>page-template/template_concern_page.php<br>
+                        <pre style="display:none;">24759<br>page-template/template_concern_page.php<br>
                             /<br>26896<br>page-template/template_concern_page.php</pre>
                         <h1 class="med_bottompadder40">Dark Circles : Common Causes And Treatments</h1>
                         <div class="nav-folderized">
@@ -379,15 +386,14 @@
                     <div class="container">
                         <div class="row">
                             <h2 class="med_bottompadder40">What Are Dark Circles?</h2>
-                            <p>Dark circles refer to the <a
-                                    href="#">darkening or
+                            <p>Dark circles refer to the <a href="#">darkening or
                                     discolouration of the skin</a> under or around the eyes. The affected skin appears
                                 to look blue, black, or dark brown. This appearance of pigmented skin is also known as
                                 Periorbital Hyperpigmentation (POH), Periorbital Melanosis, Infraorbital Darkening,
                                 Infraorbital Discoloration or Periorbital dark circles.</p>
                             <p><iframe title="How To Get Rid Of Dark Circles | Under Eye Dark Circles" width="640"
-                                    height="360" class="iframevideo" src="https://www.youtube.com/embed/ogzc8Rn_gDY?feature=oembed"
-                                    frameborder="0"
+                                    height="360" class="iframevideo"
+                                    src="https://www.youtube.com/embed/ogzc8Rn_gDY?feature=oembed" frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen=""></iframe></p>
                         </div>
@@ -544,8 +550,7 @@
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowfullscreen=""></iframe></li>
                                 <li>Botox for fine lines on the outer corners of the eye</li>
-                                <li><a
-                                        href="#">Fillers</a>
+                                <li><a href="#">Fillers</a>
                                     for tear troughs</li>
                             </ul>
                             <p>🔗 – <strong><a href="#">Oliva’s
@@ -573,6 +578,9 @@
         </div>
 
     </section>
+
+    <?php include("include/book_call.php");?>
+    <?php include("include/subscribe.php");?>
 
     <!--=======Footer=======-->
     <?php include("include/footer.php");?>

@@ -640,6 +640,11 @@ section {
   overflow: hidden;
 }
 
+.section-bgg {
+  background-color: #1c4151;
+    color: white;
+}
+
 .section-bg {
   background-color: #f7fcfc;
 }

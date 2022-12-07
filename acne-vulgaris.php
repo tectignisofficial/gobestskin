@@ -211,8 +211,8 @@
             border-bottom: 1px dashed #00b6bd;
         }
 
-        a {
-            color: #00b6be;
+       a {
+            color: #3fbbc0 !important;
             text-decoration: none;
         }
 
@@ -281,7 +281,12 @@
             margin-right: auto;
             margin-left: auto;
         }
-
+.checknav>ul>li>a{
+    color:black !important;
+}
+.social-links>a{
+    color:white !important;
+}
         .highli {
             padding-top: 50px;
             padding-bottom: 40px;
@@ -307,11 +312,25 @@
             float: left;
         }
 
-        
+
         .img-3 img {
-                width: 100% !important;
-                height: 100% !important;
+            width: 100% !important;
+            height: 100% !important;
         }
+
+        .appointment {
+    padding-top: 40px !important;
+    padding-bottom: 50px !important;
+        }
+        .breadcrumb{
+            background:white !important;
+        }
+        #navbar>ul>li>a{
+            color:black !important;
+        }
+        .scrollto{
+            color:white !important;
+        } 
     </style>
 
 </head>
@@ -335,26 +354,27 @@
     <!-- End Header -->
 
     <div class="med_tittle_section  banner-image" style="padding-top: 106px;">
-    <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/acne.jpg?var=1" alt="Acne Vulgaris" width="100%" height="200">
+        <img loading="lazy" src="https://www.olivaclinic.com/wp-content/banner/service/desktop/acne.jpg?var=1"
+            alt="Acne Vulgaris" class="banner-image" width="100%" height="200">
     </div>
     <section class="col-xs-12 col-sm-12 col-md-12">
         <div class="inner-page-content">
             <div class="col-md-12 col-sm-12 col-xs-12 blog-pages">
                 <div class="container">
-                <div class="breadcrumb">
-                <ul style="display:flex;font-size:12px;    padding-top: 11px;">
-                    <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp; </span></a>
-                    </li> /
-                    <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Acne Vulgaris</span></li>
-                </ul>
-            </div>
+                    <div class="breadcrumb">
+                        <ul style="display:flex;font-size:12px;    padding-top: 11px;">
+                            <li><i class="fa fa-home"></i> <a href="index.php" title="Home"><span>Home&nbsp;&nbsp;
+                                    </span></a>
+                            </li> /
+                            <li> <span title="Laser Hair Removal">&nbsp;&nbsp; Acne Vulgaris</span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="template_concern_page">
                 <section class="col-xs-12 col-sm-12 col-md-12 about-allergies">
                     <div class="container">
-                        <pre
-                            style="display:none;">23643<br>page-template/template_concern_page.php<br>
+                        <pre style="display:none;">23643<br>page-template/template_concern_page.php<br>
                             <br>24675<br>page-template/template_concern_page.php</pre>
                         <h1 class="med_bottompadder40">Acne Vulgaris: Types, Images, Causes &amp; Management Tips</h1>
                         <div class="nav-folderized">
@@ -422,9 +442,8 @@
                                 disorder affects the pilosebaceous gland, i.e. the hair follicle and the oil gland
                                 associated with it. The excessive production of natural oil or sebum combined with the
                                 buildup of dead cells and bacteria leads to the clogging of the hair follicles. It
-                                results in inflammation and <a
-                                    href="#" target="_blank"
-                                    rel="noopener">redness</a> in the form of acne.</p>
+                                results in inflammation and <a href="#" target="_blank" rel="noopener">redness</a> in
+                                the form of acne.</p>
                             <p>Facial acne is one of the most widespread skin concern that includes breakouts on the
                                 forehead, nose, cheek, chin, jawline and even neck. However, pimples may also appear on
                                 other areas of the body, including chest, shoulders, arms and back. Acne usually occurs
@@ -445,19 +464,15 @@
                                 person to identify and classify acne into the following grades based on the type,
                                 severity, and extent of the distribution:</p>
                             <ul>
-                                <li><strong>Grade 1 –</strong> Includes <a
-                                        href="#">blackheads</a>,
+                                <li><strong>Grade 1 –</strong> Includes <a href="#">blackheads</a>,
                                     whiteheads and few papules.</li>
-                                <li><strong>Grade 2 –</strong> Consists of multiple <a
-                                        href="#">papules</a>
+                                <li><strong>Grade 2 –</strong> Consists of multiple <a href="#">papules</a>
                                     and pustules, aggravated blackheads and whiteheads.</li>
-                                <li><strong>Grade 3 –</strong> Comprises of numerous papules, <a
-                                        href="#">pustules</a>
+                                <li><strong>Grade 3 –</strong> Comprises of numerous papules, <a href="#">pustules</a>
                                     and inflamed nodules occasionally.</li>
                                 <li><strong>Grade 4 –</strong> Constitutes of multiple, large and painful pustules, <a
                                         href="#">nodules</a>,
-                                    <a
-                                        href="#">cysts</a>
+                                    <a href="#">cysts</a>
                                     and abscesses.</li>
                             </ul>
                             <p><strong>Check out the acne vulgaris pictures to know what the skin condition looks
@@ -603,8 +618,7 @@
                                 <li>Redness and inflammation in the form of bumps and rashes</li>
                                 <li>Painful pus-filled pimples</li>
                                 <li>Cysts with deep abscesses</li>
-                                <li><a href="#">Scar</a> and <a
-                                        href="#">pigmentation&nbsp;</a></li>
+                                <li><a href="#">Scar</a> and <a href="#">pigmentation&nbsp;</a></li>
                             </ul>
                         </div>
                     </div>
@@ -627,8 +641,7 @@
                         <div class="row">
                             <h2 class="med_bottompadder40">Are You At Risk?</h2>
                             <p>In India alone, more than 10 million people complain of acne every year. People who have
-                                a family history of acne vulgaris or <a
-                                    href="#">hormonal
+                                a family history of acne vulgaris or <a href="#">hormonal
                                     issues like PCOS</a> are more prone to breakouts than others. Also, those of you
                                 undergoing hormonal changes due to puberty, pregnancy or menopause have an increased
                                 risk of having acne. If you have a stressful lifestyle or poor dietary habits, your
@@ -810,6 +823,8 @@
         </div>
     </section>
 
+    <?php include("include/book_call.php");?>
+    <?php include("include/subscribe.php");?>
     <!--=======Footer=======-->
     <?php include("include/footer.php");?>
     <!-- End Footer -->

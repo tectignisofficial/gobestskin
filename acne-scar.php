@@ -288,6 +288,11 @@
             background: none !important;
             padding: 0 !important;
         }
+
+        .appointment {
+            padding-top: 40px !important;
+            padding-bottom: 50px !important;
+        }
     </style>
 
 </head>
@@ -630,6 +635,8 @@
 
     </section>
 
+    <?php include("include/book_call.php");?>
+    <?php include("include/subscribe.php");?>
     <!--=======Footer=======-->
     <?php include("include/footer.php");?>
     <!-- End Footer -->
