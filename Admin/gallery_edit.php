@@ -1,5 +1,21 @@
 <?php include("include/config.php");
 $id=$_GET['id'];
+
+if (isset($_POST['update'])){
+    $name=$_POST['client_name'];
+    $gallery_service=$_POST['gallery_service'];
+    $image1=$_POST['image_1'];
+    $image2=$_POST['image_2'];
+
+    $sql=mysqli_query($conn,"UPDATE `gallery` SET `client_name`='$client_name',`gallery_service`='$gallery_service',`image_1`='$image_1',`image_2`='$image_2'");
+
+    if($sql){
+        echo "<script>alert('Successfully Submitted')</script>";
+    }
+    else{
+        echo "<script>alert('error')</script>";
+    }
+}
  ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -124,9 +140,11 @@ $id=$_GET['id'];
                                                     <label class="custom-file-label" for="exampleInputFile"><?php echo $row['image_2']; ?>
                                                         </label>
                                                 </div>
-                                                <div class="input-group-append">
-                                                    <span class="input-group-text">Upload</span>
-                                                </div>
+                                                <div class="form-group">
+                                            <label for="inputPass"><?php echo $row['image_2']; ?></label>
+                                            <input type="file" name="image1" class="form-control" id="inputimg"
+                                                placeholder="image 1">
+                                        
                                             </div>
                                         </div>                                                                      
                                         <!-- <div class="form-check">
@@ -137,7 +155,7 @@ $id=$_GET['id'];
                                     <!-- /.card-body -->
 
                                     <div class="card-footer">
-                                        <button type="submit" class="btn btn-primary">Update</button>
+                                        <button type="submit" name="update" id="update" class="btn btn-primary">Update</button>
                                     </div>                                   
                                 </form>
                             </div>
